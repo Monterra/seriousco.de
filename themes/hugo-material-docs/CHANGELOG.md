@@ -1,4 +1,4 @@
-# Changelog
+# Changelog.
 
 
 ### 11th May 2016
