@@ -5,5 +5,14 @@
   "theme": "hugo-material-docs",
   "params": {
     "Author": "Dominik Sumer"
+  },
+  "menu": {
+    "main": [
+      {
+        "name": "Material",
+        "url": "/",
+        "weight": 0
+      }
+    ]
   }
 }
