@@ -1,5 +1,5 @@
 {
-  "baseurl": "http://localhost:8080/",
+  "baseurl": "https://monterra.github.io/seriousco.de/",
   "languageCode": "en-us",
   "title": "seriouscode",
   "theme": "hugo-material-docs",
