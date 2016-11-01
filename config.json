@@ -1,0 +1,9 @@
+{
+  "baseurl": "http://localhost:8080/",
+  "languageCode": "en-us",
+  "title": "seriouscode",
+  "theme": "default",
+  "params": {
+    "Author": "Dominik Sumer"
+  }
+}
