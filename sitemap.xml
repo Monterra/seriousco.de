@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://localhost:8080/</loc>
+    <loc>https://monterra.github.io/seriousco.de/</loc>
     <lastmod>2016-11-01T12:35:46+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:8080/post/default/</loc>
+    <loc>https://monterra.github.io/seriousco.de/post/default/</loc>
     <lastmod>2016-11-01T12:35:46+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:8080/post/good-to-great/</loc>
+    <loc>https://monterra.github.io/seriousco.de/post/good-to-great/</loc>
     <lastmod>2016-11-01T12:18:48+01:00</lastmod>
   </url>
   
