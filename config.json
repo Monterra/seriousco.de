@@ -2,7 +2,7 @@
   "baseurl": "http://localhost:8080/",
   "languageCode": "en-us",
   "title": "seriouscode",
-  "theme": "default",
+  "theme": "hugo-material-docs",
   "params": {
     "Author": "Dominik Sumer"
   }
