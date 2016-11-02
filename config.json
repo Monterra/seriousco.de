@@ -1,17 +1,34 @@
 {
-  "baseurl": "https://monterra.github.io/seriousco.de/",
+  "baseurl": "https://monterra.github.io/seriousco.de",
   "languageCode": "en-us",
   "title": "seriouscode",
   "theme": "hugo-material-docs",
   "params": {
-    "Author": "Dominik Sumer"
+    "Author": "Dominik Sumer",
+    "palette": {
+      "primary": "deep-orange",
+      "accent": "deep-orange"
+    }
+  },
+  "social": {
+
   },
   "menu": {
     "main": [
       {
-        "name": "Material",
+        "name": "Home",
         "url": "/",
         "weight": 0
+      },
+      {
+        "name": "About Me",
+        "url": "/about-me",
+        "weight": 10
+      },
+      {
+        "name": "Blog",
+        "url": "/blog",
+        "weight": 20
       }
     ]
   }

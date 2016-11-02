@@ -1,105 +1,77 @@
-/* 
- * overwrite the current primary color of the 
- * theme that is used as fallback in codeblocks 
- */
-.article pre code {
-	color: rgba(0, 0, 0, 0.8) !important;
-}
+/*
 
+Darcula color scheme from the JetBrains family of IDEs
 
-/*	
-	HIGHLIGHT.JS THEME 
-
-	tweaked version of the Github theme
 */
 
+
 .hljs {
-display:block;
-overflow-x:auto;
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #2b2b2b;
 }
 
-.hljs-comment,
-.hljs-quote {
-color:#998;
-font-style:italic;
+.hljs {
+  color: #bababa;
+}
+
+.hljs-strong,
+.hljs-emphasis {
+  color: #a8a8a2;
+}
+
+.hljs-bullet,
+.hljs-quote,
+.hljs-link,
+.hljs-number,
+.hljs-regexp,
+.hljs-literal {
+  color: #6896ba;
+}
+
+.hljs-code,
+.hljs-selector-class {
+  color: #a6e22e;
+}
+
+.hljs-emphasis {
+  font-style: italic;
 }
 
 .hljs-keyword,
 .hljs-selector-tag,
-.hljs-subst {
-color:#333;
-font-weight:700;
-}
-
-.hljs-number,
-.hljs-literal,
-.hljs-variable,
-.hljs-template-variable,
-.hljs-tag .hljs-attr {
-color:teal;
-}
-
-.hljs-string,
-.hljs-doctag {
-color:#d14;
-}
-
-.hljs-title,
 .hljs-section,
-.hljs-selector-id {
-color:#900;
-font-weight:700;
-}
-
-.hljs-subst {
-font-weight:400;
-}
-
-.hljs-type,
-.hljs-class .hljs-title {
-color:#458;
-font-weight:700;
-}
-
-.hljs-tag,
+.hljs-attribute,
 .hljs-name,
-.hljs-attribute {
-color:navy;
-font-weight:400;
+.hljs-variable {
+  color: #cb7832;
 }
 
-.hljs-regexp,
-.hljs-link {
-color:#009926;
+.hljs-params {
+  color: #b9b9b9;
 }
 
-.hljs-symbol,
-.hljs-bullet {
-color:#990073;
+.hljs-string {
+  color: #6a8759;
 }
 
+.hljs-subst,
+.hljs-type,
 .hljs-built_in,
-.hljs-builtin-name {
-color:#0086b3;
-}
-
-.hljs-meta {
-color:#999;
-font-weight:700;
-}
-
-.hljs-deletion {
-background:#fdd;
-}
-
+.hljs-builtin-name,
+.hljs-symbol,
+.hljs-selector-id,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-template-tag,
+.hljs-template-variable,
 .hljs-addition {
-background:#dfd;
+  color: #e0c46c;
 }
 
-.hljs-emphasis {
-font-style:italic;
-}
-
-.hljs-strong {
-font-weight:700;
+.hljs-comment,
+.hljs-deletion,
+.hljs-meta {
+  color: #7f7f7f;
 }
