@@ -56,4 +56,7 @@ blockquote {
         border-radius: 100% 0 0 100%;
         right: -4px;
     }
+    .article pre.copied::after {
+        right: 40px;
+    }
 }
