@@ -1,7 +1,7 @@
 {
-  "baseurl": "https://monterra.github.io/seriousco.de/",
+  "baseurl": "https://dsumer.github.io/seriousco.de/",
   "languageCode": "en-us",
-  "title": "seriouscode",
+  "title": "seriousco.de",
   "theme": "hugo-material-docs",
   "social": {
     "github": "dsumer"
