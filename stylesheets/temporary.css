@@ -85,7 +85,9 @@ blockquote {
 .drawer .project a {
     color: #007bb3;
     border-bottom: 1px solid #007bb3;
+    transition: 0.1s border, 0.1s color;
 }
 .drawer .project a:hover {
     color: #ff6e40;
+    border-bottom: 1px solid #ff6e40;
 }
