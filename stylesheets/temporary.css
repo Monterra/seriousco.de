@@ -86,3 +86,6 @@ blockquote {
     color: #007bb3;
     border-bottom: 1px solid #007bb3;
 }
+.drawer .project a:hover {
+    color: #ff6e40;
+}
