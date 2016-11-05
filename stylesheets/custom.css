@@ -4,6 +4,7 @@
     overflow: visible;
     pointer-events: none;
     background: #2b2b2b;
+    font-size: 15px;
 }
 
 .article pre code {
@@ -40,6 +41,43 @@
     color: white;
     padding: 1px 5px;
     border-radius: 2px;
+}
+
+.article .wrapper {
+    font-size: 1.5em;
+    line-height: 1.7em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+.article .wrapper .admonition {
+    font-size: 15px;
+    line-height: 1.7em;
+    font-weight: 400;
+}
+.article .wrapper .admonition .admonition-title {
+    font-weight: 400;
+}
+.article .wrapper .admonition a {
+    color: white !important;
+}
+
+.article .wrapper a.external {
+    margin-right: 20px;
+    position: relative;
+}
+.article .wrapper a.external::after {
+    right: -20px;
+    top: 9px;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 14px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f08e";
+    border-bottom: none;
+    position: absolute;
+    color: #00557b !important;
 }
 
 .copyright {
@@ -86,6 +124,18 @@
     opacity: 0.5;
 }
 
+.header .stretch .title .sm {
+    display: none;
+}
+
+.article img.round {
+    border-radius: 100%;
+}
+
+.article h2 {
+    margin-top: -30px;
+}
+
 @media screen and (max-width: 1280px) {
     .article pre::before {
         border-radius: 100% 0 0 100%;
@@ -115,5 +165,12 @@
     .drawer .project a.username {
         color: #ffffff;
         border: none;
+    }
+
+    .header .stretch .title .sm {
+        display: block;
+    }
+    .header .stretch .title .lg {
+        display: none;
     }
 }
