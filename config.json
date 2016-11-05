@@ -11,8 +11,7 @@
     "palette": {
       "primary": "light-blue",
       "accent": "deep-orange"
-    },
-    "logo": "images/profile.png"
+    }
   },
   "menu": {
     "main": [

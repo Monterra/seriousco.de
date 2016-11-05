@@ -7,6 +7,8 @@ type = "index"
 
 ## About
 
+![Dominik Sumer](/images/profile.png)
+
 {{< warning title="Don't try this at home" >}}
 Nothing to see here, move along.
 {{< /warning >}}
