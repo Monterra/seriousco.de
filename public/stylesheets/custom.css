@@ -76,7 +76,7 @@
     top: 0px;
     width: 100%;
     height: 100%;
-    background: url('/images/background_header.jpg');
+    background: url('../images/background_header.jpg');
     opacity: 0.5;
 }
 
@@ -98,7 +98,7 @@
         top: 0px;
         width: 100%;
         height: 100%;
-        background: url('/images/background_site.jpg');
+        background: url('../images/background_site.jpg');
         opacity: 0.5;
         background-size: 100%;
         z-index: -1;
