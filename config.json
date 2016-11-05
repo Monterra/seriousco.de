@@ -18,31 +18,31 @@
       {
         "pre": "<span class=\"fa fa-address-card\"></span>",
         "name": "About",
-        "url": "/",
+        "url": "./",
         "weight": 0
       },
       {
         "pre": "<span class=\"fa fa-group\"></span>",
         "name": "Blog",
-        "url": "/blog",
+        "url": "./blog",
         "weight": 10
       },
       {
         "pre": "<span class=\"fa fa-align-justify\"></span>",
-        "name": "CV",
-        "url": "/cv",
+        "name": "Timeline (CV)",
+        "url": "./timeline",
         "weight": 20
       },
       {
         "pre": "<span class=\"fa fa-bookmark\"></span>",
         "name": "Projects",
-        "url": "/projects",
+        "url": "./projects",
         "weight": 30
       },
       {
         "pre": "<span class=\"fa fa-address-book\"></span>",
         "name": "Contact",
-        "url": "/contact",
+        "url": "./contact",
         "weight": 40
       }
     ]
