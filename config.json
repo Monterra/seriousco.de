@@ -19,7 +19,7 @@
       {
         "pre": "<span class=\"fa fa-address-card\"></span>",
         "name": "About",
-        "url": "/about",
+        "url": "/",
         "weight": 0
       },
       {
