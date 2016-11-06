@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on seriousco.de</title>
+    <link>https://dsumer.github.io/seriousco.de/projects/</link>
+    <description>Recent content in Projects on seriousco.de</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Nov 2016 12:18:48 +0100</lastBuildDate>
+    <atom:link href="https://dsumer.github.io/seriousco.de/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Rising Farms Online</title>
+      <link>https://dsumer.github.io/seriousco.de/projects/risingfarms/</link>
+      <pubDate>Tue, 01 Nov 2016 12:18:48 +0100</pubDate>
+      
+      <guid>https://dsumer.github.io/seriousco.de/projects/risingfarms/</guid>
+      <description>
+
+&lt;h2 id=&#34;test:4d0c2ba807349f407f407821f2f71fe6&#34;&gt;Test&lt;/h2&gt;
+
+&lt;p&gt;I read &lt;strong&gt;Good to Great in January 2016&lt;/strong&gt;. An awesome read sharing detailed analysis on how good companies became great.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-typescript&#34;&gt;let x = 0;
+x++;
+let test = function () {
+    
+};
+test();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;This is a quote
+yay!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;test&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;another quote&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;input class=&amp;quot;toggle&amp;quot; type=&amp;quot;checkbox&amp;quot; id=&amp;quot;toggle-search&amp;quot;&amp;gt;
+&amp;lt;label class=&amp;quot;toggle-button overlay&amp;quot; for=&amp;quot;toggle-drawer&amp;quot;&amp;gt;&amp;lt;/label&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
