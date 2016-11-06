@@ -39,7 +39,7 @@ The growth of developers in these days is enormously high. This is very impressi
 ## Don't you take it too serious?
 ---
 
-Although this website's name is seriouscode - and i really think that you should be serious about your code - you shouldn't take everything to serious in your life. This life and our planet is just too nice to be stressed out all the day.
+Although this website's name is seriouscode - and i really think that you should be serious about your code - you shouldn't take everything too serious in your life. This life and our planet is just too nice to be stressed out all the day.
 
 [TODO]
 
