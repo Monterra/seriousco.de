@@ -9,7 +9,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>default - seriousco.de</title>
+    <title>seriousco.de - Contact</title>
     <meta name="generator" content="Hugo 0.16-DEV" />
 
     
@@ -242,14 +242,18 @@
 
 	<article class="article">
 		<div class="wrapper">
-			<h1>default </h1>
+			<h1>Contact </h1>
 
-			<p>This is the default post.</p>
+			<p>Do you have a question or something to say? Don&rsquo;t hesitate! Just fill out the form below. Of course you can also send me messages in german.</p>
 
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Nothing to see here, move along.</p>
-</div>
+<form method="POST" action="http://formspree.io/domi.sumer@gmail.com">
+    <input type="text" name="name" placeholder="Your name" required>
+    <input type="email" name="_replyto" placeholder="Your email" required>
+    <textarea name="message" placeholder="Your message" required></textarea>
+    <input type="hidden" name="_next" value="/contact/thanks"/>
+    <input type="text" name="_gotcha" style="display:none"/>
+    <button type="submit">Send</button>
+</form>
 
 		</div>
 
