@@ -8,14 +8,14 @@ type = "index"
 <center>
 {{< img src="images/profile.png" class="round" >}}
 
-Hello! My name is Dominik, I am 23 years old and a passionated software engineer. I live in Vienna, Austria and enjoy being out in the nature, doing things with my friends or just debugging the projects I am currently working on. ;-)
+Hello! My name is Dominik, I am 23 years old and a passionated software engineer. I live in Vienna, Austria and enjoy being out in the nature, hanging out with my friends or just debugging the projects I am currently working on. ;-)
 </center>
 
 {{< note title="Serious Code" >}}
 Do you care about your code? Does it run as expected? Be serious about it.
 {{< /note >}}
 
-Since I was a child, I always loved playing around with computers, trying to understand how this all works. I saw it as an endless playground, a paradise where you can try things out and create amazing stuff. Nowadays it is pretty easy to gather the information needed by googling. Via the internet you can connect with other developers and have access to so much free resources which help you improve your skills as a software developer.
+When I was a child, I always loved playing around with computers, trying to understand how this all works. I saw it as an endless playground, a paradise where you can try things out and create amazing stuff. Nowadays it is pretty easy to gather the information needed by googling. Via the internet you can connect with other developers and have access to so much free resources which help you improve your skills as a software developer.
 
 Coding a piece of software and seeing the outcome is just amazing. It is really comparable to other jobs where you build things. You build a castle, your very own, where you can grow and learn so many things to build even better castles. (Sometimes you also have to [rescue princesses](https://toggl.com/programming-princess "Git the Princess!"))
 
