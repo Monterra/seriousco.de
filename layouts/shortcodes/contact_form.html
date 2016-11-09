@@ -1,8 +1,22 @@
-<form method="POST" action="http://formspree.io/domi.sumer@gmail.com">
-    <input type="text" name="name" placeholder="Your name" required>
-    <input type="email" name="_replyto" placeholder="Your email" required>
-    <textarea name="message" placeholder="Your message" required></textarea>
+<form method="POST" action="http://formspree.io/domi.sumer@gmail.com" class="contact_form">
     <input type="hidden" name="_next" value="/contact/thanks"/>
     <input type="text" name="_gotcha" style="display:none"/>
+
+    <p>
+        <label for="contact_name">Your name:</label>
+        <input type="text" name="name" id="contact_name" required>
+    </p>
+
+    <p>
+        <label for="contact_email">Your email address:</label>
+        <input type="email" name="_replyto" id="contact_email" required>
+    </p>
+
+    <p>
+        <label for="contact_email">Your message:</label>
+        <br/>
+        <textarea name="message" required></textarea>
+    </p>
+
     <button type="submit">Send</button>
 </form>

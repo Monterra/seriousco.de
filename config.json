@@ -11,7 +11,13 @@
     "palette": {
       "primary": "light-blue",
       "accent": "deep-orange"
-    }
+    },
+    "custom_css": [
+      "css/custom.css"
+    ]
+  },
+  "blackfriday": {
+    "plainIDAnchors": true
   },
   "menu": {
     "main": [
