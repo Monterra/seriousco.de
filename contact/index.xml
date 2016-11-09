@@ -15,16 +15,31 @@
       <pubDate>Tue, 01 Nov 2016 12:35:46 +0100</pubDate>
       
       <guid>https://dsumer.github.io/seriousco.de/contact/</guid>
-      <description>&lt;p&gt;Do you have a question or something to say? Don&amp;rsquo;t hesitate! Just fill out the form below. Of course you can also send me messages in german.&lt;/p&gt;
-
-&lt;form method=&#34;POST&#34; action=&#34;http://formspree.io/domi.sumer@gmail.com&#34;&gt;
-    &lt;input type=&#34;text&#34; name=&#34;name&#34; placeholder=&#34;Your name&#34; required&gt;
-    &lt;input type=&#34;email&#34; name=&#34;_replyto&#34; placeholder=&#34;Your email&#34; required&gt;
-    &lt;textarea name=&#34;message&#34; placeholder=&#34;Your message&#34; required&gt;&lt;/textarea&gt;
+      <description>&lt;p&gt;Do you have a question or something to say? Don&amp;rsquo;t hesitate! Just fill out the form below, I would like to hear from you.
+&lt;br/&gt;(Of course you can also send me messages in german)
+&lt;br/&gt;
+&lt;form method=&#34;POST&#34; action=&#34;http://formspree.io/domi.sumer@gmail.com&#34; class=&#34;contact_form&#34;&gt;
     &lt;input type=&#34;hidden&#34; name=&#34;_next&#34; value=&#34;/contact/thanks&#34;/&gt;
     &lt;input type=&#34;text&#34; name=&#34;_gotcha&#34; style=&#34;display:none&#34;/&gt;
+
+    &lt;p&gt;
+        &lt;label for=&#34;contact_name&#34;&gt;Your name:&lt;/label&gt;
+        &lt;input type=&#34;text&#34; name=&#34;name&#34; id=&#34;contact_name&#34; required&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;
+        &lt;label for=&#34;contact_email&#34;&gt;Your email address:&lt;/label&gt;
+        &lt;input type=&#34;email&#34; name=&#34;_replyto&#34; id=&#34;contact_email&#34; required&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;
+        &lt;label for=&#34;contact_email&#34;&gt;Your message:&lt;/label&gt;
+        &lt;br/&gt;
+        &lt;textarea name=&#34;message&#34; required&gt;&lt;/textarea&gt;
+    &lt;/p&gt;
+
     &lt;button type=&#34;submit&#34;&gt;Send&lt;/button&gt;
-&lt;/form&gt;
+&lt;/form&gt;&lt;/p&gt;
 </description>
     </item>
     

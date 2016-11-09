@@ -15,11 +15,32 @@
       <pubDate>Tue, 01 Nov 2016 12:35:46 +0100</pubDate>
       
       <guid>https://dsumer.github.io/seriousco.de/timeline/</guid>
-      <description>&lt;p&gt;This is the default post.&lt;/p&gt;
+      <description>&lt;div class=&#34;timeline&#34;&gt;
+    &lt;div class=&#34;entry&#34; style=&#34;height: 200px;bottom: 350px;background: #1455cc;&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;entry&#34; style=&#34;height: 200px;bottom: 150px;background: #9f14cc;&#34;&gt;&lt;/div&gt;
 
-&lt;div class=&#34;admonition note&#34;&gt;
-&lt;p class=&#34;admonition-title&#34;&gt;Note&lt;/p&gt;
-&lt;p&gt;Nothing to see here, move along.&lt;/p&gt;
+    &lt;div class=&#34;left&#34;&gt;
+        &lt;div class=&#34;note&#34; style=&#34;bottom:210px;&#34;&gt;
+            &lt;span&gt;
+                Primary school
+            &lt;/span&gt;
+            &lt;div class=&#34;date&#34;&gt;1999 - 2003&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;right&#34;&gt;
+        &lt;div class=&#34;note&#34; style=&#34;bottom: 410px;&#34;&gt;
+            &lt;span&gt;
+                Grammar school
+            &lt;/span&gt;
+            &lt;div class=&#34;date&#34;&gt;2003 - 2007&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;note&#34; style=&#34;bottom: -37px;&#34;&gt;
+            &lt;span&gt;
+                Birth
+            &lt;/span&gt;
+            &lt;div class=&#34;date&#34;&gt;06.04.1993&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 </description>
     </item>

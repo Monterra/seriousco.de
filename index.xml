@@ -32,7 +32,7 @@
 
 &lt;p&gt;Coding a piece of software and seeing the outcome is just amazing. It is really comparable to other jobs where you build things. You build a castle, your very own, where you can grow and learn so many things to build even better castles. (Sometimes you also have to &lt;a href=&#34;https://toggl.com/programming-princess&#34; title=&#34;Git the Princess!&#34;&gt;rescue princesses&lt;/a&gt;)&lt;/p&gt;
 
-&lt;h2 id=&#34;purpose:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;What&amp;rsquo;s the purpose of this Website?&lt;/h2&gt;
+&lt;h2 id=&#34;purpose&#34;&gt;What&amp;rsquo;s the purpose of this Website?&lt;/h2&gt;
 
 &lt;hr /&gt;
 
@@ -43,7 +43,7 @@
 &lt;p&gt;Don&amp;rsquo;t hesitate to contact me &lt;a href=&#34;./contact&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&#34;so-it-s-all-about-the-software:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;So it&amp;rsquo;s all about the software?&lt;/h2&gt;
+&lt;h2 id=&#34;so-it-s-all-about-the-software&#34;&gt;So it&amp;rsquo;s all about the software?&lt;/h2&gt;
 
 &lt;hr /&gt;
 
@@ -51,7 +51,7 @@
 
 &lt;p&gt;For example, I really like the development of the web in the past years. It&amp;rsquo;s a place for human beings or organizations to express themselves. Websites (or web applications) aren&amp;rsquo;t bound to any operating system or - with responsive design - a specific device. You can create things and be sure that almost everybody out there has the possibility to easily consume your content without installing tons of stuff on their computer. Whether frontend- or backend-development, you have a wide range of frameworks to choose from, depending on your plans and preferences, which help you building your webapp. They provide you basic tools &amp;amp; implementations so that you don&amp;rsquo;t have to reinvent the wheel over and over again and mostly have a prototype of your application running in some hours / days.&lt;/p&gt;
 
-&lt;h2 id=&#34;don-t-you-take-it-too-serious:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Don&amp;rsquo;t you take it too serious?&lt;/h2&gt;
+&lt;h2 id=&#34;don-t-you-take-it-too-serious&#34;&gt;Don&amp;rsquo;t you take it too serious?&lt;/h2&gt;
 
 &lt;hr /&gt;
 
@@ -69,16 +69,31 @@
       <pubDate>Tue, 01 Nov 2016 12:35:46 +0100</pubDate>
       
       <guid>https://dsumer.github.io/seriousco.de/contact/</guid>
-      <description>&lt;p&gt;Do you have a question or something to say? Don&amp;rsquo;t hesitate! Just fill out the form below. Of course you can also send me messages in german.&lt;/p&gt;
-
-&lt;form method=&#34;POST&#34; action=&#34;http://formspree.io/domi.sumer@gmail.com&#34;&gt;
-    &lt;input type=&#34;text&#34; name=&#34;name&#34; placeholder=&#34;Your name&#34; required&gt;
-    &lt;input type=&#34;email&#34; name=&#34;_replyto&#34; placeholder=&#34;Your email&#34; required&gt;
-    &lt;textarea name=&#34;message&#34; placeholder=&#34;Your message&#34; required&gt;&lt;/textarea&gt;
+      <description>&lt;p&gt;Do you have a question or something to say? Don&amp;rsquo;t hesitate! Just fill out the form below, I would like to hear from you.
+&lt;br/&gt;(Of course you can also send me messages in german)
+&lt;br/&gt;
+&lt;form method=&#34;POST&#34; action=&#34;http://formspree.io/domi.sumer@gmail.com&#34; class=&#34;contact_form&#34;&gt;
     &lt;input type=&#34;hidden&#34; name=&#34;_next&#34; value=&#34;/contact/thanks&#34;/&gt;
     &lt;input type=&#34;text&#34; name=&#34;_gotcha&#34; style=&#34;display:none&#34;/&gt;
+
+    &lt;p&gt;
+        &lt;label for=&#34;contact_name&#34;&gt;Your name:&lt;/label&gt;
+        &lt;input type=&#34;text&#34; name=&#34;name&#34; id=&#34;contact_name&#34; required&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;
+        &lt;label for=&#34;contact_email&#34;&gt;Your email address:&lt;/label&gt;
+        &lt;input type=&#34;email&#34; name=&#34;_replyto&#34; id=&#34;contact_email&#34; required&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;
+        &lt;label for=&#34;contact_email&#34;&gt;Your message:&lt;/label&gt;
+        &lt;br/&gt;
+        &lt;textarea name=&#34;message&#34; required&gt;&lt;/textarea&gt;
+    &lt;/p&gt;
+
     &lt;button type=&#34;submit&#34;&gt;Send&lt;/button&gt;
-&lt;/form&gt;
+&lt;/form&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -98,11 +113,32 @@
       <pubDate>Tue, 01 Nov 2016 12:35:46 +0100</pubDate>
       
       <guid>https://dsumer.github.io/seriousco.de/timeline/</guid>
-      <description>&lt;p&gt;This is the default post.&lt;/p&gt;
+      <description>&lt;div class=&#34;timeline&#34;&gt;
+    &lt;div class=&#34;entry&#34; style=&#34;height: 200px;bottom: 350px;background: #1455cc;&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;entry&#34; style=&#34;height: 200px;bottom: 150px;background: #9f14cc;&#34;&gt;&lt;/div&gt;
 
-&lt;div class=&#34;admonition note&#34;&gt;
-&lt;p class=&#34;admonition-title&#34;&gt;Note&lt;/p&gt;
-&lt;p&gt;Nothing to see here, move along.&lt;/p&gt;
+    &lt;div class=&#34;left&#34;&gt;
+        &lt;div class=&#34;note&#34; style=&#34;bottom:210px;&#34;&gt;
+            &lt;span&gt;
+                Primary school
+            &lt;/span&gt;
+            &lt;div class=&#34;date&#34;&gt;1999 - 2003&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;right&#34;&gt;
+        &lt;div class=&#34;note&#34; style=&#34;bottom: 410px;&#34;&gt;
+            &lt;span&gt;
+                Grammar school
+            &lt;/span&gt;
+            &lt;div class=&#34;date&#34;&gt;2003 - 2007&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;note&#34; style=&#34;bottom: -37px;&#34;&gt;
+            &lt;span&gt;
+                Birth
+            &lt;/span&gt;
+            &lt;div class=&#34;date&#34;&gt;06.04.1993&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 </description>
     </item>
@@ -115,7 +151,7 @@
       <guid>https://dsumer.github.io/seriousco.de/blog/good-to-great/</guid>
       <description>
 
-&lt;h2 id=&#34;test:17144b6bb93f6ee5ab612a82e85905fd&#34;&gt;Test&lt;/h2&gt;
+&lt;h2 id=&#34;test&#34;&gt;Test&lt;/h2&gt;
 
 &lt;p&gt;I read &lt;strong&gt;Good to Great in January 2016&lt;/strong&gt;. An awesome read sharing detailed analysis on how good companies became great.&lt;/p&gt;
 
@@ -152,7 +188,7 @@ yay!&lt;/p&gt;
       <guid>https://dsumer.github.io/seriousco.de/projects/risingfarms/</guid>
       <description>
 
-&lt;h2 id=&#34;test:4d0c2ba807349f407f407821f2f71fe6&#34;&gt;Test&lt;/h2&gt;
+&lt;h2 id=&#34;test&#34;&gt;Test&lt;/h2&gt;
 
 &lt;p&gt;I read &lt;strong&gt;Good to Great in January 2016&lt;/strong&gt;. An awesome read sharing detailed analysis on how good companies became great.&lt;/p&gt;
 
