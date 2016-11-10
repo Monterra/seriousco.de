@@ -34,7 +34,7 @@
 }
 
 .timeline {
-    height: 1000px;
+    height: 1100px;
     position: relative;
     margin-top: 20px;
 }
@@ -129,4 +129,20 @@
     left: calc(50% - 2px);
     width: 4px;
     background: blue;
+}
+
+.timeline .now {
+    width: 12px;
+    height: 1px;
+    background: black;
+    position: absolute;
+    left: calc(50% - 6px);
+    bottom: 1018px;
+}
+.timeline .now::before {
+    content: "now";
+    position: absolute;
+    font-size: 15px;
+    left: -35px;
+    top: -19px;
 }
