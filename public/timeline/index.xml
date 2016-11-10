@@ -16,10 +16,28 @@
       
       <guid>https://dsumer.github.io/seriousco.de/timeline/</guid>
       <description>&lt;div class=&#34;timeline&#34;&gt;
+    &lt;div class=&#34;entry&#34; style=&#34;height: 150px;bottom: 955px;background: linear-gradient(to bottom, #fff 0%, #d22827 50px);&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;entry&#34; style=&#34;height: 71px;bottom: 884px;background: #b0ba01;&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;entry&#34; style=&#34;height: 25px;bottom: 859px;background: #2ce6cc;&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;entry&#34; style=&#34;height: 300px;bottom: 550px;background: #cc7114;&#34;&gt;&lt;/div&gt;
     &lt;div class=&#34;entry&#34; style=&#34;height: 200px;bottom: 350px;background: #1455cc;&#34;&gt;&lt;/div&gt;
     &lt;div class=&#34;entry&#34; style=&#34;height: 200px;bottom: 150px;background: #9f14cc;&#34;&gt;&lt;/div&gt;
 
+    &lt;div class=&#34;now&#34;&gt;&lt;/div&gt;
+
     &lt;div class=&#34;left&#34;&gt;
+        &lt;div class=&#34;note&#34; style=&#34;bottom:876px;&#34;&gt;
+            &lt;span&gt;
+                LieberLieber Software GmbH
+            &lt;/span&gt;
+            &lt;div class=&#34;date&#34;&gt;2014 - 2015&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;note&#34; style=&#34;bottom:660px;&#34;&gt;
+            &lt;span&gt;
+                Technical high school
+            &lt;/span&gt;
+            &lt;div class=&#34;date&#34;&gt;2007 - 2013&lt;/div&gt;
+        &lt;/div&gt;
         &lt;div class=&#34;note&#34; style=&#34;bottom:210px;&#34;&gt;
             &lt;span&gt;
                 Primary school
@@ -28,6 +46,18 @@
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;right&#34;&gt;
+        &lt;div class=&#34;note&#34; style=&#34;bottom: 947px;&#34;&gt;
+            &lt;span&gt;
+                Catalysts GmbH
+            &lt;/span&gt;
+            &lt;div class=&#34;date&#34;&gt;2015 - now&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;note&#34; style=&#34;bottom: 831px;&#34;&gt;
+            &lt;span&gt;
+                Military service
+            &lt;/span&gt;
+            &lt;div class=&#34;date&#34;&gt;2013 - 2014&lt;/div&gt;
+        &lt;/div&gt;
         &lt;div class=&#34;note&#34; style=&#34;bottom: 410px;&#34;&gt;
             &lt;span&gt;
                 Grammar school
