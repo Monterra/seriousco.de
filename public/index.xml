@@ -124,7 +124,7 @@
     &lt;div class=&#34;now&#34;&gt;&lt;/div&gt;
 
     &lt;div class=&#34;left&#34;&gt;
-        &lt;div class=&#34;note lieberlieber&#34; data-timeline-y=&#34;1070&#34;&gt;
+        &lt;div class=&#34;note lieberlieber&#34; data-timeline-y=&#34;1070&#34; style=&#34;bottom:1002px;&#34;&gt;
             &lt;a href=&#34;http://www.lieberlieber.com/en/&#34;&gt;
                 LieberLieber&lt;br/&gt;Software GmbH
             &lt;/a&gt;
@@ -132,7 +132,7 @@
             &lt;i&gt;&lt;span class=&#34;fa fa-code&#34;&gt;&lt;/span&gt; Software Developer&lt;/i&gt;
             &lt;div class=&#34;date&#34;&gt;03/2014 - 07/2015&lt;/div&gt;
         &lt;/div&gt;
-        &lt;div class=&#34;note&#34; data-timeline-y=&#34;855&#34;&gt;
+        &lt;div class=&#34;note&#34; data-timeline-y=&#34;855&#34; style=&#34;bottom:800px;&#34;&gt;
             &lt;span&gt;
                 Technical high school
             &lt;/span&gt;
@@ -140,7 +140,7 @@
             &lt;i&gt;&lt;span class=&#34;fa fa-map-marker&#34;&gt;&lt;/span&gt; &lt;a href=&#34;http://www.htl-ottakring.at/&#34;&gt;HTL Ottakring&lt;/a&gt;&lt;/i&gt;
             &lt;div class=&#34;date&#34;&gt;09/2007 - 06/2013&lt;/div&gt;
         &lt;/div&gt;
-        &lt;div class=&#34;note&#34; data-timeline-y=&#34;395&#34;&gt;
+        &lt;div class=&#34;note&#34; data-timeline-y=&#34;395&#34; style=&#34;bottom:340px;&#34;&gt;
             &lt;span&gt;
                 Primary school
             &lt;/span&gt;
@@ -150,7 +150,7 @@
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;right&#34;&gt;
-        &lt;div class=&#34;note catalysts&#34; data-timeline-y=&#34;1150&#34;&gt;
+        &lt;div class=&#34;note catalysts&#34; data-timeline-y=&#34;1150&#34; style=&#34;bottom: 1100px;&#34;&gt;
             &lt;a href=&#34;https://www.catalysts.cc/en/&#34;&gt;
                 Catalysts GmbH
             &lt;/a&gt;
@@ -158,7 +158,7 @@
             &lt;i&gt;&lt;span class=&#34;fa fa-code&#34;&gt;&lt;/span&gt; Software Engineer&lt;/i&gt;
             &lt;div class=&#34;date&#34;&gt;08/2015 - now&lt;/div&gt;
         &lt;/div&gt;
-        &lt;div class=&#34;note military&#34; data-timeline-y=&#34;1022&#34;&gt;
+        &lt;div class=&#34;note military&#34; data-timeline-y=&#34;1022&#34; style=&#34;bottom: 968px;&#34;&gt;
             &lt;span&gt;
                 Military service
             &lt;/span&gt;
@@ -166,7 +166,7 @@
             &lt;i&gt;&lt;span class=&#34;fa fa-map-marker&#34;&gt;&lt;/span&gt; &lt;a href=&#34;http://www.bundesheer.at/english/&#34;&gt;Austrian Armed Forces&lt;/a&gt;&lt;/i&gt;
             &lt;div class=&#34;date&#34;&gt;09/2013 - 02/2014&lt;/div&gt;
         &lt;/div&gt;
-        &lt;div class=&#34;note&#34; data-timeline-y=&#34;595&#34;&gt;
+        &lt;div class=&#34;note&#34; data-timeline-y=&#34;595&#34; style=&#34;bottom: 547px;&#34;&gt;
             &lt;span&gt;
                 Grammar school
             &lt;/span&gt;
@@ -174,7 +174,7 @@
             &lt;i&gt;&lt;span class=&#34;fa fa-map-marker&#34;&gt;&lt;/span&gt; &lt;a href=&#34;http://www.keimgasse.at/&#34;&gt;BRG Keimgasse&lt;/a&gt;&lt;/i&gt;
             &lt;div class=&#34;date&#34;&gt;09/2003 - 06/2007&lt;/div&gt;
         &lt;/div&gt;
-        &lt;div class=&#34;note birth&#34; data-timeline-y=&#34;5&#34;&gt;
+        &lt;div class=&#34;note birth&#34; data-timeline-y=&#34;5&#34; style=&#34;bottom: -49px;&#34;&gt;
             &lt;span&gt;
                 Birth
             &lt;/span&gt;
