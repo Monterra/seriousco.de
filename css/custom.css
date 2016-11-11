@@ -53,7 +53,7 @@
     height: 8px;
     position: absolute;
     border-radius: 100%;
-    background: #a7a7a7;
+    background: #0f7ba9;
     left: calc(50% - 4px);
     bottom: 0px;
 }
@@ -141,6 +141,7 @@
     left: calc(50% - 2px);
     width: 4px;
     background: blue;
+    border-top: 1px inset rgba(0, 0, 0, 0.3);
 }
 
 .timeline .now {
