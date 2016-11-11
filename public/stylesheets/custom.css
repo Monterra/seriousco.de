@@ -67,7 +67,7 @@
 }
 .article .wrapper a.external::after {
     right: -20px;
-    top: 9px;
+    top: calc(50% - 5px);
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
     font-size: 14px;
