@@ -7,13 +7,12 @@
     "github": "dsumer"
   },
   "params": {
-    "Author": "Dominik Sumer",
     "palette": {
       "primary": "light-blue",
       "accent": "deep-orange"
     },
     "custom_css": [
-      "css/custom.css"
+      "css/contact_form.css", "css/timeline.css", "css/infocard.css"
     ]
   },
   "blackfriday": {
