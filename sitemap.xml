@@ -4,7 +4,6 @@
   <url>
     <loc>https://dsumer.github.io/seriousco.de/</loc>
     <lastmod>2016-11-01T12:35:46+01:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -33,7 +32,12 @@
   </url>
   
   <url>
-    <loc>https://dsumer.github.io/seriousco.de/projects/risingfarms/</loc>
+    <loc>https://dsumer.github.io/seriousco.de/projects/risingfarms-online/</loc>
+    <lastmod>2016-11-01T12:18:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dsumer.github.io/seriousco.de/projects/risingfarms-online2/</loc>
     <lastmod>2016-11-01T12:18:48+01:00</lastmod>
   </url>
   

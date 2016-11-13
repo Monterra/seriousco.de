@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Abouts on seriousco.de</title>
-    <link>https://dsumer.github.io/seriousco.de/about/</link>
-    <description>Recent content in Abouts on seriousco.de</description>
+    <title>About-rsses on seriousco.de</title>
+    <link>https://dsumer.github.io/seriousco.de/about/index.xml</link>
+    <description>Recent content in About-rsses on seriousco.de</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 01 Nov 2016 12:35:46 +0100</lastBuildDate>
