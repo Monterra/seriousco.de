@@ -6,8 +6,45 @@
     <description>Recent content on seriousco.de</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Nov 2016 12:35:46 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 02 Nov 2016 12:18:48 +0100</lastBuildDate>
     <atom:link href="https://dsumer.github.io/seriousco.de/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Rising Farms Online</title>
+      <link>https://dsumer.github.io/seriousco.de/projects/risingfarms-online/</link>
+      <pubDate>Wed, 02 Nov 2016 12:18:48 +0100</pubDate>
+      
+      <guid>https://dsumer.github.io/seriousco.de/projects/risingfarms-online/</guid>
+      <description>
+
+&lt;h2 id=&#34;test&#34;&gt;Test&lt;/h2&gt;
+
+&lt;p&gt;I read &lt;strong&gt;Good to Great in January 2016&lt;/strong&gt;. An awesome read sharing detailed analysis on how good companies became great.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-typescript&#34;&gt;let x = 0;
+x++;
+let test = function () {
+    
+};
+test();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;This is a quote
+yay!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;test&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;another quote&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;input class=&amp;quot;toggle&amp;quot; type=&amp;quot;checkbox&amp;quot; id=&amp;quot;toggle-search&amp;quot;&amp;gt;
+&amp;lt;label class=&amp;quot;toggle-button overlay&amp;quot; for=&amp;quot;toggle-drawer&amp;quot;&amp;gt;&amp;lt;/label&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>About</title>
@@ -113,7 +150,11 @@
       <pubDate>Tue, 01 Nov 2016 12:35:46 +0100</pubDate>
       
       <guid>https://dsumer.github.io/seriousco.de/timeline/</guid>
-      <description>&lt;div class=&#34;timeline&#34;&gt;
+      <description>&lt;blockquote&gt;
+&lt;p&gt;This is my timeline - from birth to my current job at Catalysts GmbH.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&#34;timeline&#34;&gt;
     &lt;div class=&#34;entry&#34; style=&#34;height: 150px;bottom: 1105px;background: linear-gradient(to bottom, #fff 0%, #d22827 50px);border-top: none;&#34;&gt;&lt;/div&gt;
     &lt;div class=&#34;entry&#34; style=&#34;height: 71px;bottom: 1034px;background: #b0ba01;&#34;&gt;&lt;/div&gt;
     &lt;div class=&#34;entry&#34; style=&#34;height: 25px;bottom: 1009px;background: #2ce6cc;&#34;&gt;&lt;/div&gt;
@@ -242,11 +283,48 @@ yay!&lt;/p&gt;
     </item>
     
     <item>
-      <title>Rising Farms Online</title>
-      <link>https://dsumer.github.io/seriousco.de/projects/risingfarms-online/</link>
+      <title>Pespila</title>
+      <link>https://dsumer.github.io/seriousco.de/projects/pespila/</link>
       <pubDate>Tue, 01 Nov 2016 12:18:48 +0100</pubDate>
       
-      <guid>https://dsumer.github.io/seriousco.de/projects/risingfarms-online/</guid>
+      <guid>https://dsumer.github.io/seriousco.de/projects/pespila/</guid>
+      <description>
+
+&lt;h2 id=&#34;test&#34;&gt;Test&lt;/h2&gt;
+
+&lt;p&gt;I read &lt;strong&gt;Good to Great in January 2016&lt;/strong&gt;. An awesome read sharing detailed analysis on how good companies became great.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-typescript&#34;&gt;let x = 0;
+x++;
+let test = function () {
+    
+};
+test();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;This is a quote
+yay!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;test&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;another quote&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;input class=&amp;quot;toggle&amp;quot; type=&amp;quot;checkbox&amp;quot; id=&amp;quot;toggle-search&amp;quot;&amp;gt;
+&amp;lt;label class=&amp;quot;toggle-button overlay&amp;quot; for=&amp;quot;toggle-drawer&amp;quot;&amp;gt;&amp;lt;/label&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Driving License Trainer</title>
+      <link>https://dsumer.github.io/seriousco.de/projects/driving-license-trainer/</link>
+      <pubDate>Tue, 01 Nov 2016 11:18:48 +0100</pubDate>
+      
+      <guid>https://dsumer.github.io/seriousco.de/projects/driving-license-trainer/</guid>
       <description>
 
 &lt;h2 id=&#34;test&#34;&gt;Test&lt;/h2&gt;

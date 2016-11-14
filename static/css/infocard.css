@@ -22,11 +22,14 @@ a.card:hover {
     font-size: 1.1em;
     padding: 10px;
     border-bottom: 1px solid #bbbbbb;
+    border-radius: 5px 5px 0px 0px;
 }
-.card .title img {
-    display: block;
+.card .title .image {
     width: 90%;
     margin: auto;
+    height: 150px;
+    width: auto;
+    background: no-repeat center;
 }
 .card .title img::after {
     content: " ";
@@ -52,5 +55,8 @@ a.card:hover {
     a.card {
         width: 100%;
         margin: 20px 0px;
+    }
+    .card .title .image {
+        background-size: 85%;
     }
 }

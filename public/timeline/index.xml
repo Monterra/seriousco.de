@@ -15,7 +15,11 @@
       <pubDate>Tue, 01 Nov 2016 12:35:46 +0100</pubDate>
       
       <guid>https://dsumer.github.io/seriousco.de/timeline/</guid>
-      <description>&lt;div class=&#34;timeline&#34;&gt;
+      <description>&lt;blockquote&gt;
+&lt;p&gt;This is my timeline - from birth to my current job at Catalysts GmbH.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&#34;timeline&#34;&gt;
     &lt;div class=&#34;entry&#34; style=&#34;height: 150px;bottom: 1105px;background: linear-gradient(to bottom, #fff 0%, #d22827 50px);border-top: none;&#34;&gt;&lt;/div&gt;
     &lt;div class=&#34;entry&#34; style=&#34;height: 71px;bottom: 1034px;background: #b0ba01;&#34;&gt;&lt;/div&gt;
     &lt;div class=&#34;entry&#34; style=&#34;height: 25px;bottom: 1009px;background: #2ce6cc;&#34;&gt;&lt;/div&gt;

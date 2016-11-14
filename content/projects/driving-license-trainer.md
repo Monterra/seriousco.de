@@ -1,11 +1,11 @@
 +++
-date = "2016-11-02T12:18:48+01:00"
+date = "2016-11-01T11:18:48+01:00"
 draft = false
-title = "Rising Farms Online"
-description = "A multiplayer farmsimulation <br/> written in typescript."
-image = "rfo_titel.png"
-tags = ["typescript","nodejs","pixijs","websockets"]
-background = "white"
+title = "Driving License Trainer"
+description = "Nodejs application which helps you learning for your driving license test."
+image = "driving_license_trainer.png"
+tags = ["javascript","nodejs","express","jquery"]
+background = "#EDE8D3"
 color = "black"
 +++
 
