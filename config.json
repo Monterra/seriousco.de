@@ -4,7 +4,8 @@
   "title": "seriousco.de",
   "theme": "hugo-material-docs",
   "social": {
-    "github": "dsumer"
+    "github": "dsumer",
+    "twitter": "dominiksumer"
   },
   "params": {
     "palette": {
