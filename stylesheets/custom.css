@@ -131,9 +131,30 @@
 .article img.round {
     border-radius: 100%;
 }
+.article img.round-rectangle {
+    border-radius: 5px;
+}
+.article img.left {
+    float: left;
+    margin-right: 20px;
+}
+.article img.right {
+    float: right;
+    margin-left: 20px;
+}
+.article img.left::after .article img.right::after {
+    clear:both;
+}
+.article a.image-link {
+    cursor: zoom-in;
+}
 
 .article h2 {
     margin-top: -30px;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 @media screen and (max-width: 1280px) {
@@ -175,6 +196,11 @@
     }
 }
 
-button:hover {
-    cursor: pointer;
+@media screen and (max-width: 649px) {
+    .article img.left, .article img.right {
+        float: none;
+        display: block;
+        width: auto !important;
+        margin: 10px auto 30px;
+    }
 }
