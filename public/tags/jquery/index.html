@@ -49,6 +49,7 @@
     <link rel="stylesheet" href="https://dsumer.github.io/seriousco.de/stylesheets/palettes.css">
     <link rel="stylesheet" href="https://dsumer.github.io/seriousco.de/stylesheets/highlight/highlight.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://dsumer.github.io/seriousco.de/stylesheets/magnific-popup.css">
 
     
     
@@ -74,6 +75,28 @@
     
     <script src="https://dsumer.github.io/seriousco.de/javascripts/modernizr.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://dsumer.github.io/seriousco.de/javascripts/magnific-popup.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('.image-link').click(function () {
+          return false;
+        });
+        $('.image-link').magnificPopup({
+          type:'image',
+          disableOn: 650,
+          mainClass: 'mfp-with-zoom', 
+
+          zoom: {
+            enabled: true,
+            duration: 300,
+            easing: 'ease-in-out',
+            opener: function(openerElement) {
+              return openerElement.is('img') ? openerElement : openerElement.find('img');
+            }
+          }
+        });
+      });
+    </script>
 
     
     <link href="https://dsumer.github.io/seriousco.de/tags/jquery/index.xml" rel="alternate" type="application/rss+xml" title="seriousco.de" />
@@ -262,11 +285,8 @@
 			</a>
 
 			<br>
-			Test I read Good to Great in January 2016. An awesome read sharing detailed analysis on how good companies became great.
-let x = 0; x++; let test = function () { }; test();   This is a quote yay!
- test
- another quote
- &lt;input class=&quot;toggle&quot; type=&quot;checkbox&quot; id=&quot;toggle-search&quot;&gt; &lt;label class=&quot;toggle-button overlay&quot; for=&quot;toggle-drawer&quot;&gt;&lt;/label&gt;
+			It was back in 2013, when I did my military service at the austrian armed forces and started learning for my driving license test. I was in a small office with a friend of mine and we had much spare time which we could spend as we like.
+Most of the time I spent with my baby Rising Farms Online, but I also wanted to achieve my driving license while I was at the army because I knew I wouldn&rsquo;t have as much free time later on when I will be working full time as a software developer.
 
 			<hr>
 			

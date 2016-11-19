@@ -1,1 +1,3 @@
-<img src='{{ .Page.Site.BaseURL }}{{ .Get "src" }}' {{ with .Get "class"}} class='{{.}}' {{ end }} />
+<img src='{{ .Page.Site.BaseURL }}{{ .Get "src" }}'
+     {{ with .Get "class"}} class='{{.}}' {{ end }}
+    style='{{ with .Get "width" }} width:{{.}}px; {{ end }}'/>

@@ -49,6 +49,7 @@
     <link rel="stylesheet" href="https://dsumer.github.io/seriousco.de/stylesheets/palettes.css">
     <link rel="stylesheet" href="https://dsumer.github.io/seriousco.de/stylesheets/highlight/highlight.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://dsumer.github.io/seriousco.de/stylesheets/magnific-popup.css">
 
     
     
@@ -74,6 +75,28 @@
     
     <script src="https://dsumer.github.io/seriousco.de/javascripts/modernizr.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://dsumer.github.io/seriousco.de/javascripts/magnific-popup.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('.image-link').click(function () {
+          return false;
+        });
+        $('.image-link').magnificPopup({
+          type:'image',
+          disableOn: 650,
+          mainClass: 'mfp-with-zoom', 
+
+          zoom: {
+            enabled: true,
+            duration: 300,
+            easing: 'ease-in-out',
+            opener: function(openerElement) {
+              return openerElement.is('img') ? openerElement : openerElement.find('img');
+            }
+          }
+        });
+      });
+    </script>
 
     
     <link href="https://dsumer.github.io/seriousco.de/tags/react/index.xml" rel="alternate" type="application/rss+xml" title="seriousco.de" />
