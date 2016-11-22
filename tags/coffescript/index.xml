@@ -14,34 +14,17 @@
       <pubDate>Tue, 01 Nov 2016 12:18:48 +0100</pubDate>
       
       <guid>https://dsumer.github.io/seriousco.de/projects/pespila/</guid>
-      <description>
-
-&lt;h2 id=&#34;test&#34;&gt;Test&lt;/h2&gt;
-
-&lt;p&gt;I read &lt;strong&gt;Good to Great in January 2016&lt;/strong&gt;. An awesome read sharing detailed analysis on how good companies became great.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-typescript&#34;&gt;let x = 0;
-x++;
-let test = function () {
-    
-};
-test();
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;This is a quote
-yay!&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;test&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;another quote&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;input class=&amp;quot;toggle&amp;quot; type=&amp;quot;checkbox&amp;quot; id=&amp;quot;toggle-search&amp;quot;&amp;gt;
-&amp;lt;label class=&amp;quot;toggle-button overlay&amp;quot; for=&amp;quot;toggle-drawer&amp;quot;&amp;gt;&amp;lt;/label&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
+      <description>&lt;p&gt;Features:
+&lt;ul class=&#34;feature-list&#34;&gt;
+    &lt;li&gt;Registration of new accounts, including mail verfication&lt;/li&gt;
+    &lt;li&gt;Login including password-reset functionality&lt;/li&gt;
+    &lt;li&gt;Settings page where players can edit their profile and change their password&lt;/li&gt;
+    &lt;li&gt;Upload of profile pics and banners&lt;/li&gt;
+    &lt;li&gt;Profile Page for players and clubs&lt;/li&gt;
+    &lt;li&gt;Ajax-based chat where players can communicate with each other&lt;/li&gt;
+    &lt;li&gt;Timeline where the newest pictures and videos can be seen&lt;/li&gt;
+    &lt;li&gt;An editor application where administrators can create club profiles and manage players (like uploading videos for them)&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
 </description>
     </item>
     

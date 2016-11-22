@@ -51,34 +51,17 @@ yay!&lt;/p&gt;
       <pubDate>Tue, 01 Nov 2016 12:18:48 +0100</pubDate>
       
       <guid>https://dsumer.github.io/seriousco.de/projects/pespila/</guid>
-      <description>
-
-&lt;h2 id=&#34;test&#34;&gt;Test&lt;/h2&gt;
-
-&lt;p&gt;I read &lt;strong&gt;Good to Great in January 2016&lt;/strong&gt;. An awesome read sharing detailed analysis on how good companies became great.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-typescript&#34;&gt;let x = 0;
-x++;
-let test = function () {
-    
-};
-test();
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;This is a quote
-yay!&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;test&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;another quote&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;input class=&amp;quot;toggle&amp;quot; type=&amp;quot;checkbox&amp;quot; id=&amp;quot;toggle-search&amp;quot;&amp;gt;
-&amp;lt;label class=&amp;quot;toggle-button overlay&amp;quot; for=&amp;quot;toggle-drawer&amp;quot;&amp;gt;&amp;lt;/label&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
+      <description>&lt;p&gt;Features:
+&lt;ul class=&#34;feature-list&#34;&gt;
+    &lt;li&gt;Registration of new accounts, including mail verfication&lt;/li&gt;
+    &lt;li&gt;Login including password-reset functionality&lt;/li&gt;
+    &lt;li&gt;Settings page where players can edit their profile and change their password&lt;/li&gt;
+    &lt;li&gt;Upload of profile pics and banners&lt;/li&gt;
+    &lt;li&gt;Profile Page for players and clubs&lt;/li&gt;
+    &lt;li&gt;Ajax-based chat where players can communicate with each other&lt;/li&gt;
+    &lt;li&gt;Timeline where the newest pictures and videos can be seen&lt;/li&gt;
+    &lt;li&gt;An editor application where administrators can create club profiles and manage players (like uploading videos for them)&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -97,7 +80,7 @@ yay!&lt;/p&gt;
 &lt;/a&gt;
 It was back in 2013, when I did my military service at the austrian armed forces and started learning for my driving license test. I was in a small office with a friend of mine and we had much spare time which we could spend as we like.&lt;/p&gt;
 
-&lt;p&gt;Most of the time I spent with my baby Rising Farms Online, but I also wanted to achieve my driving license while I was at the army because I knew I wouldn&amp;rsquo;t have as much free time later on when I will be working full time as a software developer.&lt;/p&gt;
+&lt;p&gt;Most of the time I spent with my baby &lt;a href=&#34;../risingfarms-online&#34;&gt;Rising Farms Online&lt;/a&gt;, but I also wanted to achieve my driving license while I was at the army because I knew I wouldn&amp;rsquo;t have as much free time later on when I will be working full time as a software developer.&lt;/p&gt;
 
 &lt;p&gt;Okay I had to learn and I wanted to arrange it as comfortable as possible - that was the moment when it came to my mind: why not code my own driving license trainer? So I could improve my coding skillz and learn for the test at the same time and hey - what&amp;rsquo;s more motivating than learning with your own piece of software? :D&lt;/p&gt;
 
@@ -124,9 +107,9 @@ Driving License Trainer is a nodejs application which helps you learning for the
 &lt;p&gt;With some luck I can fetch the questions from their server.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;One of the toughest problems was to get the official questions for the driving license test. After some googling I stumbled upon the ÖAMTC online test and saw that they are working with the right set of questions. It was an online test written in JavaScript - &amp;ldquo;with some luck I can fetch the questions from their server&amp;rdquo; I thought. After some time examining the source code I found where they serve the content files - each question as a single json file named by the question number - beginning by one.&lt;/p&gt;
+&lt;p&gt;One of the toughest problems was to get the official questions for the driving license test. After some googling I stumbled upon the &lt;a href=&#34;http://www.oeamtc.at/portal/fuehrerscheintest&#34;&gt;ÖAMTC online test&lt;/a&gt; and saw that they are working with the right set of questions. It was an online test written in JavaScript - &amp;ldquo;with some luck I can fetch the questions from their server&amp;rdquo; I thought. After some time examining the source code I found where they serve the content files - each question as a single json file named by the question number - beginning by one.&lt;/p&gt;
 
-&lt;p&gt;I didn&amp;rsquo;t know how many questions they provided exactly, so i wrote a nodejs script which tries to fetch the json files from 1.json to xxx.json. You can find this script in the GitHub repository of this project. I ended up with around 2000 questions - very nice!&lt;/p&gt;
+&lt;p&gt;I didn&amp;rsquo;t know how many questions they provided exactly, so i wrote a nodejs script which tries to fetch the json files from 1.json to xxx.json. You can find this script in the &lt;a href=&#34;https://github.com/dsumer/driving-license-trainer&#34;&gt;&lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt; GitHub repository&lt;/a&gt; of this project. I ended up with around 2000 questions - very nice!&lt;/p&gt;
 
 &lt;p&gt;There was also some other information which could be fetched like the images of every question and the type of the test. After fetching all the data needed, I started implementing the main logic.&lt;/p&gt;
 
@@ -142,6 +125,10 @@ Driving License Trainer is a nodejs application which helps you learning for the
 &lt;p&gt;The Driving License Trainer was a small project which helped me learning and improving my coding skills. With the project I gathered experience with the express framework and it gave me a better know-how of nodejs overall.&lt;/p&gt;
 
 &lt;p&gt;Feel free to use the driving license trainer on your own! Unfortunately I can&amp;rsquo;t assure that the questions are correct. Many questions have changed since 2013 and I don&amp;rsquo;t know if ÖAMTC has kept their questions up-to-date. Anyways, you can try to run the refresh.js script to fetch the newest questions from the ÖAMTC server.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ cd ~/driving-license-trainer/public/data
+$ node refresh.js
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     

@@ -157,6 +157,15 @@ button:hover {
     cursor: pointer;
 }
 
+.article ul.feature-list {
+    margin-top: 8px;
+    margin-left: 15px;
+    font-size: 0.9em;
+}
+.article ul.feature-list li {
+    margin-top: 7px;
+}
+
 @media screen and (max-width: 1280px) {
     .article pre::before {
         border-radius: 100% 0 0 100%;
