@@ -9,26 +9,14 @@ background = "#2b6db9"
 color = "white"
 +++
 
-## Test
-I read **Good to Great in January 2016**. An awesome read sharing detailed analysis on how good companies became great.
-
-```typescript
-let x = 0;
-x++;
-let test = function () {
-    
-};
-test();
-```
-
-> This is a quote
-> yay!
-
-test
-
-> another quote
-
-```html
-<input class="toggle" type="checkbox" id="toggle-search">
-<label class="toggle-button overlay" for="toggle-drawer"></label>
-```
+Features:
+<ul class="feature-list">
+    <li>Registration of new accounts, including mail verfication</li>
+    <li>Login including password-reset functionality</li>
+    <li>Settings page where players can edit their profile and change their password</li>
+    <li>Upload of profile pics and banners</li>
+    <li>Profile Page for players and clubs</li>
+    <li>Ajax-based chat where players can communicate with each other</li>
+    <li>Timeline where the newest pictures and videos can be seen</li>
+    <li>An editor application where administrators can create club profiles and manage players (like uploading videos for them)</li>
+</ul>
