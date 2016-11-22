@@ -22,7 +22,7 @@ Coding a piece of software and seeing the outcome is just amazing. It is really 
 ## What's the purpose of this Website?  {#purpose}
 ---
 
-Here on [seriousco.de](#) you can check out my [CV](./timeline) or the [projects](/projects) I am involved in. You can also find a [blog](./blog) on this website where I share stories about things that I experienced in my daily life as a developer. It also should be a little coding database containing snippets, quickstart guides, tipps and other stuff.
+Here on [seriousco.de](#) you can check out my [CV](./timeline) or the [projects](./projects) I am involved in. You can also find a [blog](./blog) on this website where I share stories about things that I experienced in my daily life as a developer. It also should be a little coding database containing snippets, quickstart guides, tipps and other stuff.
 
 {{< warning title="Any questions?" >}}
 Don't hesitate to contact me [here](./contact).

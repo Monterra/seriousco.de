@@ -4,7 +4,7 @@ draft = false
 title = "Rising Farms Online"
 description = "A multiplayer farmsimulation <br/> written in typescript. (my baby)"
 image = "rfo_titel.png"
-tags = ["typescript","nodejs","pixijs","websockets"]
+tags = ["typescript","nodejs","pixijs","angular2"]
 background = "white"
 color = "black"
 +++
