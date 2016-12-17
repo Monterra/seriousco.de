@@ -147,6 +147,7 @@
 }
 .article a.image-link {
     cursor: zoom-in;
+    border: none;
 }
 
 .article h2 {
@@ -161,6 +162,7 @@ button:hover {
     margin-top: 8px;
     margin-left: 15px;
     font-size: 0.9em;
+    font-style: italic;
 }
 .article ul.feature-list li {
     margin-top: 7px;

@@ -25,10 +25,13 @@
 
             <div class="card-wrapper">
                 {{ range .Data.Pages }}
-                <a href="{{ .Permalink }}" title="{{ .Title }}" class="card">
+                <a href="{{ if eq .Params.comingsoon true }}#{{ else }}{{ .Permalink }}{{ end }}" title="{{ .Title }}" class="card">
                     <div class="title" style="background:{{ .Params.background }};color:{{ .Params.color }};">
                         <div class="image" style="background-image:url('{{ $.Site.BaseURL }}images/{{ .Params.image }}')"></div>
                         {{ .Title }}
+                        {{ if eq .Params.comingsoon true }}
+                        <div class="comingsoon"><div>Coming Soon</div></div>
+                        {{end}}
                     </div>
                     <div class="content">
                         <div class="tags">
