@@ -50,6 +50,8 @@
     <link rel="stylesheet" href="https://dsumer.github.io/seriousco.de/stylesheets/highlight/highlight.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://dsumer.github.io/seriousco.de/stylesheets/magnific-popup.css">
+    <link rel="stylesheet" href="https://dsumer.github.io/seriousco.de/stylesheets/tooltipster.bundle.min.css">
+    <link rel="stylesheet" href="https://dsumer.github.io/seriousco.de/stylesheets/tooltipster-punk.css">
 
     
     
@@ -76,6 +78,7 @@
     <script src="https://dsumer.github.io/seriousco.de/javascripts/modernizr.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="https://dsumer.github.io/seriousco.de/javascripts/magnific-popup.js"></script>
+    <script src="https://dsumer.github.io/seriousco.de/javascripts/tooltipster.bundle.min.js"></script>
     <script>
       $(document).ready(function() {
         $('.image-link').click(function () {
@@ -94,6 +97,10 @@
               return openerElement.is('img') ? openerElement : openerElement.find('img');
             }
           }
+        });
+        $('.tooltip').tooltipster({
+            theme: 'tooltipster-punk',
+            trigger: 'click'
         });
       });
     </script>
