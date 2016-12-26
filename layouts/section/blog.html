@@ -1,0 +1,59 @@
+{{ partial "head" . }}
+
+<div class="backdrop">
+    <div class="backdrop-site"></div>
+	<div class="backdrop-paper"></div>
+</div>
+
+<input class="toggle" type="checkbox" id="toggle-drawer">
+<input class="toggle" type="checkbox" id="toggle-search">
+<label class="toggle-button overlay" for="toggle-drawer"></label>
+
+<header class="header">
+	{{ partial "header" . }}
+</header>
+
+<main class="main">
+	<div class="drawer">
+		{{ partial "drawer" . }}
+	</div>
+
+	<article class="article">
+		<div class="wrapper">
+			<h1>{{ .Title | singularize }}</h1>
+
+			{{ range .Data.Pages }}
+			<a href="{{ .Permalink }}" title="{{ .Title }}" class="blogcard" style="background-image:url({{ $.Site.BaseURL }}images/{{ .Params.image }})">
+				<div class="background"></div>
+				<div class="text">
+					<div class="container">
+						<div class="title">{{ .Title }}</div>
+						<div class="description">{{ printf "%s" .Description | markdownify }}</div>
+					</div>
+				</div>
+			</a>
+			{{ end }}
+		</div>
+
+		<aside class="copyright" role="note">
+			{{ with .Site.Params.copyright }}
+			&copy; {{ $.Now.Format "2006" }} {{ . }} &ndash;
+			{{ end }}
+			Website built with <a href="https://github.com/Monterra/seriousco.de" class="fa fa-heart"></a>️ and
+			<a href="https://www.gohugo.io" target="_blank">Hugo</a>
+			using the
+			<a href="http://github.com/digitalcraftsman/hugo-material-docs" target="_blank">Material</a> theme.
+		</aside>
+	</article>
+
+	<div class="results" role="status" aria-live="polite">
+		<div class="scrollable">
+			<div class="wrapper">
+				<div class="meta"></div>
+				<div class="list"></div>
+			</div>
+		</div>
+	</div>
+</main>
+
+{{ partial "footer_js" . }}

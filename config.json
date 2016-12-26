@@ -13,7 +13,7 @@
       "accent": "deep-orange"
     },
     "custom_css": [
-      "css/contact_form.css", "css/timeline.css", "css/infocard.css"
+      "css/contact_form.css", "css/timeline.css", "css/infocard.css", "css/blog.css"
     ]
   },
   "blackfriday": {
