@@ -5,11 +5,13 @@ title = "About"
 type = "index"
 +++
 
-<center>
-{{< img src="images/profile.png" class="round" >}}
+<p>
+{{< img src="images/profile.png" class="center round" >}}
+</p>
 
+<p style="text-align:center;margin-bottom:30px;">
 Hello! My name is Dominik, I am 23 years old and a passionated software engineer. I live in Vienna, Austria and enjoy being out in the nature, hanging out with my friends or just debugging the projects I am currently working on. ;-)
-</center>
+</p>
 
 {{< note title="Serious Code" >}}
 Do you care about your code? Does it run as expected? Be serious about it.
