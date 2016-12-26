@@ -134,6 +134,10 @@
 .article img.round-rectangle {
     border-radius: 5px;
 }
+.article img.center {
+    display:block;
+    margin: auto;
+}
 .article img.left {
     float: left;
     margin-right: 20px;
