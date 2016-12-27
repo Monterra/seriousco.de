@@ -3,6 +3,7 @@
   "languageCode": "en-us",
   "title": "seriousco.de",
   "theme": "hugo-material-docs",
+  "googleAnalytics": "UA-89538420-1",
   "social": {
     "github": "dsumer",
     "twitter": "dominiksumer"
