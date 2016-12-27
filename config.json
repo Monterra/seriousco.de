@@ -1,5 +1,5 @@
 {
-  "baseurl": "https://dsumer.github.io/seriousco.de/",
+  "baseurl": "http://seriousco.de/",
   "languageCode": "en-us",
   "title": "seriousco.de",
   "theme": "hugo-material-docs",
