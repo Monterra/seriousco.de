@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects-rsses on seriousco.de</title>
-    <link>https://dsumer.github.io/seriousco.de/projects/index.xml</link>
+    <link>http://seriousco.de/projects/index.xml</link>
     <description>Recent content in Projects-rsses on seriousco.de</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 02 Nov 2016 12:18:48 +0100</lastBuildDate>
-    <atom:link href="https://dsumer.github.io/seriousco.de/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://seriousco.de/projects/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Rising Farms Online</title>
-      <link>https://dsumer.github.io/seriousco.de/projects/risingfarms-online/</link>
+      <link>http://seriousco.de/projects/risingfarms-online/</link>
       <pubDate>Wed, 02 Nov 2016 12:18:48 +0100</pubDate>
       
-      <guid>https://dsumer.github.io/seriousco.de/projects/risingfarms-online/</guid>
+      <guid>http://seriousco.de/projects/risingfarms-online/</guid>
       <description>
 
 &lt;p&gt;
-    &lt;img src=&#39;https://dsumer.github.io/seriousco.de/images/rfo_titel.png&#39;
+    &lt;img src=&#39;http://seriousco.de/images/rfo_titel.png&#39;
       class=&#39;center&#39; 
     style=&#39;&#39;/&gt;
 &lt;/p&gt;
@@ -36,7 +36,7 @@
 &lt;p&gt;Do you know Harvest Moon? It is a farmsimulation with RPG elements, first released in 1996 for the SNES. I loved playing “HM: Friends of Mineral Town” on my Gameboy Advance. Early 2010 I’ve searched the web for an online version of this type of game, but there was no “Harvest Moon Online” out there. That’s when it came to my mind: why not creating your own &lt;span class=&#34;tooltip&#34; title=&#34;Harvest Moon&#34;&gt;HM&lt;/span&gt; Online?&lt;/p&gt;
 
 &lt;p&gt;&lt;a class=&#34;image-link&#34; href=&#34;../../images/risingfarms_1.png&#34; title=&#34;Login Screen&#34;&gt;
-    &lt;img src=&#39;https://dsumer.github.io/seriousco.de/images/risingfarms_1.png&#39;
+    &lt;img src=&#39;http://seriousco.de/images/risingfarms_1.png&#39;
       class=&#39;right round-rectangle&#39; 
     style=&#39; width:300px; &#39;/&gt;
 &lt;/a&gt;
@@ -57,7 +57,7 @@ Rising Farms Online is a multiplayer farmsimulation where you can interact with 
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;a class=&#34;image-link&#34; href=&#34;../../images/risingfarms_2.png&#34; title=&#34;Map Editor&#34;&gt;
-    &lt;img src=&#39;https://dsumer.github.io/seriousco.de/images/risingfarms_2.png&#39;
+    &lt;img src=&#39;http://seriousco.de/images/risingfarms_2.png&#39;
       class=&#39;left round-rectangle&#39; 
     style=&#39; width:300px; &#39;/&gt;
 &lt;/a&gt;
@@ -79,23 +79,23 @@ RFO basically consists of three components: The game client, the server and the 
     
     <item>
       <title>Pespila</title>
-      <link>https://dsumer.github.io/seriousco.de/projects/pespila/</link>
+      <link>http://seriousco.de/projects/pespila/</link>
       <pubDate>Tue, 01 Nov 2016 12:18:48 +0100</pubDate>
       
-      <guid>https://dsumer.github.io/seriousco.de/projects/pespila/</guid>
+      <guid>http://seriousco.de/projects/pespila/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Driving License Trainer</title>
-      <link>https://dsumer.github.io/seriousco.de/projects/driving-license-trainer/</link>
+      <link>http://seriousco.de/projects/driving-license-trainer/</link>
       <pubDate>Tue, 01 Nov 2016 11:18:48 +0100</pubDate>
       
-      <guid>https://dsumer.github.io/seriousco.de/projects/driving-license-trainer/</guid>
+      <guid>http://seriousco.de/projects/driving-license-trainer/</guid>
       <description>
 
 &lt;p&gt;&lt;a class=&#34;image-link&#34; href=&#34;../../images/driving_license_trainer_1.png&#34; title=&#34;Driving License Trainer&#34;&gt;
-    &lt;img src=&#39;https://dsumer.github.io/seriousco.de/images/driving_license_trainer_1.png&#39;
+    &lt;img src=&#39;http://seriousco.de/images/driving_license_trainer_1.png&#39;
       class=&#39;left round-rectangle&#39; 
     style=&#39; width:300px; &#39;/&gt;
 &lt;/a&gt;
@@ -110,7 +110,7 @@ It was back in 2013, when I did my military service at the austrian armed forces
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;a class=&#34;image-link&#34; href=&#34;../../images/driving_license_trainer.png&#34; title=&#34;Scorepoint System&#34;&gt;
-    &lt;img src=&#39;https://dsumer.github.io/seriousco.de/images/driving_license_trainer.png&#39;
+    &lt;img src=&#39;http://seriousco.de/images/driving_license_trainer.png&#39;
       class=&#39;right round-rectangle&#39; 
     style=&#39; width:300px; &#39;/&gt;
 &lt;/a&gt;

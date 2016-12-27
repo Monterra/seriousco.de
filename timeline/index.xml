@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Timeline-rsses on seriousco.de</title>
-    <link>https://dsumer.github.io/seriousco.de/timeline/index.xml</link>
+    <link>http://seriousco.de/timeline/index.xml</link>
     <description>Recent content in Timeline-rsses on seriousco.de</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 01 Nov 2016 12:35:46 +0100</lastBuildDate>
-    <atom:link href="https://dsumer.github.io/seriousco.de/timeline/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://seriousco.de/timeline/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Timeline</title>
-      <link>https://dsumer.github.io/seriousco.de/timeline/</link>
+      <link>http://seriousco.de/timeline/</link>
       <pubDate>Tue, 01 Nov 2016 12:35:46 +0100</pubDate>
       
-      <guid>https://dsumer.github.io/seriousco.de/timeline/</guid>
+      <guid>http://seriousco.de/timeline/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;This is my timeline - from birth to my current job at Catalysts GmbH.&lt;/p&gt;
 &lt;/blockquote&gt;

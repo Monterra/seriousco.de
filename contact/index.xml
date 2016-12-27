@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contact-rsses on seriousco.de</title>
-    <link>https://dsumer.github.io/seriousco.de/contact/index.xml</link>
+    <link>http://seriousco.de/contact/index.xml</link>
     <description>Recent content in Contact-rsses on seriousco.de</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 01 Nov 2016 12:35:46 +0100</lastBuildDate>
-    <atom:link href="https://dsumer.github.io/seriousco.de/contact/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://seriousco.de/contact/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Contact</title>
-      <link>https://dsumer.github.io/seriousco.de/contact/</link>
+      <link>http://seriousco.de/contact/</link>
       <pubDate>Tue, 01 Nov 2016 12:35:46 +0100</pubDate>
       
-      <guid>https://dsumer.github.io/seriousco.de/contact/</guid>
+      <guid>http://seriousco.de/contact/</guid>
       <description>&lt;p&gt;Do you have a question or something to say? Don&amp;rsquo;t hesitate! Just fill out the form below, I would like to hear from you.
 &lt;br/&gt;(Of course you can also send me messages in german)
 &lt;br/&gt;
@@ -45,10 +45,10 @@
     
     <item>
       <title>Thanks</title>
-      <link>https://dsumer.github.io/seriousco.de/contact/thanks/</link>
+      <link>http://seriousco.de/contact/thanks/</link>
       <pubDate>Tue, 01 Nov 2016 12:35:46 +0100</pubDate>
       
-      <guid>https://dsumer.github.io/seriousco.de/contact/thanks/</guid>
+      <guid>http://seriousco.de/contact/thanks/</guid>
       <description>&lt;p&gt;Thanks for your message!&lt;/p&gt;
 </description>
     </item>

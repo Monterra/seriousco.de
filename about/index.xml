@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About-rsses on seriousco.de</title>
-    <link>https://dsumer.github.io/seriousco.de/about/index.xml</link>
+    <link>http://seriousco.de/about/index.xml</link>
     <description>Recent content in About-rsses on seriousco.de</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 01 Nov 2016 12:35:46 +0100</lastBuildDate>
-    <atom:link href="https://dsumer.github.io/seriousco.de/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://seriousco.de/about/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>About</title>
-      <link>https://dsumer.github.io/seriousco.de/about/</link>
+      <link>http://seriousco.de/about/</link>
       <pubDate>Tue, 01 Nov 2016 12:35:46 +0100</pubDate>
       
-      <guid>https://dsumer.github.io/seriousco.de/about/</guid>
+      <guid>http://seriousco.de/about/</guid>
       <description>
 
 &lt;p&gt;
-&lt;img src=&#39;https://dsumer.github.io/seriousco.de/images/profile.png&#39;
+&lt;img src=&#39;http://seriousco.de/images/profile.png&#39;
       class=&#39;center round&#39; 
     style=&#39;&#39;/&gt;
 &lt;/p&gt;
