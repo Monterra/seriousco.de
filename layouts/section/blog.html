@@ -23,7 +23,7 @@
 			<h1>{{ .Title | singularize }}</h1>
 
 			{{ range .Data.Pages }}
-			<a href="{{ .Permalink }}" title="{{ .Title }}" class="blogcard" style="background-image:url({{ $.Site.BaseURL }}images/{{ .Params.image }})">
+			{{/*<a href="{{ .Permalink }}" title="{{ .Title }}" class="blogcard" style="background-image:url({{ $.Site.BaseURL }}images/{{ .Params.image }})">
 				<div class="background"></div>
 				<div class="text">
 					<div class="container">
@@ -31,8 +31,9 @@
 						<div class="description">{{ printf "%s" .Description | markdownify }}</div>
 					</div>
 				</div>
-			</a>
+			</a>*/}}
 			{{ end }}
+			<h2>Coming Soon</h2>
 		</div>
 
 		<aside class="copyright" role="note">
