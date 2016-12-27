@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://seriousco.de/</loc>
+    <lastmod>2016-11-02T12:18:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seriousco.de/projects/risingfarms-online/</loc>
+    <lastmod>2016-11-02T12:18:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seriousco.de/about/</loc>
+    <lastmod>2016-11-01T12:35:46+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seriousco.de/contact/</loc>
+    <lastmod>2016-11-01T12:35:46+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seriousco.de/contact/thanks/</loc>
+    <lastmod>2016-11-01T12:35:46+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seriousco.de/timeline/</loc>
+    <lastmod>2016-11-01T12:35:46+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seriousco.de/blog/first-journey-with-hugo/</loc>
+    <lastmod>2016-11-01T12:18:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seriousco.de/projects/pespila/</loc>
+    <lastmod>2016-11-01T12:18:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seriousco.de/projects/driving-license-trainer/</loc>
+    <lastmod>2016-11-01T11:18:48+01:00</lastmod>
+  </url>
+  
+</urlset>

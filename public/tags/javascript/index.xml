@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>seriousco.de</title>
+    <link>http://seriousco.de/tags/javascript/index.xml</link>
+    <description>Recent content on seriousco.de</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://seriousco.de/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Driving License Trainer</title>
+      <link>http://seriousco.de/projects/driving-license-trainer/</link>
+      <pubDate>Tue, 01 Nov 2016 11:18:48 +0100</pubDate>
+      
+      <guid>http://seriousco.de/projects/driving-license-trainer/</guid>
+      <description>
+
+&lt;p&gt;&lt;a class=&#34;image-link&#34; href=&#34;../../images/driving_license_trainer_1.png&#34; title=&#34;Driving License Trainer&#34;&gt;
+    &lt;img src=&#39;http://seriousco.de/images/driving_license_trainer_1.png&#39;
+      class=&#39;left round-rectangle&#39; 
+    style=&#39; width:300px; &#39;/&gt;
+&lt;/a&gt;
+It was back in 2013, when I did my military service at the austrian armed forces and started learning for my driving license test. I was in a small office with a friend of mine and we had much spare time which we could spend as we like.&lt;/p&gt;
+
+&lt;p&gt;Most of the time I spent with my baby &lt;a href=&#34;../risingfarms-online&#34;&gt;Rising Farms Online&lt;/a&gt;, but I also wanted to achieve my driving license while I was at the army because I knew I wouldn&amp;rsquo;t have as much free time later on when I will be working full time as a software developer.&lt;/p&gt;
+
+&lt;p&gt;Okay I had to learn and I wanted to arrange it as comfortable as possible - that was the moment when it came to my mind: why not code my own driving license trainer? So I could improve my coding skillz and learn for the test at the same time and hey - what&amp;rsquo;s more motivating than learning with your own piece of software? :D&lt;/p&gt;
+
+&lt;h2 id=&#34;about&#34;&gt;What is it about?&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a class=&#34;image-link&#34; href=&#34;../../images/driving_license_trainer.png&#34; title=&#34;Scorepoint System&#34;&gt;
+    &lt;img src=&#39;http://seriousco.de/images/driving_license_trainer.png&#39;
+      class=&#39;right round-rectangle&#39; 
+    style=&#39; width:300px; &#39;/&gt;
+&lt;/a&gt;
+Driving License Trainer is a nodejs application which helps you learning for the theory part (Austria specific) of your driving license test. It is written in javascript, makes use of the express framework and renders html with jade templates.&lt;/p&gt;
+
+&lt;p&gt;The look and feel of the application is very similiar to the official test software because I wanted to get used to it while learning.&lt;/p&gt;
+
+&lt;p&gt;For me, the most important feature is the scorepoint system. For each question you have a scorepoint saved in a separate file. Fill out the right answers for a question and a scorepoint will be added to it. If you choose the wrong answers, the scorepoint of the question will be reset to zero. My goal was to bring all categories/questions to at least scorepoint 4 so i could be sure to know as much questions as possible when I do the real test.&lt;/p&gt;
+
+&lt;h2 id=&#34;challenge&#34;&gt;What was the challenge?&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;With some luck I can fetch the questions from their server.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;One of the toughest problems was to get the official questions for the driving license test. After some googling I stumbled upon the &lt;a href=&#34;http://www.oeamtc.at/portal/fuehrerscheintest&#34;&gt;ÖAMTC online test&lt;/a&gt; and saw that they are working with the right set of questions. It was an online test written in JavaScript - &amp;ldquo;with some luck I can fetch the questions from their server&amp;rdquo; I thought. After some time examining the source code I found where they serve the content files - each question as a single json file named by the question number - beginning by one.&lt;/p&gt;
+
+&lt;p&gt;I didn&amp;rsquo;t know how many questions they provided exactly, so i wrote a nodejs script which tries to fetch the json files from 1.json to xxx.json. You can find this script in the &lt;a href=&#34;https://github.com/dsumer/driving-license-trainer&#34;&gt;&lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt; GitHub repository&lt;/a&gt; of this project. I ended up with around 2000 questions - very nice!&lt;/p&gt;
+
+&lt;p&gt;There was also some other information which could be fetched like the images of every question and the type of the test. After fetching all the data needed, I started implementing the main logic.&lt;/p&gt;
+
+&lt;div class=&#34;admonition note&#34;&gt;
+&lt;p class=&#34;admonition-title&#34;&gt;Github&lt;/p&gt;
+&lt;p&gt;Check out the project on &lt;a href=&#34;https://github.com/dsumer/driving-license-trainer&#34;&gt;&lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt; Github&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The Driving License Trainer was a small project which helped me learning and improving my coding skills. With the project I gathered experience with the express framework and it gave me a better know-how of nodejs overall.&lt;/p&gt;
+
+&lt;p&gt;Feel free to use the driving license trainer on your own! Unfortunately I can&amp;rsquo;t assure that the questions are correct. Many questions have changed since 2013 and I don&amp;rsquo;t know if ÖAMTC has kept their questions up-to-date. Anyways, you can try to run the refresh.js script to fetch the newest questions from the ÖAMTC server.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ cd ~/driving-license-trainer/public/data
+$ node refresh.js
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
