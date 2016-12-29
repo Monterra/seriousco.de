@@ -100,7 +100,7 @@ Hello! My name is Dominik, I am 23 years old and a passionated software engineer
 &lt;p&gt;Do you care about your code? Does it run as expected? Be serious about it.&lt;/p&gt;
 &lt;/div&gt;
 
-&lt;p&gt;When I was a child, I always loved playing around with computers, trying to understand how this all works. I saw it as an endless playground, a paradise where you can try things out and create amazing stuff. Nowadays it is pretty easy to gather the information needed by googling. Via the internet you can connect with other developers and have access to so much free resources which help you improve your skills as a software developer.&lt;/p&gt;
+&lt;p&gt;When I was a child, I always loved playing around with computers, trying to understand how this all works. I saw it as an endless playground, a paradise where you can try things out and create amazing stuff. Nowadays it is pretty easy to gather the information needed by googling. Via the internet you can connect with other developers and have access to so many free resources which help you improve your skills as a software developer.&lt;/p&gt;
 
 &lt;p&gt;Coding a piece of software and seeing the outcome is just amazing. It is really comparable to other jobs where you build things. You build a castle, your very own, where you can grow and learn so many things to build even better castles. (Sometimes you also have to &lt;a href=&#34;https://toggl.com/programming-princess&#34; title=&#34;Git the Princess!&#34;&gt;rescue princesses&lt;/a&gt;)&lt;/p&gt;
 
@@ -121,7 +121,7 @@ Hello! My name is Dominik, I am 23 years old and a passionated software engineer
 
 &lt;p&gt;The growth of developers in these days is enormously high. This is very impressive and also very good, because behind almost everything in our infrastructure is a software which simplifies our daily life. So the need for software engineers is rather high and because the speed of technology development is just unstoppable, this won&amp;rsquo;t change in the near future.&lt;/p&gt;
 
-&lt;p&gt;For example, I really like the development of the web in the past years. It&amp;rsquo;s a place for human beings or organizations to express themselves. Websites (or web applications) aren&amp;rsquo;t bound to any operating system or - with responsive design - a specific device. You can create things and be sure that almost everybody out there has the possibility to easily consume your content without installing tons of stuff on their computer. Whether frontend- or backend-development, you have a wide range of frameworks to choose from, depending on your plans and preferences, which help you building your webapp. They provide you basic tools &amp;amp; implementations so that you don&amp;rsquo;t have to reinvent the wheel over and over again and mostly have a prototype of your application running in some hours / days.&lt;/p&gt;
+&lt;p&gt;For example, I really like the development of the web in the past years. It&amp;rsquo;s a place for human beings or organizations to express themselves. Websites (or web applications) aren&amp;rsquo;t bound to any operating system or - with responsive design - a specific device. You can create things and be sure that almost everybody out there has the possibility to easily consume your content without installing tons of stuff on their computer. Whether frontend- or backend-development, you have a wide range of frameworks to choose from, depending on your plans and preferences, which help you building your webapp. They provide basic tools &amp;amp; implementations so that you don&amp;rsquo;t have to reinvent the wheel over and over again and mostly have a prototype of your application running in some hours / days.&lt;/p&gt;
 
 &lt;h2 id=&#34;don-t-you-take-it-too-serious&#34;&gt;Don&amp;rsquo;t you take it too serious?&lt;/h2&gt;
 
@@ -315,7 +315,7 @@ It was back in 2013, when I did my military service at the austrian armed forces
 
 &lt;p&gt;Most of the time I spent with my baby &lt;a href=&#34;../risingfarms-online&#34;&gt;Rising Farms Online&lt;/a&gt;, but I also wanted to achieve my driving license while I was at the army because I knew I wouldn&amp;rsquo;t have as much free time later on when I will be working full time as a software developer.&lt;/p&gt;
 
-&lt;p&gt;Okay I had to learn and I wanted to arrange it as comfortable as possible - that was the moment when it came to my mind: why not code my own driving license trainer? So I could improve my coding skillz and learn for the test at the same time and hey - what&amp;rsquo;s more motivating than learning with your own piece of software? :D&lt;/p&gt;
+&lt;p&gt;Okay, I had to learn and I wanted to arrange it as comfortable as possible - that was the moment when it came to my mind: why not code my own driving license trainer? So I could improve my coding skillz and learn for the test at the same time and hey - what&amp;rsquo;s more motivating than learning with your own piece of software? :D&lt;/p&gt;
 
 &lt;h2 id=&#34;about&#34;&gt;What is it about?&lt;/h2&gt;
 
@@ -330,7 +330,7 @@ Driving License Trainer is a nodejs application which helps you learning for the
 
 &lt;p&gt;The look and feel of the application is very similiar to the official test software because I wanted to get used to it while learning.&lt;/p&gt;
 
-&lt;p&gt;For me, the most important feature is the scorepoint system. For each question you have a scorepoint saved in a separate file. Fill out the right answers for a question and a scorepoint will be added to it. If you choose the wrong answers, the scorepoint of the question will be reset to zero. My goal was to bring all categories/questions to at least scorepoint 4 so i could be sure to know as much questions as possible when I do the real test.&lt;/p&gt;
+&lt;p&gt;For me, the most important feature is the scorepoint system. For each question you have a scorepoint saved in a separate file. Fill out the right answers for a question and a scorepoint will be added to it. If you choose the wrong answers, the scorepoint of the question will be reset to zero. My goal was to bring all categories/questions to at least scorepoint 4 so i could be sure to know as many questions as possible when I do the real test.&lt;/p&gt;
 
 &lt;h2 id=&#34;challenge&#34;&gt;What was the challenge?&lt;/h2&gt;
 

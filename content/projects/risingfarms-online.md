@@ -2,7 +2,7 @@
 date = "2016-11-02T12:18:48+01:00"
 draft = false
 title = "Rising Farms Online"
-description = "A multiplayer farmsimulation <br/> written in typescript. (my baby)"
+description = "A multiplayer farmsimulation <br/> written in typescript - my baby."
 image = "rfo_titel.png"
 tags = ["typescript","nodejs","pixijs","angular2"]
 background = "white"

@@ -16,7 +16,7 @@ It was back in 2013, when I did my military service at the austrian armed forces
 
 Most of the time I spent with my baby [Rising Farms Online](../risingfarms-online), but I also wanted to achieve my driving license while I was at the army because I knew I wouldn't have as much free time later on when I will be working full time as a software developer.
 
-Okay I had to learn and I wanted to arrange it as comfortable as possible - that was the moment when it came to my mind: why not code my own driving license trainer? So I could improve my coding skillz and learn for the test at the same time and hey - what's more motivating than learning with your own piece of software? :D
+Okay, I had to learn and I wanted to arrange it as comfortable as possible - that was the moment when it came to my mind: why not code my own driving license trainer? So I could improve my coding skillz and learn for the test at the same time and hey - what's more motivating than learning with your own piece of software? :D
 
 ## What is it about?  {#about}
 ---
@@ -29,7 +29,7 @@ Driving License Trainer is a nodejs application which helps you learning for the
 
 The look and feel of the application is very similiar to the official test software because I wanted to get used to it while learning.
 
-For me, the most important feature is the scorepoint system. For each question you have a scorepoint saved in a separate file. Fill out the right answers for a question and a scorepoint will be added to it. If you choose the wrong answers, the scorepoint of the question will be reset to zero. My goal was to bring all categories/questions to at least scorepoint 4 so i could be sure to know as much questions as possible when I do the real test.
+For me, the most important feature is the scorepoint system. For each question you have a scorepoint saved in a separate file. Fill out the right answers for a question and a scorepoint will be added to it. If you choose the wrong answers, the scorepoint of the question will be reset to zero. My goal was to bring all categories/questions to at least scorepoint 4 so i could be sure to know as many questions as possible when I do the real test.
 
 ## What was the challenge? {#challenge}
 ---
