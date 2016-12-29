@@ -9,8 +9,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>seriousco.de - Contacts</title>
-    <meta name="generator" content="Hugo 0.18" />
+    <title>seriousco.de - Contact</title>
+    <meta name="generator" content="Hugo 0.17" />
 
     
     <link rel="canonical" href="http://seriousco.de/contact/">
@@ -108,12 +108,11 @@
     </script>
 
     
-    <link href="http://seriousco.de/contact/index.xml" rel="alternate" type="application/rss+xml" title="seriousco.de" />
-    <link href="http://seriousco.de/contact/index.xml" rel="feed" type="application/rss+xml" title="seriousco.de" />
-    
 
   </head>
   <body class="palette-primary-light-blue palette-accent-deep-orange">
+
+
 
 
 <div class="backdrop">
@@ -286,27 +285,34 @@
 
 	<article class="article">
 		<div class="wrapper">
-			<h1>Pages in Contact</h1>
+			<h1>Contact </h1>
 
-			
-			<a href="http://seriousco.de/contact/" title="Contact">
-				<h2>Contact</h2>
-			</a>
+			<p>Do you have a question or something to say? Don&rsquo;t hesitate! Just fill out the form below, I would like to hear from you.
+<br/>(Of course you can also send me messages in german)
+<br/>
+<form method="POST" action="http://formspree.io/domi.sumer@gmail.com" class="contact_form">
+    <input type="hidden" name="_next" value="/contact/thanks"/>
+    <input type="text" name="_gotcha" style="display:none"/>
 
-			<br>
-			Do you have a question or something to say? Don&rsquo;t hesitate! Just fill out the form below, I would like to hear from you. (Of course you can also send me messages in german)   Your name:  Your email address:  Your message:   Send
+    <p>
+        <label for="contact_name">Your name:</label>
+        <input type="text" name="name" id="contact_name" required>
+    </p>
 
-			<hr>
-			
-			<a href="http://seriousco.de/contact/thanks/" title="Thanks">
-				<h2>Thanks</h2>
-			</a>
+    <p>
+        <label for="contact_email">Your email address:</label>
+        <input type="email" name="_replyto" id="contact_email" required>
+    </p>
 
-			<br>
-			Thanks for your message!
+    <p>
+        <label for="contact_email">Your message:</label>
+        <br/>
+        <textarea name="message" required></textarea>
+    </p>
 
-			<hr>
-			
+    <button type="submit">Send</button>
+</form></p>
+
 		</div>
 
 		<aside class="copyright" role="note">

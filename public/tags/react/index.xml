@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>React on seriousco.de</title>
+    <title>seriousco.de</title>
     <link>http://seriousco.de/tags/react/index.xml</link>
-    <description>Recent content in React on seriousco.de</description>
+    <description>Recent content on seriousco.de</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <atom:link href="http://seriousco.de/tags/react/index.xml" rel="self" type="application/rss+xml" />
