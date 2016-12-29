@@ -7,3 +7,4 @@ description = "My first blog post is about creating this website. I talk about m
 author = "dominiksumer"
 +++
 
+Coming Soon.
