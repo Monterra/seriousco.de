@@ -1,10 +1,51 @@
+.article .blog h1 {
+    border-bottom: 1px solid #d6d6d6;
+    padding-bottom: 10px;
+}
+.article .blog h2 {
+    padding-top: 70px;
+}
+
+.article .blog .pagegroup > div {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.article .blog .paginator {
+    margin-top: 20px;
+}
+.article .blog .paginator > div {
+    clear: both;
+}
+.article .blog .paginator a {
+    border: none;
+    display: block;
+    font-weight: bold;
+    padding: 2px 11px;
+    color: gray;
+    margin: 0;
+    float: left;
+}
+.article .blog .paginator a.pagenumber {
+    padding: 2px 15px;
+}
+.article .blog .paginator a:hover {
+    background: #ccc;
+}
+.article .blog .paginator a.active {
+    color: white;
+    background: #1093ca;
+}
+
 a.blogcard {
     display: block;
-    margin-top: 30px;
+    margin-top: 15px;
     height: 450px;
     background-size: 100% auto;
     position: relative;
     border: none;
+    background-repeat: no-repeat;
 }
 a.blogcard .background {
     background: white;
@@ -21,6 +62,17 @@ a.blogcard .text {
     bottom: 0px;
     margin: 10px;
     color: black;
+}
+a.blogcard .text .info {
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+a.blogcard .text .info .author {
+    color: #0073a7;
+    font-weight: bold;
+}
+a.blogcard .text .info .date {
+    margin-left: 10px;
 }
 a.blogcard .text .container {
     display: inline-block;
@@ -42,4 +94,17 @@ a.blogcard .text .description {
     font-size: 18px;
     display: inline-block;
     padding: 2px 6px;
+}
+
+@media screen and (max-width: 700px) {
+
+    a.blogcard .text {
+        margin: 0;
+        border: 1px solid #bdbdbd;
+        border-top: none;
+    }
+
+    a.blogcard .text .container {
+        max-width: 100%;
+    }
 }

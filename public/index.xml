@@ -6,8 +6,17 @@
     <description>Recent content on seriousco.de</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Nov 2016 12:18:48 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2017 12:00:00 +0100</lastBuildDate>
     <atom:link href="http://seriousco.de/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Creating this website, my first journey with hugo</title>
+      <link>http://seriousco.de/blog/first-journey-with-hugo/</link>
+      <pubDate>Sun, 01 Jan 2017 12:00:00 +0100</pubDate>
+      
+      <guid>http://seriousco.de/blog/first-journey-with-hugo/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Rising Farms Online</title>
@@ -278,15 +287,6 @@ Hello! My name is Dominik, I am 23 years old and a passionated software engineer
     });
 &lt;/script&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Creating this website, my first journey with hugo</title>
-      <link>http://seriousco.de/blog/first-journey-with-hugo/</link>
-      <pubDate>Tue, 01 Nov 2016 12:18:48 +0100</pubDate>
-      
-      <guid>http://seriousco.de/blog/first-journey-with-hugo/</guid>
-      <description></description>
     </item>
     
     <item>

@@ -19,21 +19,76 @@
 	</div>
 
 	<article class="article">
-		<div class="wrapper">
+		<div class="wrapper blog">
 			<h1>{{ .Title | singularize }}</h1>
 
-			{{ range .Data.Pages }}
-			{{/*<a href="{{ .Permalink }}" title="{{ .Title }}" class="blogcard" style="background-image:url({{ $.Site.BaseURL }}images/{{ .Params.image }})">
-				<div class="background"></div>
-				<div class="text">
-					<div class="container">
-						<div class="title">{{ .Title }}</div>
-						<div class="description">{{ printf "%s" .Description | markdownify }}</div>
-					</div>
-				</div>
-			</a>*/}}
+			{{ $paginator := (.Paginate (.Data.Pages.GroupByDate "January 2006")) }}
+
+			{{ if gt $paginator.TotalPages 1 }}
+			<div class="paginator">
+				{{ if $paginator.Prev }}
+				<a href="{{ $paginator.Prev.URL }}"><i class="fa fa-chevron-left"></i></a>
+				{{ else }}
+				<a href="#"><i class="fa fa-chevron-left"></i></a>
+				{{ end }}
+
+				{{ range $paginator.Pagers }}
+				<a class="pagenumber{{ if eq $paginator.PageNumber .PageNumber }} active{{ end }}" href="{{ .URL }}">{{ .PageNumber }}</a>
+				{{ end }}
+
+				{{ if $paginator.Next }}
+				<a href="{{ $paginator.Next.URL }}"><i class="fa fa-chevron-right"></i></a>
+				{{ else }}
+				<a href="#"><i class="fa fa-chevron-right"></i></a>
+				{{ end }}
+				<div></div>
+			</div>
 			{{ end }}
-			<h2>Coming Soon</h2>
+
+			{{ range $paginator.PageGroups  }}
+				<div class="pagegroup">
+					<div >{{ .Key }}</div>
+					{{ range .Pages }}
+					<a href="{{ .Permalink }}" title="{{ .Title }}" class="blogcard" style="background-image:url({{ $.Site.BaseURL }}images/{{ .Params.image }})">
+						<div class="background"></div>
+						<div class="text">
+							<div class="container">
+								<div class="title">{{ .Title }}</div>
+								<div class="description">
+									<div class="info">
+										By <span class="author">@{{ .Params.author }}</span>
+										<span class="date"><i class="fa fa-calendar"></i> {{ dateFormat "2. January 2006" .Date }}</span>
+									</div>
+									{{ printf "%s" .Description | markdownify }}
+								</div>
+							</div>
+						</div>
+					</a>
+					{{ end }}
+				</div>
+				<hr/>
+			{{ end }}
+
+			{{ if gt $paginator.TotalPages 1 }}
+			<div class="paginator" id="paginator">
+				{{ if $paginator.Prev }}
+				<a href="{{ $paginator.Prev.URL }}"><i class="fa fa-chevron-left"></i></a>
+				{{ else }}
+				<a href="#paginator"><i class="fa fa-chevron-left"></i></a>
+				{{ end }}
+
+				{{ range $paginator.Pagers }}
+				<a class="pagenumber{{ if eq $paginator.PageNumber .PageNumber }} active{{ end }}" href="{{ .URL }}">{{ .PageNumber }}</a>
+				{{ end }}
+
+				{{ if $paginator.Next }}
+				<a href="{{ $paginator.Next.URL }}"><i class="fa fa-chevron-right"></i></a>
+				{{ else }}
+				<a href="#paginator"><i class="fa fa-chevron-right"></i></a>
+				{{ end }}
+				<div></div>
+			</div>
+			{{ end }}
 		</div>
 
 		<aside class="copyright" role="note">

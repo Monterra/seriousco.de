@@ -2,8 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://seriousco.de/</loc>
-    <lastmod>2016-11-02T12:18:48+01:00</lastmod>
+    <loc>http://seriousco.de/blog/first-journey-with-hugo/</loc>
+    <lastmod>2017-01-01T12:00:00+01:00</lastmod>
   </url>
   
   <url>
@@ -32,11 +32,6 @@
   </url>
   
   <url>
-    <loc>http://seriousco.de/blog/first-journey-with-hugo/</loc>
-    <lastmod>2016-11-01T12:18:48+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://seriousco.de/projects/pespila/</loc>
     <lastmod>2016-11-01T12:18:48+01:00</lastmod>
   </url>
@@ -44,6 +39,101 @@
   <url>
     <loc>http://seriousco.de/projects/driving-license-trainer/</loc>
     <lastmod>2016-11-01T11:18:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seriousco.de/about/</loc>
+    <lastmod>2016-11-01T12:35:46+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seriousco.de/tags/angular2/</loc>
+    <lastmod>2016-11-02T12:18:48+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seriousco.de/blog/</loc>
+    <lastmod>2017-01-01T12:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seriousco.de/tags/coffescript/</loc>
+    <lastmod>2016-11-01T12:18:48+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seriousco.de/contact/</loc>
+    <lastmod>2016-11-01T12:35:46+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seriousco.de/tags/express/</loc>
+    <lastmod>2016-11-01T12:18:48+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seriousco.de/tags/javascript/</loc>
+    <lastmod>2016-11-01T11:18:48+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seriousco.de/tags/jquery/</loc>
+    <lastmod>2016-11-01T11:18:48+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seriousco.de/tags/nodejs/</loc>
+    <lastmod>2016-11-02T12:18:48+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seriousco.de/tags/pixijs/</loc>
+    <lastmod>2016-11-02T12:18:48+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seriousco.de/projects/</loc>
+    <lastmod>2016-11-02T12:18:48+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seriousco.de/tags/react/</loc>
+    <lastmod>2016-11-01T12:18:48+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seriousco.de/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seriousco.de/timeline/</loc>
+    <lastmod>2016-11-01T12:35:46+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seriousco.de/tags/typescript/</loc>
+    <lastmod>2016-11-02T12:18:48+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seriousco.de/</loc>
+    <lastmod>2017-01-01T12:00:00+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>
