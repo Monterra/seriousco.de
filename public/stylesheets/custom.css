@@ -219,6 +219,10 @@ button:hover {
     .header .stretch .title .lg {
         display: none;
     }
+
+    .copyright {
+        padding: 15px 10px 50px;
+    }
 }
 
 @media screen and (max-width: 649px) {
