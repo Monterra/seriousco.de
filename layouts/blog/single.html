@@ -24,7 +24,7 @@
     </div>
 
     <article class="article">
-        <div class="wrapper blog">
+        <div class="wrapper">
             <div class="blogheader" style="background-image:url({{ $.Site.BaseURL }}images/{{ .Params.image }})"></div>
             <h1>{{ .Title }} {{ if .IsDraft }} (Draft){{ end }}</h1>
             <div class="bloginfo">
@@ -37,7 +37,7 @@
             {{ partial "disqus.html" . }}
         </div>
 
-        <aside class="copyright" role="note">
+        <aside class="copyright" role="note" style="margin: 10px 0 0 0;">
             {{ with .Site.Params.copyright }}
             &copy; {{ $.Now.Format "2006" }} {{ . }} &ndash;
             {{ end }}
