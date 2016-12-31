@@ -115,7 +115,7 @@
     background: black;
     position: absolute;
     left: calc(50% - 6px);
-    bottom: 1168px;
+    bottom: 1190px;
 }
 .timeline .now::before {
     content: "now";
