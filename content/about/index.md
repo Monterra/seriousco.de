@@ -3,6 +3,7 @@ date = "2016-11-01T12:35:46+01:00"
 draft = false
 title = "About"
 type = "index"
+description = "Hello! My name is Dominik, I am 23 years old and a passionated software engineer. I live in Vienna, Austria and enjoy being out in the nature, hanging out with my friends or just debugging the projects I am currently working on."
 +++
 
 <p>
