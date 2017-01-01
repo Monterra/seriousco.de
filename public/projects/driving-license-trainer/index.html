@@ -81,11 +81,22 @@
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="http://seriousco.de/javascripts/magnific-popup.js"></script>
     <script src="http://seriousco.de/javascripts/tooltipster.bundle.min.js"></script>
+    <script src="http://seriousco.de/javascripts/emojione.min.js"></script>
     <script>
+      function convertToEmojis() {
+          emojione.imageType = 'svg';
+          emojione.sprites = true;
+          emojione.imagePathSVGSprites = '/images/emojione.sprites.svg';
+
+          var wrapperElement = $('html body .article .wrapper');
+          var original = wrapperElement.html();
+          var converted = emojione.shortnameToImage(original);
+          wrapperElement.html(converted);
+      }
+
       $(document).ready(function() {
-        $('.image-link').click(function () {
-          return false;
-        });
+        convertToEmojis();
+
         $('.image-link').magnificPopup({
           type:'image',
           disableOn: 650,
@@ -289,8 +300,8 @@
 
 			
 
-<p><a class="image-link" href="../../images/driving_license_trainer_1.png" title="Driving License Trainer">
-    <img src='http://seriousco.de/images/driving_license_trainer_1.png'
+<p><a class="image-link" href="/images/driving_license_trainer_1.png" title="Driving License Trainer">
+    <img src='http://seriousco.de//images/driving_license_trainer_1.png'
       class='left round-rectangle' 
     style=' width:300px; '/>
 </a>
@@ -298,14 +309,14 @@ It was back in 2013, when I did my military service at the austrian armed forces
 
 <p>Most of the time I spent with my baby <a href="../risingfarms-online">Rising Farms Online</a>, but I also wanted to achieve my driving license while I was at the army because I knew I wouldn&rsquo;t have as much free time later on when I will be working full time as a software developer.</p>
 
-<p>Okay, I had to learn and I wanted to arrange it as comfortable as possible - that was the moment when it came to my mind: why not code my own driving license trainer? So I could improve my coding skillz and learn for the test at the same time and hey - what&rsquo;s more motivating than learning with your own piece of software? :D</p>
+<p>Okay, I had to learn and I wanted to arrange it as comfortable as possible - that was the moment when it came to my mind: why not code my own driving license trainer? So I could improve my coding skillz and learn for the test at the same time and hey - what&rsquo;s more motivating than learning with your own piece of software? :smiley:</p>
 
 <h2 id="about">What is it about?</h2>
 
 <hr />
 
-<p><a class="image-link" href="../../images/driving_license_trainer.png" title="Scorepoint System">
-    <img src='http://seriousco.de/images/driving_license_trainer.png'
+<p><a class="image-link" href="/images/driving_license_trainer.png" title="Scorepoint System">
+    <img src='http://seriousco.de//images/driving_license_trainer.png'
       class='right round-rectangle' 
     style=' width:300px; '/>
 </a>

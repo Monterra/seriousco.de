@@ -62,12 +62,13 @@
 }
 
 .article .wrapper a.external {
-    margin-right: 20px;
-    position: relative;
+    border-bottom: none;
+}
+.article .wrapper a.external span {
+    border-bottom: 1px dotted;
+    margin-right: 31px;
 }
 .article .wrapper a.external::after {
-    right: -20px;
-    top: calc(50% - 5px);
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
     font-size: 14px;
@@ -75,9 +76,9 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     content: "\f08e";
-    border-bottom: none;
-    position: absolute;
     color: #00557b !important;
+    margin-left: -24px;
+    margin-right: 5px;
 }
 
 .copyright {
@@ -161,6 +162,12 @@
 }
 .article h2 {
     margin-top: -30px;
+}
+
+.emojione {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
 }
 
 button:hover {

@@ -83,11 +83,22 @@
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="http://seriousco.de/javascripts/magnific-popup.js"></script>
     <script src="http://seriousco.de/javascripts/tooltipster.bundle.min.js"></script>
+    <script src="http://seriousco.de/javascripts/emojione.min.js"></script>
     <script>
+      function convertToEmojis() {
+          emojione.imageType = 'svg';
+          emojione.sprites = true;
+          emojione.imagePathSVGSprites = '/images/emojione.sprites.svg';
+
+          var wrapperElement = $('html body .article .wrapper');
+          var original = wrapperElement.html();
+          var converted = emojione.shortnameToImage(original);
+          wrapperElement.html(converted);
+      }
+
       $(document).ready(function() {
-        $('.image-link').click(function () {
-          return false;
-        });
+        convertToEmojis();
+
         $('.image-link').magnificPopup({
           type:'image',
           disableOn: 650,
@@ -294,7 +305,99 @@
                 <span class="date"><i class="fa fa-calendar"></i> 1. January 2017</span>
             </div>
 
-            <p>Coming Soon.</p>
+            
+
+<p>About two months ago I stumbled upon <a href="http://gohugo.io/">hugo</a>, a static website generator written in go. It provides a basic <span class="tooltip" title="Command Line Interface">CLI</span> which helps creating your website and its content. After taking a first look I asked myself “Why should I want to create a static website?!”. Instead I could use a great dynamic <span class="tooltip" title="Content Managment System">CMS</span> with all the fancy plugins - Wordpress, Typo3, Drupal. But I kept on reading the docs and some experiences of the community.</p>
+
+<blockquote>
+<p>Having your first hugo demo website running can be reached in seconds - even faster than you can say the word “quidditch”.</p>
+</blockquote>
+
+<p>At this time I&rsquo;ve already planned to step up and create this website a year ago (the domain is parked since December 2015). I basically knew what I want it to be and look like, but I hadn&rsquo;t thought about how I will build it. As I moved on in the <a href="https://gohugo.io/overview/quickstart/">quickstart guide</a> of hugo, it came to my mind that this static website generator may be the right choice for the first version of my website - and here we are. :grinning:</p>
+
+<h2 id="how-is-it-to-build-a-website-with-hugo">How is it to build a website with hugo?</h2>
+
+<hr />
+
+<p>Hugo comes with a standard template engine and a nice set of features. It offers you the basic tools for creating a website / blog. Having your first hugo demo website running can be reached in seconds - even faster than you can say “quidditch”.</p>
+
+<pre><code class="language-bash">$ hugo new site bookshelf
+$ cd bookshelf/themes
+$ git clone https://github.com/dim0627/hugo_theme_robust.git
+$ cd ..
+$ hugo server --theme=hugo_theme_robust
+</code></pre>
+
+<p>With the command “hugo server” you can simply run a local development server which watches for changes and automatically refreshes the page.</p>
+
+<p>The <a href="http://gohugo.io/overview/introduction/">docs</a> and community behind hugo are sufficient. You mostly find the things you’re searching for and the documentation is pretty well structured. It also is under (heavy) development - the latest <a href="https://github.com/spf13/hugo/releases/tag/v0.18.1">release 0.18</a> is two days old (from the current point of writing this blogpost).</p>
+
+<p>If you want to know how seriousco.de is built you can take a look at the <a href="https://github.com/dsumer/seriousco.de">GitHub repository</a>. I am using the <a href="http://themes.gohugo.io/theme/material-docs/">hugo material theme</a> which is quite nice but I wanted to change some things in order to fulfill my purpose. I forked the <a href="https://github.com/digitalcraftsman/hugo-material-docs">original repository</a> so you can see the changes in a <a href="https://github.com/dsumer/hugo-material-docs">separate repository</a>.</p>
+
+<p>As you can see by the <a href="https://github.com/dsumer/seriousco.de/commit/75c2e59a85b4554a638a335faba60bc48089d372">initial commit</a> I’ve started to work on this website on the first of November 2016. It took me two months from the first day to the official publish day with some pauses in between. A pretty nice performance in my opinion and it demonstrates that you can quickly have a production website up and running with hugo.</p>
+
+<h2 id="a-static-website-that-sounds-horrible">A static website? That sounds horrible!</h2>
+
+<hr />
+
+<p>Hugo doesn’t come with a fancy <span class="tooltip" title="What You See Is What You Get">WYSIWYG</span> editor or tons of plugins which turn your website into a monstrous fat client. You don’t have a rich backend where you configure everything and write your blog posts. There is no database running in the background serving the content of your website. Instead hugo creates prebuilt .html files for you which can be served via HTTP.</p>
+
+<p><a class="image-link" href="/images/first-journey-with-hugo.png" title="">
+    <img src='http://seriousco.de//images/first-journey-with-hugo.png'
+      class='right round-rectangle' 
+    style=' width:300px; '/>
+</a>
+That may sound quite horrible to some of you and there are some types of websites where such a static website is not sufficient - as a web developer I understand this. But for some applications hugo is enough or even outperforms dynamic content managment systems and that’s the case for the current version of seriousco.de.</p>
+
+<p>If you just want to build a simple website you should really give hugo (or any other static website generator) a shot. If you host your site on <a href="https://pages.github.com/">GitHub Pages</a> you basically don’t have to worry about security issues (if you can keep your GitHub account safe). There is no backend where people can change the contents of your website and if some evil scriptkiddy wants to take down your website, they have to attack GitHub - so you can hide behind your big brother. For some special features like a contact formular or a comments area you can use services like formspring or disqus.</p>
+
+<h2 id="what-s-your-purpose">What’s your purpose?</h2>
+
+<hr />
+
+<p>I basically wanted a website where people can see what I am currently working on and what I did in the past. seriousco.de should should give a short overview about my talents. You can see a <a href="/timeline">timeline</a> which basically is my CV. There’s a list of <a href="/projects">projects</a> I’ve done in the past or I am doing right now. Last but not least there is this blog where I can write about things I experience as a developer on a daily basis.</p>
+
+<p>All in all this website builds my digital business card with an easy possibility to <a href="/contact">contact me</a> - I hope you enjoy it!</p>
+
+<h2 id="hosting-deploying-changes">Hosting &amp; deploying changes</h2>
+
+<hr />
+
+<p>First it was pretty clear to me that I would host this website on my private vServer which I also use to serve other projects of mine like <a href="/projects/risingfarms-online">Rising Farms Online</a>. But the hugo docs provide a <a href="https://gohugo.io/tutorials/github-pages-blog/">simple tutorial</a> for deploying your website with GitHub Pages and because I already planned to publish the code on GitHub that was perfect for me.</p>
+
+<p>With GitHub Pages you don’t have to worry about anything like complex deployment, traffic or as already stated - security. You just have to commit the changes (the prebuilt .html files) into a separate branch named “gh-pages” and push it to your repository, it’s that simple.</p>
+
+<p>Here’s the neat deployment script I am using:</p>
+
+<pre><code class="language-bash">#!/bin/bash
+
+echo -e &quot;\033[0;32mDeploying updates to GitHub...\033[0m&quot;
+
+# Build the project.
+hugo
+
+# Add changes to git.
+git add -A
+
+# Commit changes.
+msg=&quot;rebuilding site `date`&quot;
+if [ $# -eq 1 ]
+  then msg=&quot;$1&quot;
+fi
+git commit -m &quot;$msg&quot;
+
+# Push source and build repos.
+git push origin master
+git subtree push --prefix=public git@github.com:dsumer/seriousco.de.git gh-pages
+</code></pre>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<hr />
+
+<p>I really like it! I cannot compare it with jekyll or other static website generators because hugo is the first and only one I’ve used. I like the easy deployment cycle with GitHub and I don’t even have to worry about hosting and traffic. Local development works out of the box and the docs are sufficient.</p>
+
+<p>If you don’t have much experience with web development or want to build a rich web application I don’t think hugo’s the right shot for you. But if you like to build your website on your own and keep it simple, I would definitely recommend you to try out hugo! Especially together with GitHub Pages it performs outstandingly good. :wink:</p>
 
 
             <div id="disqus_thread" style="margin-top: 30px;"></div>

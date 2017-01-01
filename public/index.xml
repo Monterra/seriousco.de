@@ -15,7 +15,99 @@
       <pubDate>Sun, 01 Jan 2017 12:00:00 +0100</pubDate>
       
       <guid>http://seriousco.de/blog/first-journey-with-hugo/</guid>
-      <description>&lt;p&gt;Coming Soon.&lt;/p&gt;
+      <description>
+
+&lt;p&gt;About two months ago I stumbled upon &lt;a href=&#34;http://gohugo.io/&#34;&gt;hugo&lt;/a&gt;, a static website generator written in go. It provides a basic &lt;span class=&#34;tooltip&#34; title=&#34;Command Line Interface&#34;&gt;CLI&lt;/span&gt; which helps creating your website and its content. After taking a first look I asked myself “Why should I want to create a static website?!”. Instead I could use a great dynamic &lt;span class=&#34;tooltip&#34; title=&#34;Content Managment System&#34;&gt;CMS&lt;/span&gt; with all the fancy plugins - Wordpress, Typo3, Drupal. But I kept on reading the docs and some experiences of the community.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Having your first hugo demo website running can be reached in seconds - even faster than you can say the word “quidditch”.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;At this time I&amp;rsquo;ve already planned to step up and create this website a year ago (the domain is parked since December 2015). I basically knew what I want it to be and look like, but I hadn&amp;rsquo;t thought about how I will build it. As I moved on in the &lt;a href=&#34;https://gohugo.io/overview/quickstart/&#34;&gt;quickstart guide&lt;/a&gt; of hugo, it came to my mind that this static website generator may be the right choice for the first version of my website - and here we are. :grinning:&lt;/p&gt;
+
+&lt;h2 id=&#34;how-is-it-to-build-a-website-with-hugo&#34;&gt;How is it to build a website with hugo?&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Hugo comes with a standard template engine and a nice set of features. It offers you the basic tools for creating a website / blog. Having your first hugo demo website running can be reached in seconds - even faster than you can say “quidditch”.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ hugo new site bookshelf
+$ cd bookshelf/themes
+$ git clone https://github.com/dim0627/hugo_theme_robust.git
+$ cd ..
+$ hugo server --theme=hugo_theme_robust
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;With the command “hugo server” you can simply run a local development server which watches for changes and automatically refreshes the page.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;http://gohugo.io/overview/introduction/&#34;&gt;docs&lt;/a&gt; and community behind hugo are sufficient. You mostly find the things you’re searching for and the documentation is pretty well structured. It also is under (heavy) development - the latest &lt;a href=&#34;https://github.com/spf13/hugo/releases/tag/v0.18.1&#34;&gt;release 0.18&lt;/a&gt; is two days old (from the current point of writing this blogpost).&lt;/p&gt;
+
+&lt;p&gt;If you want to know how seriousco.de is built you can take a look at the &lt;a href=&#34;https://github.com/dsumer/seriousco.de&#34;&gt;GitHub repository&lt;/a&gt;. I am using the &lt;a href=&#34;http://themes.gohugo.io/theme/material-docs/&#34;&gt;hugo material theme&lt;/a&gt; which is quite nice but I wanted to change some things in order to fulfill my purpose. I forked the &lt;a href=&#34;https://github.com/digitalcraftsman/hugo-material-docs&#34;&gt;original repository&lt;/a&gt; so you can see the changes in a &lt;a href=&#34;https://github.com/dsumer/hugo-material-docs&#34;&gt;separate repository&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As you can see by the &lt;a href=&#34;https://github.com/dsumer/seriousco.de/commit/75c2e59a85b4554a638a335faba60bc48089d372&#34;&gt;initial commit&lt;/a&gt; I’ve started to work on this website on the first of November 2016. It took me two months from the first day to the official publish day with some pauses in between. A pretty nice performance in my opinion and it demonstrates that you can quickly have a production website up and running with hugo.&lt;/p&gt;
+
+&lt;h2 id=&#34;a-static-website-that-sounds-horrible&#34;&gt;A static website? That sounds horrible!&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Hugo doesn’t come with a fancy &lt;span class=&#34;tooltip&#34; title=&#34;What You See Is What You Get&#34;&gt;WYSIWYG&lt;/span&gt; editor or tons of plugins which turn your website into a monstrous fat client. You don’t have a rich backend where you configure everything and write your blog posts. There is no database running in the background serving the content of your website. Instead hugo creates prebuilt .html files for you which can be served via HTTP.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;image-link&#34; href=&#34;http://seriousco.de/images/first-journey-with-hugo.png&#34; title=&#34;&#34;&gt;
+    &lt;img src=&#39;http://seriousco.de//images/first-journey-with-hugo.png&#39;
+      class=&#39;right round-rectangle&#39; 
+    style=&#39; width:300px; &#39;/&gt;
+&lt;/a&gt;
+That may sound quite horrible to some of you and there are some types of websites where such a static website is not sufficient - as a web developer I understand this. But for some applications hugo is enough or even outperforms dynamic content managment systems and that’s the case for the current version of seriousco.de.&lt;/p&gt;
+
+&lt;p&gt;If you just want to build a simple website you should really give hugo (or any other static website generator) a shot. If you host your site on &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt; you basically don’t have to worry about security issues (if you can keep your GitHub account safe). There is no backend where people can change the contents of your website and if some evil scriptkiddy wants to take down your website, they have to attack GitHub - so you can hide behind your big brother. For some special features like a contact formular or a comments area you can use services like formspring or disqus.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-s-your-purpose&#34;&gt;What’s your purpose?&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;I basically wanted a website where people can see what I am currently working on and what I did in the past. seriousco.de should should give a short overview about my talents. You can see a &lt;a href=&#34;http://seriousco.de/timeline&#34;&gt;timeline&lt;/a&gt; which basically is my CV. There’s a list of &lt;a href=&#34;http://seriousco.de/projects&#34;&gt;projects&lt;/a&gt; I’ve done in the past or I am doing right now. Last but not least there is this blog where I can write about things I experience as a developer on a daily basis.&lt;/p&gt;
+
+&lt;p&gt;All in all this website builds my digital business card with an easy possibility to &lt;a href=&#34;http://seriousco.de/contact&#34;&gt;contact me&lt;/a&gt; - I hope you enjoy it!&lt;/p&gt;
+
+&lt;h2 id=&#34;hosting-deploying-changes&#34;&gt;Hosting &amp;amp; deploying changes&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;First it was pretty clear to me that I would host this website on my private vServer which I also use to serve other projects of mine like &lt;a href=&#34;http://seriousco.de/projects/risingfarms-online&#34;&gt;Rising Farms Online&lt;/a&gt;. But the hugo docs provide a &lt;a href=&#34;https://gohugo.io/tutorials/github-pages-blog/&#34;&gt;simple tutorial&lt;/a&gt; for deploying your website with GitHub Pages and because I already planned to publish the code on GitHub that was perfect for me.&lt;/p&gt;
+
+&lt;p&gt;With GitHub Pages you don’t have to worry about anything like complex deployment, traffic or as already stated - security. You just have to commit the changes (the prebuilt .html files) into a separate branch named “gh-pages” and push it to your repository, it’s that simple.&lt;/p&gt;
+
+&lt;p&gt;Here’s the neat deployment script I am using:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#!/bin/bash
+
+echo -e &amp;quot;\033[0;32mDeploying updates to GitHub...\033[0m&amp;quot;
+
+# Build the project.
+hugo
+
+# Add changes to git.
+git add -A
+
+# Commit changes.
+msg=&amp;quot;rebuilding site `date`&amp;quot;
+if [ $# -eq 1 ]
+  then msg=&amp;quot;$1&amp;quot;
+fi
+git commit -m &amp;quot;$msg&amp;quot;
+
+# Push source and build repos.
+git push origin master
+git subtree push --prefix=public git@github.com:dsumer/seriousco.de.git gh-pages
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;I really like it! I cannot compare it with jekyll or other static website generators because hugo is the first and only one I’ve used. I like the easy deployment cycle with GitHub and I don’t even have to worry about hosting and traffic. Local development works out of the box and the docs are sufficient.&lt;/p&gt;
+
+&lt;p&gt;If you don’t have much experience with web development or want to build a rich web application I don’t think hugo’s the right shot for you. But if you like to build your website on your own and keep it simple, I would definitely recommend you to try out hugo! Especially together with GitHub Pages it performs outstandingly good. :wink:&lt;/p&gt;
 </description>
     </item>
     
@@ -52,7 +144,7 @@
 &lt;/a&gt;
 Rising Farms Online is a multiplayer farmsimulation where you can interact with other players and npcs. Every player has his own farm where he can plant seeds, care for his animals and do a lot of other fun stuff. I didn&amp;rsquo;t want to create just another Farmville clone where you just click around and don’t really interact with others. In RFO the players can leave their farm and interact with each other in “Colona”.&lt;/p&gt;
 
-&lt;p&gt;Colona is a nice town with many possibilities and nice dwellers. Do you want to go mining? Test your new fishing rod? Or just want to sell your harvest at the auction house? No problem! Go out and have a nice chat with the npcs, they might have an exciting quest for you. ;)&lt;/p&gt;
+&lt;p&gt;Colona is a nice town with many possibilities and nice dwellers. Do you want to go mining? Test your new fishing rod? Or just want to sell your harvest at the auction house? No problem! Go out and have a nice chat with the npcs, they might have an exciting quest for you. :wink:&lt;/p&gt;
 
 &lt;h2 id=&#34;challenge&#34;&gt;What was the challenge?&lt;/h2&gt;
 
@@ -66,14 +158,14 @@ Rising Farms Online is a multiplayer farmsimulation where you can interact with 
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;a class=&#34;image-link&#34; href=&#34;../../images/risingfarms_2.png&#34; title=&#34;Map Editor&#34;&gt;
-    &lt;img src=&#39;http://seriousco.de/images/risingfarms_2.png&#39;
+&lt;p&gt;&lt;a class=&#34;image-link&#34; href=&#34;http://seriousco.de/images/risingfarms_2.png&#34; title=&#34;Map Editor&#34;&gt;
+    &lt;img src=&#39;http://seriousco.de//images/risingfarms_2.png&#39;
       class=&#39;left round-rectangle&#39; 
     style=&#39; width:300px; &#39;/&gt;
 &lt;/a&gt;
 RFO basically consists of three components: The game client, the server and the editor. On the client side, informations from the server get rendered onto a html5 canvas element with WebGL. The server is built with nodejs and all the data is stored in a mongodb. The editor is for creating game content: from creating maps to adding items and whole game events - it’s a powerful tool built with angular in the frontend and nodejs in the backend.&lt;/p&gt;
 
-&lt;p&gt;RFO also improved my skills in team leading. A lot of people helped me with this project and sometimes it was a challenge coordinating them. Building a community and serving them well was also a nice experience, but as I said - I had some people helping me with this type of work. :)  I am very thankful for them, they volunteered to help me and I will mention them in a separate blog post.&lt;/p&gt;
+&lt;p&gt;RFO also improved my skills in team leading. A lot of people helped me with this project and sometimes it was a challenge coordinating them. Building a community and serving them well was also a nice experience, but as I said - I had some people helping me with this type of work. :slight_smile:  I am very thankful for them, they volunteered to help me and I will mention them in a separate blog post.&lt;/p&gt;
 
 &lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
 
@@ -102,7 +194,7 @@ RFO basically consists of three components: The game client, the server and the 
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align:center;margin-bottom:30px;&#34;&gt;
-Hello! My name is Dominik, I am 23 years old and a passionated software engineer. I live in Vienna, Austria and enjoy being out in the nature, hanging out with my friends or just debugging the projects I am currently working on. ;-)
+Hello! My name is Dominik, I am 23 years old and a passionated software engineer. I live in Vienna, Austria and enjoy being out in the nature, hanging out with my friends or just debugging the projects I am currently working on. :wink:
 &lt;/p&gt;
 
 &lt;div class=&#34;admonition note&#34;&gt;
@@ -141,7 +233,7 @@ Hello! My name is Dominik, I am 23 years old and a passionated software engineer
 
 &lt;p&gt;With this words I want to end my little story. If you have any questions just contact me &lt;a href=&#34;./contact&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Enjoy your life and have a nice day! :-)&lt;/p&gt;
+&lt;p&gt;Enjoy your life and have a nice day! :slight_smile:&lt;/p&gt;
 </description>
     </item>
     
@@ -185,7 +277,7 @@ Hello! My name is Dominik, I am 23 years old and a passionated software engineer
       <pubDate>Tue, 01 Nov 2016 12:35:46 +0100</pubDate>
       
       <guid>http://seriousco.de/contact/thanks/</guid>
-      <description>&lt;p&gt;Thanks for your message!&lt;/p&gt;
+      <description>&lt;p&gt;Thanks for your message! :nerd:&lt;/p&gt;
 </description>
     </item>
     
@@ -307,8 +399,8 @@ Hello! My name is Dominik, I am 23 years old and a passionated software engineer
       <guid>http://seriousco.de/projects/driving-license-trainer/</guid>
       <description>
 
-&lt;p&gt;&lt;a class=&#34;image-link&#34; href=&#34;../../images/driving_license_trainer_1.png&#34; title=&#34;Driving License Trainer&#34;&gt;
-    &lt;img src=&#39;http://seriousco.de/images/driving_license_trainer_1.png&#39;
+&lt;p&gt;&lt;a class=&#34;image-link&#34; href=&#34;http://seriousco.de/images/driving_license_trainer_1.png&#34; title=&#34;Driving License Trainer&#34;&gt;
+    &lt;img src=&#39;http://seriousco.de//images/driving_license_trainer_1.png&#39;
       class=&#39;left round-rectangle&#39; 
     style=&#39; width:300px; &#39;/&gt;
 &lt;/a&gt;
@@ -316,14 +408,14 @@ It was back in 2013, when I did my military service at the austrian armed forces
 
 &lt;p&gt;Most of the time I spent with my baby &lt;a href=&#34;../risingfarms-online&#34;&gt;Rising Farms Online&lt;/a&gt;, but I also wanted to achieve my driving license while I was at the army because I knew I wouldn&amp;rsquo;t have as much free time later on when I will be working full time as a software developer.&lt;/p&gt;
 
-&lt;p&gt;Okay, I had to learn and I wanted to arrange it as comfortable as possible - that was the moment when it came to my mind: why not code my own driving license trainer? So I could improve my coding skillz and learn for the test at the same time and hey - what&amp;rsquo;s more motivating than learning with your own piece of software? :D&lt;/p&gt;
+&lt;p&gt;Okay, I had to learn and I wanted to arrange it as comfortable as possible - that was the moment when it came to my mind: why not code my own driving license trainer? So I could improve my coding skillz and learn for the test at the same time and hey - what&amp;rsquo;s more motivating than learning with your own piece of software? :smiley:&lt;/p&gt;
 
 &lt;h2 id=&#34;about&#34;&gt;What is it about?&lt;/h2&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;a class=&#34;image-link&#34; href=&#34;../../images/driving_license_trainer.png&#34; title=&#34;Scorepoint System&#34;&gt;
-    &lt;img src=&#39;http://seriousco.de/images/driving_license_trainer.png&#39;
+&lt;p&gt;&lt;a class=&#34;image-link&#34; href=&#34;http://seriousco.de/images/driving_license_trainer.png&#34; title=&#34;Scorepoint System&#34;&gt;
+    &lt;img src=&#39;http://seriousco.de//images/driving_license_trainer.png&#39;
       class=&#39;right round-rectangle&#39; 
     style=&#39; width:300px; &#39;/&gt;
 &lt;/a&gt;

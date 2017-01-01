@@ -24,6 +24,7 @@ while(i--){
         if (!link.getAttribute('target')) {
             link.setAttribute('target', '_blank');
         }
+        link.innerHTML = '<span>' + link.innerHTML + '</span>';
         link.classList.add('external');
     }
 }

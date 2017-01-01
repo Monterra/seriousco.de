@@ -81,11 +81,22 @@
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="http://seriousco.de/javascripts/magnific-popup.js"></script>
     <script src="http://seriousco.de/javascripts/tooltipster.bundle.min.js"></script>
+    <script src="http://seriousco.de/javascripts/emojione.min.js"></script>
     <script>
+      function convertToEmojis() {
+          emojione.imageType = 'svg';
+          emojione.sprites = true;
+          emojione.imagePathSVGSprites = '/images/emojione.sprites.svg';
+
+          var wrapperElement = $('html body .article .wrapper');
+          var original = wrapperElement.html();
+          var converted = emojione.shortnameToImage(original);
+          wrapperElement.html(converted);
+      }
+
       $(document).ready(function() {
-        $('.image-link').click(function () {
-          return false;
-        });
+        convertToEmojis();
+
         $('.image-link').magnificPopup({
           type:'image',
           disableOn: 650,

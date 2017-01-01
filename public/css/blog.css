@@ -106,6 +106,9 @@ a.blogcard .text .description {
     font-weight: bold;
     border: none;
 }
+.article .wrapper .bloginfo a span {
+    margin-right: 15px;
+}
 .article .wrapper .bloginfo a::after {
     display: none;
 }
