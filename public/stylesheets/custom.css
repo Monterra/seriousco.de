@@ -9,6 +9,7 @@
 
 .article pre code {
     color: #C1C2C3 !important;
+    pointer-events: all;
 }
 
 .article pre::before {
