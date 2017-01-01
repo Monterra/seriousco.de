@@ -29,7 +29,7 @@ Do you know Harvest Moon? It is a farmsimulation with RPG elements, first releas
 </a>
 Rising Farms Online is a multiplayer farmsimulation where you can interact with other players and npcs. Every player has his own farm where he can plant seeds, care for his animals and do a lot of other fun stuff. I didn't want to create just another Farmville clone where you just click around and don’t really interact with others. In RFO the players can leave their farm and interact with each other in “Colona”. 
 
-Colona is a nice town with many possibilities and nice dwellers. Do you want to go mining? Test your new fishing rod? Or just want to sell your harvest at the auction house? No problem! Go out and have a nice chat with the npcs, they might have an exciting quest for you. ;) 
+Colona is a nice town with many possibilities and nice dwellers. Do you want to go mining? Test your new fishing rod? Or just want to sell your harvest at the auction house? No problem! Go out and have a nice chat with the npcs, they might have an exciting quest for you. :wink: 
 
 ## What was the challenge? {#challenge}
 ---
@@ -40,12 +40,12 @@ Create an online game they said. It will be easy they said. Ha! I know it would 
 
 ---
 
-<a class="image-link" href="../../images/risingfarms_2.png" title="Map Editor">
-    {{< img src="images/risingfarms_2.png" class="left round-rectangle" width="300" >}}
+<a class="image-link" href="/images/risingfarms_2.png" title="Map Editor">
+    {{< img src="/images/risingfarms_2.png" class="left round-rectangle" width="300" >}}
 </a>
 RFO basically consists of three components: The game client, the server and the editor. On the client side, informations from the server get rendered onto a html5 canvas element with WebGL. The server is built with nodejs and all the data is stored in a mongodb. The editor is for creating game content: from creating maps to adding items and whole game events - it’s a powerful tool built with angular in the frontend and nodejs in the backend. 
 
-RFO also improved my skills in team leading. A lot of people helped me with this project and sometimes it was a challenge coordinating them. Building a community and serving them well was also a nice experience, but as I said - I had some people helping me with this type of work. :)  I am very thankful for them, they volunteered to help me and I will mention them in a separate blog post. 
+RFO also improved my skills in team leading. A lot of people helped me with this project and sometimes it was a challenge coordinating them. Building a community and serving them well was also a nice experience, but as I said - I had some people helping me with this type of work. :slight_smile:  I am very thankful for them, they volunteered to help me and I will mention them in a separate blog post. 
 
 ## Conclusion
 ---

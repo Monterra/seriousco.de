@@ -4,4 +4,4 @@ draft = false
 title = "Thanks"
 +++
 
-Thanks for your message!
+Thanks for your message! :nerd:

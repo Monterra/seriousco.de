@@ -9,20 +9,20 @@ background = "#EDE8D3"
 color = "black"
 +++
 
-<a class="image-link" href="../../images/driving_license_trainer_1.png" title="Driving License Trainer">
-    {{< img src="images/driving_license_trainer_1.png" class="left round-rectangle" width="300" >}}
+<a class="image-link" href="/images/driving_license_trainer_1.png" title="Driving License Trainer">
+    {{< img src="/images/driving_license_trainer_1.png" class="left round-rectangle" width="300" >}}
 </a>
 It was back in 2013, when I did my military service at the austrian armed forces and started learning for my driving license test. I was in a small office with a friend of mine and we had much spare time which we could spend as we like.
 
 Most of the time I spent with my baby [Rising Farms Online](../risingfarms-online), but I also wanted to achieve my driving license while I was at the army because I knew I wouldn't have as much free time later on when I will be working full time as a software developer.
 
-Okay, I had to learn and I wanted to arrange it as comfortable as possible - that was the moment when it came to my mind: why not code my own driving license trainer? So I could improve my coding skillz and learn for the test at the same time and hey - what's more motivating than learning with your own piece of software? :D
+Okay, I had to learn and I wanted to arrange it as comfortable as possible - that was the moment when it came to my mind: why not code my own driving license trainer? So I could improve my coding skillz and learn for the test at the same time and hey - what's more motivating than learning with your own piece of software? :smiley:
 
 ## What is it about?  {#about}
 ---
 
-<a class="image-link" href="../../images/driving_license_trainer.png" title="Scorepoint System">
-    {{< img src="images/driving_license_trainer.png" class="right round-rectangle" width="300" >}}
+<a class="image-link" href="/images/driving_license_trainer.png" title="Scorepoint System">
+    {{< img src="/images/driving_license_trainer.png" class="right round-rectangle" width="300" >}}
 </a>
 Driving License Trainer is a nodejs application which helps you learning for the theory part (Austria specific) of your driving license test. It is written in javascript, makes use of the express framework and renders html with jade templates.
 

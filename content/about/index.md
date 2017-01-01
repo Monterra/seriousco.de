@@ -10,7 +10,7 @@ type = "index"
 </p>
 
 <p style="text-align:center;margin-bottom:30px;">
-Hello! My name is Dominik, I am 23 years old and a passionated software engineer. I live in Vienna, Austria and enjoy being out in the nature, hanging out with my friends or just debugging the projects I am currently working on. ;-)
+Hello! My name is Dominik, I am 23 years old and a passionated software engineer. I live in Vienna, Austria and enjoy being out in the nature, hanging out with my friends or just debugging the projects I am currently working on. :wink:
 </p>
 
 {{< note title="Serious Code" >}}
@@ -44,5 +44,5 @@ Although this website's name is seriouscode and I really think that you should b
 
 With this words I want to end my little story. If you have any questions just contact me [here](./contact).
 
-Enjoy your life and have a nice day! :-)
+Enjoy your life and have a nice day! :slight_smile:
 
