@@ -15,7 +15,9 @@
       <pubDate>Tue, 01 Nov 2016 12:35:46 +0100</pubDate>
       
       <guid>http://seriousco.de/contact/</guid>
-      <description>&lt;p&gt;Do you have a question or something to say? Don&amp;rsquo;t hesitate! Just fill out the form below, I would like to hear from you.
+      <description>&lt;p&gt;Do you have a question or something to say? Don&amp;rsquo;t hesitate! :incoming_envelope:&lt;/p&gt;
+
+&lt;p&gt;Just fill out the form below, I would like to hear from you. :grinning:
 &lt;br/&gt;(Of course you can also send me messages in german)
 &lt;br/&gt;
 &lt;form method=&#34;POST&#34; action=&#34;http://formspree.io/domi.sumer@gmail.com&#34; class=&#34;contact_form&#34;&gt;
