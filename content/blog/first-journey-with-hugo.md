@@ -36,7 +36,7 @@ As you can see by the [initial commit](https://github.com/dsumer/seriousco.de/co
 ## A static website? That sounds horrible!
 ---
 
-Hugo doesn’t come with a fancy <span class="tooltip" title="What You See Is What You Get">WYSIWYG</span> editor or tons of plugins which turn your website into a monstrous fat client. You don’t have a rich backend where you configure everything and write your blog posts. There is no database running in the background serving the content of your website. Instead hugo creates prebuilt .html files for you which can be served via HTTP.
+Hugo doesn’t come with a fancy <span class="tooltip" title="What You See Is What You Get">WYSIWYG</span> editor or tons of plugins which bloat up your website. You don’t have a rich backend where you configure everything and write your blog posts. There is no database running in the background serving the content of your website. Instead hugo creates prebuilt .html files for you which can be served via HTTP.
 
 <a class="image-link" href="/images/first-journey-with-hugo.png" title="">
     {{< img src="/images/first-journey-with-hugo.png" class="right round-rectangle" width="300" >}}

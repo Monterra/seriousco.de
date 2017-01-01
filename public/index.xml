@@ -50,7 +50,7 @@ $ hugo server --theme=hugo_theme_robust
 
 &lt;hr /&gt;
 
-&lt;p&gt;Hugo doesn’t come with a fancy &lt;span class=&#34;tooltip&#34; title=&#34;What You See Is What You Get&#34;&gt;WYSIWYG&lt;/span&gt; editor or tons of plugins which turn your website into a monstrous fat client. You don’t have a rich backend where you configure everything and write your blog posts. There is no database running in the background serving the content of your website. Instead hugo creates prebuilt .html files for you which can be served via HTTP.&lt;/p&gt;
+&lt;p&gt;Hugo doesn’t come with a fancy &lt;span class=&#34;tooltip&#34; title=&#34;What You See Is What You Get&#34;&gt;WYSIWYG&lt;/span&gt; editor or tons of plugins which bloat up your website. You don’t have a rich backend where you configure everything and write your blog posts. There is no database running in the background serving the content of your website. Instead hugo creates prebuilt .html files for you which can be served via HTTP.&lt;/p&gt;
 
 &lt;p&gt;&lt;a class=&#34;image-link&#34; href=&#34;http://seriousco.de/images/first-journey-with-hugo.png&#34; title=&#34;&#34;&gt;
     &lt;img src=&#39;http://seriousco.de//images/first-journey-with-hugo.png&#39;
