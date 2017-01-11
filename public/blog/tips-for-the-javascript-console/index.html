@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
   
   
@@ -9,20 +11,26 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>seriousco.de - Blogs</title>
+    <title>seriousco.de - Tips for the JavaScript Console</title>
     <meta name="generator" content="Hugo 0.17" />
 
     
-    <link rel="canonical" href="http://seriousco.de/blog/">
+    <meta name="description" content="Some tips regarding the JavaScript Console of modern browsers. Maybe there are some new things you didn&#39;t know! :grin:">
+    
+    <link rel="canonical" href="http://seriousco.de/blog/tips-for-the-javascript-console/">
     
 
-    <meta property="og:url" content="http://seriousco.de/blog/">
+    <meta property="og:url" content="http://seriousco.de/blog/tips-for-the-javascript-console/">
     
-    <meta property="og:title" content="Blogs">
+    <meta property="og:title" content="Tips for the JavaScript Console">
     
     
+    <meta property="og:image" content="http://seriousco.de/images/blog2.png">
     
-    <meta name="apple-mobile-web-app-title" content="Blogs">
+    
+    <meta property="og:description" content="Some tips regarding the JavaScript Console of modern browsers. Maybe there are some new things you didn&#39;t know! :grin:">
+    
+    <meta name="apple-mobile-web-app-title" content="Tips for the JavaScript Console">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
@@ -122,17 +130,16 @@
     </script>
 
     
-    <link href="http://seriousco.de/blog/index.xml" rel="alternate" type="application/rss+xml" title="seriousco.de" />
-    <link href="http://seriousco.de/blog/index.xml" rel="feed" type="application/rss+xml" title="seriousco.de" />
-    
 
   </head>
   <body class="palette-primary-light-blue palette-accent-deep-orange">
 
 
+
+
 <div class="backdrop">
     <div class="backdrop-site"></div>
-	<div class="backdrop-paper"></div>
+    <div class="backdrop-paper"></div>
 </div>
 
 <input class="toggle" type="checkbox" id="toggle-drawer">
@@ -140,7 +147,7 @@
 <label class="toggle-button overlay" for="toggle-drawer"></label>
 
 <header class="header">
-	<div class="backdrop-header"></div>
+    <div class="backdrop-header"></div>
 <nav aria-label="Header">
   <div class="bar default">
     <div class="button button-menu" role="button" aria-label="Menu">
@@ -190,8 +197,8 @@
 </header>
 
 <main class="main">
-	<div class="drawer">
-		<nav aria-label="Navigation">
+    <div class="drawer">
+        <nav aria-label="Navigation">
   <span class="project">
     <div class="banner">
     <div class="logo">
@@ -296,77 +303,211 @@
   </div>
 </nav>
 
-	</div>
+    </div>
 
-	<article class="article">
-		<div class="wrapper blog">
-			<h1>Blog</h1>
+    <article class="article">
+        <div class="wrapper">
+            <div class="blogheader" style="background-image:url(http://seriousco.de/images/blog2.png)"></div>
+            <h1>Tips for the JavaScript Console </h1>
+            <div class="bloginfo">
+                By <a href="https://www.twitter.com/dominiksumer">@dominiksumer</a>
+                <span class="date"><i class="fa fa-calendar"></i> 11. January 2017</span>
+            </div>
 
-			
+            
 
-			
+<p>Before Christmas I did some lessons of the <a href="https://javascript30.com/">30 Day Javascript Challenge</a> from <a href="http://twitter.com/wesbos">@wesbos</a>. On Day 9 I&rsquo;ve learned some cool stuff regarding the JavaScript console of modern browsers, which I want to share with you!</p>
 
-			
-				<div class="pagegroup">
-					<div >January 2017</div>
-					
-					<a href="http://seriousco.de/blog/tips-for-the-javascript-console/" title="Tips for the JavaScript Console" class="blogcard" style="background-image:url(http://seriousco.de/images/blog2.png)">
-						<div class="background"></div>
-						<div class="text">
-							<div class="container">
-								<div class="title">Tips for the JavaScript Console</div>
-								<div class="description">
-									<div class="info">
-										By <span class="author">@dominiksumer</span>
-										<span class="date"><i class="fa fa-calendar"></i> 11. January 2017</span>
-									</div>
-									Some tips regarding the JavaScript Console of modern browsers. Maybe there are some new things you didn&rsquo;t know! :grin:
-								</div>
-							</div>
-						</div>
-					</a>
-					
-					<a href="http://seriousco.de/blog/first-journey-with-hugo/" title="Creating this website, my first journey with hugo" class="blogcard" style="background-image:url(http://seriousco.de/images/blog1.jpg)">
-						<div class="background"></div>
-						<div class="text">
-							<div class="container">
-								<div class="title">Creating this website, my first journey with hugo</div>
-								<div class="description">
-									<div class="info">
-										By <span class="author">@dominiksumer</span>
-										<span class="date"><i class="fa fa-calendar"></i> 1. January 2017</span>
-									</div>
-									My first blog post is about creating this website. I talk about my journey with hugo, a static website engine written in go.
-								</div>
-							</div>
-						</div>
-					</a>
-					
-				</div>
-				<hr/>
-			
+<h2 id="simple-logging">Simple Logging</h2>
 
-			
-		</div>
+<hr />
 
-		<aside class="copyright" role="note">
-			
-			Website built with <a href="https://github.com/Monterra/seriousco.de" class="fa fa-heart"></a>️ and
-			<a href="https://www.gohugo.io" target="_blank">Hugo</a>
-			using the
-			<a href="http://github.com/digitalcraftsman/hugo-material-docs" target="_blank">Material</a> theme.
-		</aside>
-	</article>
+<pre><code class="language-javascript">console.log('Simple Log');
+console.info('Info.');
+console.warn('Warning!');
+console.error('Shit. (with Stacktrace!)');
+</code></pre>
 
-	<div class="results" role="status" aria-live="polite">
-		<div class="scrollable">
-			<div class="wrapper">
-				<div class="meta"></div>
-				<div class="list"></div>
-			</div>
-		</div>
-	</div>
+<p>Most of you probably know these ones. They are nice to log some data to the console and with <strong>info</strong>, <strong>warn</strong> &amp; <strong>error</strong> you get special highlighting or even the stacktrace being printed with.</p>
+
+<p>Regardless if you want to print objects or just simple strings, this is pretty helpful. You can also format strings like this:</p>
+
+<pre><code class="language-javascript">console.log('Welcome on %s!', 'seriousco.de');
+</code></pre>
+
+<p>Or you can style text like this:</p>
+
+<pre><code class="language-javascript">console.log('%c Styled Text.', 'font-size:18px;color:blue;background:red');
+</code></pre>
+
+<h2 id="printing-a-table-of-data">Printing a table of data</h2>
+
+<hr />
+
+<p>Want to print an array of objects? This function will be your new best friend! <strong>console.table(yourData)</strong> will list your data like this:</p>
+
+<p><a class="image-link" href="/images/console_table.png" title="console.table">
+    <img src='http://seriousco.de/images/console_table.png'
+      class='center' 
+    style=''/>
+</a></p>
+
+<p>So you have much more overview about your data.</p>
+
+<h2 id="print-the-json-data-of-a-html-element">Print the JSON data of a HTML element</h2>
+
+<hr />
+
+<p>When you console.log a DOM element you get the element printed in a HTML tree. Sometimes you need some deeper information of an element&rsquo;s data. Just type <strong>console.dir(element)</strong> and it will print the JSON data.</p>
+
+<h2 id="asserting">Asserting</h2>
+
+<hr />
+
+<p>Want to assert something via the console? Just do it like this:</p>
+
+<pre><code class="language-javascript">var myCake = false;
+console.assert(myCake, 'The cake is a lie!');
+</code></pre>
+
+<h2 id="counting">Counting</h2>
+
+<hr />
+
+<p>With console.count you can easily count by a specific string / object:</p>
+
+<pre><code class="language-javascript">console.count('Me'); // 1
+console.count('Me'); // 2
+console.count('Me'); // 3
+console.count('You'); // 1
+console.count('You'); // 2
+console.count('Me'); // 4
+</code></pre>
+
+<h2 id="timing-functions">Timing functions</h2>
+
+<hr />
+
+<p>With console.time and .timeEnd you can easily measure how much time an action takes. Example:</p>
+
+<pre><code class="language-javascript">console.time('fetching data');
+setTimeout(function () {
+  console.timeEnd('fetching data');
+}, 1000);
+</code></pre>
+
+<h2 id="grouping">Grouping</h2>
+
+<hr />
+
+<p>If you have many logs it can be quite overwhelming. Sometimes it is helpful to group them like this:</p>
+
+<pre><code class="language-javascript">console.group('Group 1');
+console.log('Hey, I am a member of Group 1!');
+console.groupEnd('Group 1');
+console.groupCollapsed('Group 2'); //collapsed by default
+console.log('Hey, I am a member of Group 2!');
+console.groupEnd('Group 2');
+console.log('It is me, excludie :(');
+</code></pre>
+
+<hr />
+
+<p>Want to see all the commands in action? Just open your dev tools on this site! :wink:
+Hopefully you enjoyed it and learned some new things - see you next time :grinning:</p>
+
+<script>
+  function consoleStuff() {
+    if (window.javaScriptConsoleTest) return;
+    window.javaScriptConsoleTest = true;
+  
+    console.clear();
+    
+    // Simple Logging
+    console.log('Simple Log');
+    console.info('Info.');
+    console.warn('Warning!');
+    console.error('Shit. (with Stacktrace!)');
+    console.log('Welcome on %s!', 'seriousco.de');
+    console.log('%c Styled Text.', 'font-size:18px;color:blue;background:red');
+    
+    // Printing a table of data
+    var data = [
+      { name: 'Jon',  age: 24, country: 'Austria' },
+      { name: 'Miguel',  age: 19, country: 'Portugal' },
+      { name: 'Steve',  age: 31, country: 'USA' }
+    ];
+    console.table(data);
+    
+    // Print the JSON data of a HTML element
+    console.dir(document.body);
+
+    // Asserting
+    var myCake = false;
+    console.assert(myCake, 'The cake is a lie!');
+    
+    //Counting
+    console.count('Me'); // 1
+    console.count('Me'); // 2
+    console.count('Me'); // 3
+    console.count('You'); // 1
+    console.count('You'); // 2
+    console.count('Me'); // 4
+    
+    // Timing functions
+    console.time('fetching data');
+    setTimeout(function () {
+      console.timeEnd('fetching data');
+    }, 1000);
+    
+    // Grouping
+    console.group('Group 1');
+    console.log('Hey, I am a member of Group 1!');
+    console.groupEnd('Group 1');
+    console.groupCollapsed('Group 2'); //collapsed by default
+    console.log('Hey, I am a member of Group 2!');
+    console.groupEnd('Group 2');
+    console.log('It is me, excludie :(');
+  }
+  setTimeout(consoleStuff, 2000);
+</script>
+
+
+            <div id="disqus_thread" style="margin-top: 70px;"></div>
+<script type="text/javascript">
+
+    (function() {
+        if (window.location.hostname == "localhost")
+            return;
+
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        var disqus_shortname = 'seriouscode';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+        </div>
+
+        <aside class="copyright" role="note" style="margin: 10px 0 0 0;">
+            
+            Website built with <a href="https://github.com/Monterra/seriousco.de" class="fa fa-heart"></a>️ and
+            <a href="https://www.gohugo.io" target="_blank">Hugo</a>
+            using the
+            <a href="http://github.com/digitalcraftsman/hugo-material-docs" target="_blank">Material</a> theme.
+        </aside>
+    </article>
+
+    <div class="results" role="status" aria-live="polite">
+        <div class="scrollable">
+            <div class="wrapper">
+                <div class="meta"></div>
+                <div class="list"></div>
+            </div>
+        </div>
+    </div>
 </main>
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5866319641494442"></script>
 
     <script>
     

@@ -6,8 +6,174 @@
     <description>Recent content in Blog-rsses on seriousco.de</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Jan 2017 12:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 11 Jan 2017 20:00:00 +0100</lastBuildDate>
     <atom:link href="http://seriousco.de/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Tips for the JavaScript Console</title>
+      <link>http://seriousco.de/blog/tips-for-the-javascript-console/</link>
+      <pubDate>Wed, 11 Jan 2017 20:00:00 +0100</pubDate>
+      
+      <guid>http://seriousco.de/blog/tips-for-the-javascript-console/</guid>
+      <description>
+
+&lt;p&gt;Before Christmas I did some lessons of the &lt;a href=&#34;https://javascript30.com/&#34;&gt;30 Day Javascript Challenge&lt;/a&gt; from &lt;a href=&#34;http://twitter.com/wesbos&#34;&gt;@wesbos&lt;/a&gt;. On Day 9 I&amp;rsquo;ve learned some cool stuff regarding the JavaScript console of modern browsers, which I want to share with you!&lt;/p&gt;
+
+&lt;h2 id=&#34;simple-logging&#34;&gt;Simple Logging&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;console.log(&#39;Simple Log&#39;);
+console.info(&#39;Info.&#39;);
+console.warn(&#39;Warning!&#39;);
+console.error(&#39;Shit. (with Stacktrace!)&#39;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Most of you probably know these ones. They are nice to log some data to the console and with &lt;strong&gt;info&lt;/strong&gt;, &lt;strong&gt;warn&lt;/strong&gt; &amp;amp; &lt;strong&gt;error&lt;/strong&gt; you get special highlighting or even the stacktrace being printed with.&lt;/p&gt;
+
+&lt;p&gt;Regardless if you want to print objects or just simple strings, this is pretty helpful. You can also format strings like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;console.log(&#39;Welcome on %s!&#39;, &#39;seriousco.de&#39;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Or you can style text like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;console.log(&#39;%c Styled Text.&#39;, &#39;font-size:18px;color:blue;background:red&#39;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;printing-a-table-of-data&#34;&gt;Printing a table of data&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Want to print an array of objects? This function will be your new best friend! &lt;strong&gt;console.table(yourData)&lt;/strong&gt; will list your data like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;image-link&#34; href=&#34;http://seriousco.de/images/console_table.png&#34; title=&#34;console.table&#34;&gt;
+    &lt;img src=&#39;http://seriousco.de/images/console_table.png&#39;
+      class=&#39;center&#39; 
+    style=&#39;&#39;/&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;So you have much more overview about your data.&lt;/p&gt;
+
+&lt;h2 id=&#34;print-the-json-data-of-a-html-element&#34;&gt;Print the JSON data of a HTML element&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;When you console.log a DOM element you get the element printed in a HTML tree. Sometimes you need some deeper information of an element&amp;rsquo;s data. Just type &lt;strong&gt;console.dir(element)&lt;/strong&gt; and it will print the JSON data.&lt;/p&gt;
+
+&lt;h2 id=&#34;asserting&#34;&gt;Asserting&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Want to assert something via the console? Just do it like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;var myCake = false;
+console.assert(myCake, &#39;The cake is a lie!&#39;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;counting&#34;&gt;Counting&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;With console.count you can easily count by a specific string / object:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;console.count(&#39;Me&#39;); // 1
+console.count(&#39;Me&#39;); // 2
+console.count(&#39;Me&#39;); // 3
+console.count(&#39;You&#39;); // 1
+console.count(&#39;You&#39;); // 2
+console.count(&#39;Me&#39;); // 4
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;timing-functions&#34;&gt;Timing functions&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;With console.time and .timeEnd you can easily measure how much time an action takes. Example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;console.time(&#39;fetching data&#39;);
+setTimeout(function () {
+  console.timeEnd(&#39;fetching data&#39;);
+}, 1000);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;grouping&#34;&gt;Grouping&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;If you have many logs it can be quite overwhelming. Sometimes it is helpful to group them like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;console.group(&#39;Group 1&#39;);
+console.log(&#39;Hey, I am a member of Group 1!&#39;);
+console.groupEnd(&#39;Group 1&#39;);
+console.groupCollapsed(&#39;Group 2&#39;); //collapsed by default
+console.log(&#39;Hey, I am a member of Group 2!&#39;);
+console.groupEnd(&#39;Group 2&#39;);
+console.log(&#39;It is me, excludie :(&#39;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Want to see all the commands in action? Just open your dev tools on this site! :wink:
+Hopefully you enjoyed it and learned some new things - see you next time :grinning:&lt;/p&gt;
+
+&lt;script&gt;
+  function consoleStuff() {
+    if (window.javaScriptConsoleTest) return;
+    window.javaScriptConsoleTest = true;
+  
+    console.clear();
+    
+    // Simple Logging
+    console.log(&#39;Simple Log&#39;);
+    console.info(&#39;Info.&#39;);
+    console.warn(&#39;Warning!&#39;);
+    console.error(&#39;Shit. (with Stacktrace!)&#39;);
+    console.log(&#39;Welcome on %s!&#39;, &#39;seriousco.de&#39;);
+    console.log(&#39;%c Styled Text.&#39;, &#39;font-size:18px;color:blue;background:red&#39;);
+    
+    // Printing a table of data
+    var data = [
+      { name: &#39;Jon&#39;,  age: 24, country: &#39;Austria&#39; },
+      { name: &#39;Miguel&#39;,  age: 19, country: &#39;Portugal&#39; },
+      { name: &#39;Steve&#39;,  age: 31, country: &#39;USA&#39; }
+    ];
+    console.table(data);
+    
+    // Print the JSON data of a HTML element
+    console.dir(document.body);
+
+    // Asserting
+    var myCake = false;
+    console.assert(myCake, &#39;The cake is a lie!&#39;);
+    
+    //Counting
+    console.count(&#39;Me&#39;); // 1
+    console.count(&#39;Me&#39;); // 2
+    console.count(&#39;Me&#39;); // 3
+    console.count(&#39;You&#39;); // 1
+    console.count(&#39;You&#39;); // 2
+    console.count(&#39;Me&#39;); // 4
+    
+    // Timing functions
+    console.time(&#39;fetching data&#39;);
+    setTimeout(function () {
+      console.timeEnd(&#39;fetching data&#39;);
+    }, 1000);
+    
+    // Grouping
+    console.group(&#39;Group 1&#39;);
+    console.log(&#39;Hey, I am a member of Group 1!&#39;);
+    console.groupEnd(&#39;Group 1&#39;);
+    console.groupCollapsed(&#39;Group 2&#39;); //collapsed by default
+    console.log(&#39;Hey, I am a member of Group 2!&#39;);
+    console.groupEnd(&#39;Group 2&#39;);
+    console.log(&#39;It is me, excludie :(&#39;);
+  }
+  setTimeout(consoleStuff, 2000);
+&lt;/script&gt;
+</description>
+    </item>
     
     <item>
       <title>Creating this website, my first journey with hugo</title>
