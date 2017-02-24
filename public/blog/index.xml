@@ -6,8 +6,56 @@
     <description>Recent content in Blog-rsses on seriousco.de</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Jan 2017 20:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 24 Feb 2017 20:30:00 +0100</lastBuildDate>
     <atom:link href="http://seriousco.de/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Google Hashcode 2017</title>
+      <link>http://seriousco.de/blog/google-hashcode-2017/</link>
+      <pubDate>Fri, 24 Feb 2017 20:30:00 +0100</pubDate>
+      
+      <guid>http://seriousco.de/blog/google-hashcode-2017/</guid>
+      <description>&lt;p&gt;Yesterday (23rd February 2017) I&amp;rsquo;ve participated at the Google Hashcode together with &lt;span class=&#34;tooltip&#34; title=&#34;Philipp, Marton &amp; Christoph&#34;&gt;three colleagues&lt;/span&gt; and it was quite awesome!&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;image-link&#34; href=&#34;http://seriousco.de/images/hashcode1.jpg&#34; title=&#34;Google Hashcode&#34;&gt;
+    &lt;img src=&#39;http://seriousco.de//images/hashcode1.jpg&#39;
+      class=&#39;center round-rectangle&#39; 
+    style=&#39; width:450px; &#39;/&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;https://hashcode.withgoogle.com/&#34;&gt;Google Hashcode&lt;/a&gt; is a coding contest organized by (youdontsay) Google. Everyone who lives in Europe, the Middle East or Africa can participate and try to solve the problem statement provided. Only teams of 2 - 4 people can register and try to reach a top score. The top scoring teams will be invited to the final round which takes place at Paris.&lt;/p&gt;
+
+&lt;p&gt;In the first round - the online qualification - teams can participate from anywhere with their own computer. To get a bit of a contest feeling some teams come together at a place and form a &amp;ldquo;hub&amp;rdquo;. There is an overall scoreboard and you can filter it based on your hub, so it adds a bit of a challenge for the local teams to be the best in their hub.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;As you might imagine, we hosted a hub at our &lt;a href=&#34;https://www.catalysts.cc/en&#34;&gt;Catalysts&lt;/a&gt; office in vienna and around 30 people participated in our hub. At 18:30 CET the contest got introduced by a livestream where they presented some interesting stats. All participants listened to the livestream and waited for the announcement of the problem statement. As soon as the statement was announced all teams rushed to their places and started to work on the challenge.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;image-link&#34; href=&#34;http://seriousco.de/images/hashcode2.jpg&#34; title=&#34;Google Hashcode&#34;&gt;
+    &lt;img src=&#39;http://seriousco.de//images/hashcode2.jpg&#39;
+      class=&#39;center round-rectangle&#39; 
+    style=&#39; width:450px; &#39;/&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The problem statement was about YouTube, respectively about streaming videos. Given was a data center where all videos are stored and the information of all endpoints (which videos they watch and how often). You also got a list of available cache servers which endpoints they are connected to and what&amp;rsquo;s the latency between them.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Have you ever wondered what happens behind the scenes when you watch a YouTube video?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The challenge was to save as much latency as possible by distributing the most watched videos on the cache servers near to the endpoints. The point is that cache servers only have a specific amount of capacity, so they can&amp;rsquo;t store all videos at once. You have to decide which video should be placed on the right cache server(s).&lt;/p&gt;
+
+&lt;p&gt;We&amp;rsquo;ve implemented some different algorithms and scored pretty nice. All in all we&amp;rsquo;ve reached the 2nd place in our hub and the 5th place Austria-wide.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;image-link&#34; href=&#34;http://seriousco.de/images/hashcode_scoreboard.png&#34; title=&#34;Google Hashcode&#34;&gt;
+    &lt;img src=&#39;http://seriousco.de//images/hashcode_scoreboard.png&#39;
+      class=&#39;center round-rectangle&#39; 
+    style=&#39; width:450px; &#39;/&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;It was a lot of fun and a tricky challenge, I can highly recommend to participate at the Hashcode next year!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Tips for the JavaScript Console</title>

@@ -3,6 +3,7 @@ date = "2017-01-11T20:00:00+01:00"
 draft = false
 title = "Tips for the JavaScript Console"
 image = "blog2.png"
+shareimage = "blog2_share.png"
 description = "Some tips regarding the JavaScript Console of modern browsers. Maybe there are some new things you didn't know! :grin:"
 author = "dominiksumer"
 +++
