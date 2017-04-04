@@ -3,7 +3,12 @@
   
   <url>
     <loc>http://seriousco.de/</loc>
-    <lastmod>2017-02-24T20:30:00+01:00</lastmod>
+    <lastmod>2017-04-04T22:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seriousco.de/blog/writing-tests-with-jest-and-enzyme/</loc>
+    <lastmod>2017-04-04T22:00:00+01:00</lastmod>
   </url>
   
   <url>

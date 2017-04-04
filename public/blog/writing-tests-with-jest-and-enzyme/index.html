@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
   
   
@@ -9,20 +11,26 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>seriousco.de - Blogs</title>
+    <title>seriousco.de - Writing tests with jest and enzyme</title>
     <meta name="generator" content="Hugo 0.17" />
 
     
-    <link rel="canonical" href="http://seriousco.de/blog/">
+    <meta name="description" content="The bigger your codebase grows, the more test-coverage you want to reach in order to build a stable application. This is where jest comes into the game and that’s what this blogpost is about: writing (unit-)tests with jest (and enzyme)!">
+    
+    <link rel="canonical" href="http://seriousco.de/blog/writing-tests-with-jest-and-enzyme/">
     
 
-    <meta property="og:url" content="http://seriousco.de/blog/">
+    <meta property="og:url" content="http://seriousco.de/blog/writing-tests-with-jest-and-enzyme/">
     
-    <meta property="og:title" content="Blogs">
+    <meta property="og:title" content="Writing tests with jest and enzyme">
     
     
+    <meta property="og:image" content="http://seriousco.de/images/blog4_share.png">
     
-    <meta name="apple-mobile-web-app-title" content="Blogs">
+    
+    <meta property="og:description" content="The bigger your codebase grows, the more test-coverage you want to reach in order to build a stable application. This is where jest comes into the game and that’s what this blogpost is about: writing (unit-)tests with jest (and enzyme)!">
+    
+    <meta name="apple-mobile-web-app-title" content="Writing tests with jest and enzyme">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
@@ -122,17 +130,16 @@
     </script>
 
     
-    <link href="http://seriousco.de/blog/index.xml" rel="alternate" type="application/rss+xml" title="seriousco.de" />
-    <link href="http://seriousco.de/blog/index.xml" rel="feed" type="application/rss+xml" title="seriousco.de" />
-    
 
   </head>
   <body class="palette-primary-light-blue palette-accent-deep-orange">
 
 
+
+
 <div class="backdrop">
     <div class="backdrop-site"></div>
-	<div class="backdrop-paper"></div>
+    <div class="backdrop-paper"></div>
 </div>
 
 <input class="toggle" type="checkbox" id="toggle-drawer">
@@ -140,7 +147,7 @@
 <label class="toggle-button overlay" for="toggle-drawer"></label>
 
 <header class="header">
-	<div class="backdrop-header"></div>
+    <div class="backdrop-header"></div>
 <nav aria-label="Header">
   <div class="bar default">
     <div class="button button-menu" role="button" aria-label="Menu">
@@ -190,8 +197,8 @@
 </header>
 
 <main class="main">
-	<div class="drawer">
-		<nav aria-label="Navigation">
+    <div class="drawer">
+        <nav aria-label="Navigation">
   <span class="project">
     <div class="banner">
     <div class="logo">
@@ -296,121 +303,218 @@
   </div>
 </nav>
 
-	</div>
+    </div>
 
-	<article class="article">
-		<div class="wrapper blog">
-			<h1>Blog</h1>
+    <article class="article">
+        <div class="wrapper">
+            <div class="blogheader" style="background-image:url(http://seriousco.de/images/blog4.png)"></div>
+            <h1>Writing tests with jest and enzyme </h1>
+            <div class="bloginfo">
+                By <a href="https://www.twitter.com/dominiksumer">@dominiksumer</a>
+                <span class="date"><i class="fa fa-calendar"></i> 4. April 2017</span>
+            </div>
 
-			
+            
 
-			
+<p>The last weeks I spent a lot time getting warm with <a href="https://facebook.github.io/react/">React</a> - Facebook’s JavaScript library  for building user interfaces. With React you can build rich applications using so-called “React Components”. You can either build an web application - or with React Native - build mobile apps and the components can also be pre-rendered on the server-side using Node for achieving a smooth user experience.</p>
 
-			
-				<div class="pagegroup">
-					<div >April 2017</div>
-					
-					<a href="http://seriousco.de/blog/writing-tests-with-jest-and-enzyme/" title="Writing tests with jest and enzyme" class="blogcard" style="background-image:url(http://seriousco.de/images/blog4.png)">
-						<div class="background"></div>
-						<div class="text">
-							<div class="container">
-								<div class="title">Writing tests with jest and enzyme</div>
-								<div class="description">
-									<div class="info">
-										By <span class="author">@dominiksumer</span>
-										<span class="date"><i class="fa fa-calendar"></i> 4. April 2017</span>
-									</div>
-									The bigger your codebase grows, the more test-coverage you want to reach in order to build a stable application. This is where jest comes into the game and that’s what this blogpost is about: writing (unit-)tests with jest (and enzyme)!
-								</div>
-							</div>
-						</div>
-					</a>
-					
-				</div>
-				<hr/>
-			
-				<div class="pagegroup">
-					<div >February 2017</div>
-					
-					<a href="http://seriousco.de/blog/google-hashcode-2017/" title="Google Hashcode 2017" class="blogcard" style="background-image:url(http://seriousco.de/images/blog3.png)">
-						<div class="background"></div>
-						<div class="text">
-							<div class="container">
-								<div class="title">Google Hashcode 2017</div>
-								<div class="description">
-									<div class="info">
-										By <span class="author">@dominiksumer</span>
-										<span class="date"><i class="fa fa-calendar"></i> 24. February 2017</span>
-									</div>
-									I&rsquo;ve participated at the Google Hashcode together with three colleagues and it was quite awesome!
-								</div>
-							</div>
-						</div>
-					</a>
-					
-				</div>
-				<hr/>
-			
-				<div class="pagegroup">
-					<div >January 2017</div>
-					
-					<a href="http://seriousco.de/blog/tips-for-the-javascript-console/" title="Tips for the JavaScript Console" class="blogcard" style="background-image:url(http://seriousco.de/images/blog2.png)">
-						<div class="background"></div>
-						<div class="text">
-							<div class="container">
-								<div class="title">Tips for the JavaScript Console</div>
-								<div class="description">
-									<div class="info">
-										By <span class="author">@dominiksumer</span>
-										<span class="date"><i class="fa fa-calendar"></i> 11. January 2017</span>
-									</div>
-									Some tips regarding the JavaScript Console of modern browsers. Maybe there are some new things you didn&rsquo;t know! :grin:
-								</div>
-							</div>
-						</div>
-					</a>
-					
-					<a href="http://seriousco.de/blog/first-journey-with-hugo/" title="Creating this website, my first journey with hugo" class="blogcard" style="background-image:url(http://seriousco.de/images/blog1.jpg)">
-						<div class="background"></div>
-						<div class="text">
-							<div class="container">
-								<div class="title">Creating this website, my first journey with hugo</div>
-								<div class="description">
-									<div class="info">
-										By <span class="author">@dominiksumer</span>
-										<span class="date"><i class="fa fa-calendar"></i> 1. January 2017</span>
-									</div>
-									My first blog post is about creating this website. I talk about my journey with hugo, a static website engine written in go.
-								</div>
-							</div>
-						</div>
-					</a>
-					
-				</div>
-				<hr/>
-			
+<p>But the bigger your codebase grows, the more test-coverage you want to reach in order to build a stable application. This is where jest comes into the game and that’s what this blogpost is about: writing (unit-)tests with jest (and enzyme)!</p>
 
-			
-		</div>
+<h2 id="what-is-jest">What is jest?</h2>
 
-		<aside class="copyright" role="note">
-			
-			Website built with <a href="https://github.com/Monterra/seriousco.de" class="fa fa-heart"></a>️ and
-			<a href="https://www.gohugo.io" target="_blank">Hugo</a>
-			using the
-			<a href="http://github.com/digitalcraftsman/hugo-material-docs" target="_blank">Material</a> theme.
-		</aside>
-	</article>
+<hr />
 
-	<div class="results" role="status" aria-live="polite">
-		<div class="scrollable">
-			<div class="wrapper">
-				<div class="meta"></div>
-				<div class="list"></div>
-			</div>
-		</div>
-	</div>
+<p><a href="https://facebook.github.io/jest/">Jest</a> is a tool for easy and painless JavaScript testing. It is not React specific, so you can use it to test your whole js codebase. It comes with everything you need out of the box, just run jest and all your wishes come true! :wink:</p>
+
+<h3 id="example">Example</h3>
+
+<hr />
+
+<p>Consider you have a simple ‘add’ method:</p>
+
+<pre><code class="language-javascript">function add(a, b) {
+  return a + b;
+}
+
+module.exports = add;
+</code></pre>
+
+<p>You want to test if it works as expected? No problem with jest:</p>
+
+<pre><code class="language-javascript">const add = require('./add');
+describe('add', () =&gt; {
+  it('should add two numbers', () =&gt; {
+    expect(add(1, 2)).toBe(3);
+  });
+});
+</code></pre>
+
+<p>So as you can see, it’s pretty simple and self-explaining. If you want to try it you can do this right here in your browser: <a href="https://repl.it/languages/jest">https://repl.it/languages/jest</a>
+<br/><br/></p>
+
+<h3 id="expecting-functions-to-be-called">Expecting functions to be called</h3>
+
+<hr />
+
+<p>Jest comes with a lot of helpful tools to write your tests. You can expect variables to be a specific value, fake timers, spy on functions - I don’t want to go into detail. But I want to show you one simple example: test if a specific function / callback gets called during your test case.</p>
+
+<p>This is the function you want to test:</p>
+
+<pre><code class="language-javascript">function calculate(giveFeedback, callback) {
+  if (giveFeedback) {
+    callback();
+  }
+}
+
+module.exports = calculate;
+</code></pre>
+
+<p>Now you can test two things: if the giveFeedback parameter is true, callback should be called, if it is false nothing should happen. Here’s how you would test it with jest and make use of the jest.fn() mock function:</p>
+
+<pre><code class="language-javascript">const calculate = require('./calculate');
+
+describe('calculate', () =&gt; {
+  it('should give feedback', () =&gt; {
+    const callback = jest.fn();
+    calculate(true, callback);
+    expect(callback).toHaveBeenCalled();
+  });
+  
+  it('should not give feedback', () =&gt; {
+    const callback = jest.fn();
+    calculate(false, callback);
+    expect(callback).not.toHaveBeenCalled();
+  });
+});
+</code></pre>
+
+<hr />
+
+<p><a class="image-link" href="/images/ij_2017.1.png" title="IntelliJ 2017.1">
+    <img src='http://seriousco.de//images/ij_2017.1.png'
+      class='center round-rectangle' 
+    style=' width:600px; '/>
+</a></p>
+
+<p>As you might know, I am a pretty decent IntelliJ fanboy. It’s (in my opinion) the best IDE regarding web-development and just works smoothly without installing a bunch of plugins. Since version 2017.1 this also applies to developing, debugging and executing jest tests. Here you can see what’s new: <a href="https://www.youtube.com/watch?v=gfXTak1qexI">https://www.youtube.com/watch?v=gfXTak1qexI</a></p>
+
+<h2 id="ok-you-also-talked-about-what-was-it-enzyme">Ok you also talked about - what was it - “enzyme”?</h2>
+
+<hr />
+
+<p><a class="image-link" href="/images/airbnb-logo.png" title="AirBnB">
+    <img src='http://seriousco.de//images/airbnb-logo.png'
+      class='center round-rectangle' 
+    style=''/>
+</a>
+As jest is also powered by Facebook and they are using it to test their React-Components, it’s widely spread in the React Community. But jest doesn’t come with specific React helpers and this is what enzyme is for: providing you testing utilities for React.</p>
+
+<h3 id="rendering-modes">Rendering Modes</h3>
+
+<hr />
+
+<p><a href="https://github.com/airbnb/enzyme">Enzyme</a> comes with three rendering modes to test your components:</p>
+
+<ul>
+<li><strong>shallow</strong>
+
+<ul>
+<li>renders the component onto a virtual dom and lets you test all basic features of your react component</li>
+</ul></li>
+<li><strong>mount</strong>
+
+<ul>
+<li>mounts the component onto a real dom node and lets you fully test your component including interactions with the DOM API or lifecycle hooks like componentDidMount</li>
+</ul></li>
+<li><strong>render</strong>
+
+<ul>
+<li>renders the component as static HTML which can be analyzed (you cannot interact with the component afterwards)</li>
+</ul></li>
+</ul>
+
+<h3 id="wrapper-functionality">Wrapper functionality</h3>
+
+<hr />
+
+<p>Each of those rendering functions returns a wrapper which lets you interact with your component / the html output and analyze it. For example you can expect the HTML to equal a specific text:</p>
+
+<pre><code class="language-javascript">function MyComponent(props) {
+  return &lt;div&gt;test&lt;span class=”icon-star”&gt;&lt;/span&gt;&lt;/div&gt;;
+}
+
+const wrapper = shallow(&lt;MyComponent /&gt;);
+expect(wrapper.text()).to.equal(‘test’);
+</code></pre>
+
+<p>You can expect or set the value of a specific prop:</p>
+
+<pre><code class="language-javascript">const wrapper = mount(&lt;MyComponent bar=”baz” /&gt;);
+expect(wrapper.props().bar).to.equal('baz');
+wrapper.setProps({ bar: 'foo' });
+expect(wrapper.props().bar).to.equal('foo');
+</code></pre>
+
+<p>Navigate to your component’s DOM with css selectors:</p>
+
+<pre><code class="language-javascript">const wrapper = mount(&lt;MyComponent bar=”baz” /&gt;);
+expect(wrapper.find(‘.icon-star’).type()).to.equal(‘span’);
+</code></pre>
+
+<p>Simulate Events
+Simulating (DOM) events? No problem with enzyme! Here’s an example how you can simulate a simple button click:</p>
+
+<pre><code class="language-javascript">function MyComponent(props) {
+  return &lt;div&gt;&lt;button onClick={props.onButtonClick}&gt;ClickMe&lt;/button&gt;&lt;/div&gt;;
+}
+
+const mockOnClick = jest.fn();
+const wrapper = mount(&lt;MyComponent onButtonClick={mockOnClick} /&gt;);
+wrapper.find(‘button’).simulate(‘click’);
+expect(mockOnClick).toHaveBeenCalled();
+</code></pre>
+
+<hr />
+
+<p>This was a basic overview about jest and the react test utility library enzyme.
+Do you have any questions? Don’t hesitate to <a href="/contact">contact me</a>! :smile:</p>
+
+
+            <div id="disqus_thread" style="margin-top: 70px;"></div>
+<script type="text/javascript">
+
+    (function() {
+        if (window.location.hostname == "localhost")
+            return;
+
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        var disqus_shortname = 'seriouscode';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+        </div>
+
+        <aside class="copyright" role="note" style="margin: 10px 0 0 0;">
+            
+            Website built with <a href="https://github.com/Monterra/seriousco.de" class="fa fa-heart"></a>️ and
+            <a href="https://www.gohugo.io" target="_blank">Hugo</a>
+            using the
+            <a href="http://github.com/digitalcraftsman/hugo-material-docs" target="_blank">Material</a> theme.
+        </aside>
+    </article>
+
+    <div class="results" role="status" aria-live="polite">
+        <div class="scrollable">
+            <div class="wrapper">
+                <div class="meta"></div>
+                <div class="list"></div>
+            </div>
+        </div>
+    </div>
 </main>
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5866319641494442"></script>
 
     <script>
     
