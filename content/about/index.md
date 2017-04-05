@@ -3,7 +3,7 @@ date = "2016-11-01T12:35:46+01:00"
 draft = false
 title = "About"
 type = "index"
-description = "Hello! My name is Dominik, I am 23 years old and a passionated software engineer. I live in Vienna, Austria and enjoy being out in the nature, hanging out with my friends or just debugging the projects I am currently working on."
+description = "Hello! My name is Dominik, I am 24 years old and a passionated software engineer. I live in Vienna, Austria and enjoy being out in the nature, hanging out with my friends or just debugging the projects I am currently working on."
 +++
 
 <p>
@@ -11,7 +11,7 @@ description = "Hello! My name is Dominik, I am 23 years old and a passionated so
 </p>
 
 <p style="text-align:center;margin-bottom:30px;">
-Hello! My name is Dominik, I am <span class="_myage">24</span> years old and a passionated software engineer. I live in Vienna, Austria and enjoy being out in the nature, hanging out with my friends or just debugging the projects I am currently working on. :wink:
+Hello! My name is Dominik, I am 24 years old and a passionated software engineer. I live in Vienna, Austria and enjoy being out in the nature, hanging out with my friends or just debugging the projects I am currently working on. :wink:
 </p>
 
 {{< note title="Serious Code" >}}
