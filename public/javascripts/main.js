@@ -28,3 +28,17 @@ while(i--){
         link.classList.add('external');
     }
 }
+
+(function () {
+    function _calculateAge(birthday) { // birthday is a date
+        var ageDifMs = Date.now() - birthday.getTime();
+        var ageDate = new Date(ageDifMs); // miliseconds from epoch
+        return Math.abs(ageDate.getUTCFullYear() - 1970);
+    }
+
+    var birthDate = new Date(1993, 3, 6);
+    var ageNodes = document.getElementsByClassName("_myage");
+    for (var j = 0; j < ageNodes.length; j++) {
+        ageNodes[j].innerHTML = _calculateAge(birthDate);
+    }
+})();
