@@ -4,7 +4,7 @@ draft = false
 title = "Writing tests with jest and enzyme"
 image = "blog4.png"
 shareimage = "blog4_share.png"
-description = "The bigger your codebase grows, the more test-coverage you want to reach in order to build a stable application. This is where jest comes into the game and that’s what this blogpost is about: writing (unit-)tests with jest (and enzyme)!"
+description = "Jest and enzyme - writing javascript tests made easy with a painless framework and a helpful utility library."
 author = "dominiksumer"
 +++
 
