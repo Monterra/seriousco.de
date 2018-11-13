@@ -1,5 +1,5 @@
 {
-  "baseurl": "http://seriousco.de/",
+  "baseurl": "https://seriousco.de/",
   "languageCode": "en-us",
   "title": "seriousco.de",
   "theme": "hugo-material-docs",
