@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog-rsses on seriousco.de</title>
-    <link>http://seriousco.de/blog/index.xml</link>
+    <link>https://seriousco.de/blog/index.xml</link>
     <description>Recent content in Blog-rsses on seriousco.de</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 04 Apr 2017 22:00:00 +0100</lastBuildDate>
-    <atom:link href="http://seriousco.de/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://seriousco.de/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Writing tests with jest and enzyme</title>
-      <link>http://seriousco.de/blog/writing-tests-with-jest-and-enzyme/</link>
+      <link>https://seriousco.de/blog/writing-tests-with-jest-and-enzyme/</link>
       <pubDate>Tue, 04 Apr 2017 22:00:00 +0100</pubDate>
       
-      <guid>http://seriousco.de/blog/writing-tests-with-jest-and-enzyme/</guid>
+      <guid>https://seriousco.de/blog/writing-tests-with-jest-and-enzyme/</guid>
       <description>
 
 &lt;p&gt;The last weeks I spent a lot time getting warm with &lt;a href=&#34;https://facebook.github.io/react/&#34;&gt;React&lt;/a&gt; - Facebook’s JavaScript library  for building user interfaces. With React you can build rich applications using so-called “React Components”. You can either build an web application - or with React Native - build mobile apps and the components can also be pre-rendered on the server-side using Node for achieving a smooth user experience.&lt;/p&gt;
@@ -91,8 +91,8 @@ describe(&#39;calculate&#39;, () =&amp;gt; {
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;a class=&#34;image-link&#34; href=&#34;http://seriousco.de/images/ij_2017.1.png&#34; title=&#34;IntelliJ 2017.1&#34;&gt;
-    &lt;img src=&#39;http://seriousco.de//images/ij_2017.1.png&#39;
+&lt;p&gt;&lt;a class=&#34;image-link&#34; href=&#34;https://seriousco.de/images/ij_2017.1.png&#34; title=&#34;IntelliJ 2017.1&#34;&gt;
+    &lt;img src=&#39;https://seriousco.de//images/ij_2017.1.png&#39;
       class=&#39;center round-rectangle&#39; 
     style=&#39; width:600px; &#39;/&gt;
 &lt;/a&gt;&lt;/p&gt;
@@ -103,8 +103,8 @@ describe(&#39;calculate&#39;, () =&amp;gt; {
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;a class=&#34;image-link&#34; href=&#34;http://seriousco.de/images/airbnb-logo.png&#34; title=&#34;AirBnB&#34;&gt;
-    &lt;img src=&#39;http://seriousco.de//images/airbnb-logo.png&#39;
+&lt;p&gt;&lt;a class=&#34;image-link&#34; href=&#34;https://seriousco.de/images/airbnb-logo.png&#34; title=&#34;AirBnB&#34;&gt;
+    &lt;img src=&#39;https://seriousco.de//images/airbnb-logo.png&#39;
       class=&#39;center round-rectangle&#39; 
     style=&#39;&#39;/&gt;
 &lt;/a&gt;
@@ -178,20 +178,20 @@ expect(mockOnClick).toHaveBeenCalled();
 &lt;hr /&gt;
 
 &lt;p&gt;This was a basic overview about jest and the react test utility library enzyme.
-Do you have any questions? Don’t hesitate to &lt;a href=&#34;http://seriousco.de/contact&#34;&gt;contact me&lt;/a&gt;! :smile:&lt;/p&gt;
+Do you have any questions? Don’t hesitate to &lt;a href=&#34;https://seriousco.de/contact&#34;&gt;contact me&lt;/a&gt;! :smile:&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Google Hashcode 2017</title>
-      <link>http://seriousco.de/blog/google-hashcode-2017/</link>
+      <link>https://seriousco.de/blog/google-hashcode-2017/</link>
       <pubDate>Fri, 24 Feb 2017 20:30:00 +0100</pubDate>
       
-      <guid>http://seriousco.de/blog/google-hashcode-2017/</guid>
+      <guid>https://seriousco.de/blog/google-hashcode-2017/</guid>
       <description>&lt;p&gt;Yesterday (23rd February 2017) I&amp;rsquo;ve participated at the Google Hashcode together with &lt;span class=&#34;tooltip&#34; title=&#34;Philipp, Marton &amp; Christoph&#34;&gt;three colleagues&lt;/span&gt; and it was quite awesome!&lt;/p&gt;
 
-&lt;p&gt;&lt;a class=&#34;image-link&#34; href=&#34;http://seriousco.de/images/hashcode1.jpg&#34; title=&#34;Google Hashcode&#34;&gt;
-    &lt;img src=&#39;http://seriousco.de//images/hashcode1.jpg&#39;
+&lt;p&gt;&lt;a class=&#34;image-link&#34; href=&#34;https://seriousco.de/images/hashcode1.jpg&#34; title=&#34;Google Hashcode&#34;&gt;
+    &lt;img src=&#39;https://seriousco.de//images/hashcode1.jpg&#39;
       class=&#39;center round-rectangle&#39; 
     style=&#39; width:450px; &#39;/&gt;
 &lt;/a&gt;&lt;/p&gt;
@@ -204,8 +204,8 @@ Do you have any questions? Don’t hesitate to &lt;a href=&#34;http://seriousco.
 
 &lt;p&gt;As you might imagine, we hosted a hub at our &lt;a href=&#34;https://www.catalysts.cc/en&#34;&gt;Catalysts&lt;/a&gt; office in vienna and around 30 people participated in our hub. At 18:30 CET the contest got introduced by a livestream where they presented some interesting stats. All participants listened to the livestream and waited for the announcement of the problem statement. As soon as the statement was announced all teams rushed to their places and started to work on the challenge.&lt;/p&gt;
 
-&lt;p&gt;&lt;a class=&#34;image-link&#34; href=&#34;http://seriousco.de/images/hashcode2.jpg&#34; title=&#34;Google Hashcode&#34;&gt;
-    &lt;img src=&#39;http://seriousco.de//images/hashcode2.jpg&#39;
+&lt;p&gt;&lt;a class=&#34;image-link&#34; href=&#34;https://seriousco.de/images/hashcode2.jpg&#34; title=&#34;Google Hashcode&#34;&gt;
+    &lt;img src=&#39;https://seriousco.de//images/hashcode2.jpg&#39;
       class=&#39;center round-rectangle&#39; 
     style=&#39; width:450px; &#39;/&gt;
 &lt;/a&gt;&lt;/p&gt;
@@ -220,8 +220,8 @@ Do you have any questions? Don’t hesitate to &lt;a href=&#34;http://seriousco.
 
 &lt;p&gt;We&amp;rsquo;ve implemented some different algorithms and scored pretty nice. All in all we&amp;rsquo;ve reached the 2nd place in our hub and the 5th place Austria-wide.&lt;/p&gt;
 
-&lt;p&gt;&lt;a class=&#34;image-link&#34; href=&#34;http://seriousco.de/images/hashcode_scoreboard.png&#34; title=&#34;Google Hashcode&#34;&gt;
-    &lt;img src=&#39;http://seriousco.de//images/hashcode_scoreboard.png&#39;
+&lt;p&gt;&lt;a class=&#34;image-link&#34; href=&#34;https://seriousco.de/images/hashcode_scoreboard.png&#34; title=&#34;Google Hashcode&#34;&gt;
+    &lt;img src=&#39;https://seriousco.de//images/hashcode_scoreboard.png&#39;
       class=&#39;center round-rectangle&#39; 
     style=&#39; width:450px; &#39;/&gt;
 &lt;/a&gt;&lt;/p&gt;
@@ -232,10 +232,10 @@ Do you have any questions? Don’t hesitate to &lt;a href=&#34;http://seriousco.
     
     <item>
       <title>Tips for the JavaScript Console</title>
-      <link>http://seriousco.de/blog/tips-for-the-javascript-console/</link>
+      <link>https://seriousco.de/blog/tips-for-the-javascript-console/</link>
       <pubDate>Wed, 11 Jan 2017 20:00:00 +0100</pubDate>
       
-      <guid>http://seriousco.de/blog/tips-for-the-javascript-console/</guid>
+      <guid>https://seriousco.de/blog/tips-for-the-javascript-console/</guid>
       <description>
 
 &lt;p&gt;Before Christmas I did some lessons of the &lt;a href=&#34;https://javascript30.com/&#34;&gt;30 Day Javascript Challenge&lt;/a&gt; from &lt;a href=&#34;http://twitter.com/wesbos&#34;&gt;@wesbos&lt;/a&gt;. On Day 9 I&amp;rsquo;ve learned some cool stuff regarding the JavaScript console of modern browsers, which I want to share with you!&lt;/p&gt;
@@ -268,8 +268,8 @@ console.error(&#39;Shit. (with Stacktrace!)&#39;);
 
 &lt;p&gt;Want to print an array of objects? This function will be your new best friend! &lt;strong&gt;console.table(yourData)&lt;/strong&gt; will list your data like this:&lt;/p&gt;
 
-&lt;p&gt;&lt;a class=&#34;image-link&#34; href=&#34;http://seriousco.de/images/console_table.png&#34; title=&#34;console.table&#34;&gt;
-    &lt;img src=&#39;http://seriousco.de/images/console_table.png&#39;
+&lt;p&gt;&lt;a class=&#34;image-link&#34; href=&#34;https://seriousco.de/images/console_table.png&#34; title=&#34;console.table&#34;&gt;
+    &lt;img src=&#39;https://seriousco.de/images/console_table.png&#39;
       class=&#39;center&#39; 
     style=&#39;&#39;/&gt;
 &lt;/a&gt;&lt;/p&gt;
@@ -398,10 +398,10 @@ Hopefully you enjoyed it and learned some new things - see you next time :grinni
     
     <item>
       <title>Creating this website, my first journey with hugo</title>
-      <link>http://seriousco.de/blog/first-journey-with-hugo/</link>
+      <link>https://seriousco.de/blog/first-journey-with-hugo/</link>
       <pubDate>Sun, 01 Jan 2017 12:00:00 +0100</pubDate>
       
-      <guid>http://seriousco.de/blog/first-journey-with-hugo/</guid>
+      <guid>https://seriousco.de/blog/first-journey-with-hugo/</guid>
       <description>
 
 &lt;p&gt;About two months ago I stumbled upon &lt;a href=&#34;http://gohugo.io/&#34;&gt;hugo&lt;/a&gt;, a static website generator written in go. It provides a basic &lt;span class=&#34;tooltip&#34; title=&#34;Command Line Interface&#34;&gt;CLI&lt;/span&gt; which helps creating your website and its content. After taking a first look I asked myself “Why should I want to create a static website?!”. Instead I could use a great dynamic &lt;span class=&#34;tooltip&#34; title=&#34;Content Managment System&#34;&gt;CMS&lt;/span&gt; with all the fancy plugins - Wordpress, Typo3, Drupal. But I kept on reading the docs and some experiences of the community.&lt;/p&gt;
@@ -439,8 +439,8 @@ $ hugo server --theme=hugo_theme_robust
 
 &lt;p&gt;Hugo doesn’t come with a fancy &lt;span class=&#34;tooltip&#34; title=&#34;What You See Is What You Get&#34;&gt;WYSIWYG&lt;/span&gt; editor or tons of plugins which bloat up your website. You don’t have a rich backend where you configure everything and write your blog posts. There is no database running in the background serving the content of your website. Instead hugo creates prebuilt .html files for you which can be served via HTTP.&lt;/p&gt;
 
-&lt;p&gt;&lt;a class=&#34;image-link&#34; href=&#34;http://seriousco.de/images/first-journey-with-hugo.png&#34; title=&#34;&#34;&gt;
-    &lt;img src=&#39;http://seriousco.de//images/first-journey-with-hugo.png&#39;
+&lt;p&gt;&lt;a class=&#34;image-link&#34; href=&#34;https://seriousco.de/images/first-journey-with-hugo.png&#34; title=&#34;&#34;&gt;
+    &lt;img src=&#39;https://seriousco.de//images/first-journey-with-hugo.png&#39;
       class=&#39;right round-rectangle&#39; 
     style=&#39; width:300px; &#39;/&gt;
 &lt;/a&gt;
@@ -452,15 +452,15 @@ That may sound quite horrible to some of you and there are some types of website
 
 &lt;hr /&gt;
 
-&lt;p&gt;I basically wanted a website where people can see what I am currently working on and what I did in the past. seriousco.de should should give a short overview about my talents. You can see a &lt;a href=&#34;http://seriousco.de/timeline&#34;&gt;timeline&lt;/a&gt; which basically is my CV. There’s a list of &lt;a href=&#34;http://seriousco.de/projects&#34;&gt;projects&lt;/a&gt; I’ve done in the past or I am doing right now. Last but not least there is this blog where I can write about things I experience as a developer on a daily basis.&lt;/p&gt;
+&lt;p&gt;I basically wanted a website where people can see what I am currently working on and what I did in the past. seriousco.de should should give a short overview about my talents. You can see a &lt;a href=&#34;https://seriousco.de/timeline&#34;&gt;timeline&lt;/a&gt; which basically is my CV. There’s a list of &lt;a href=&#34;https://seriousco.de/projects&#34;&gt;projects&lt;/a&gt; I’ve done in the past or I am doing right now. Last but not least there is this blog where I can write about things I experience as a developer on a daily basis.&lt;/p&gt;
 
-&lt;p&gt;All in all this website builds my digital business card with an easy possibility to &lt;a href=&#34;http://seriousco.de/contact&#34;&gt;contact me&lt;/a&gt; - I hope you enjoy it!&lt;/p&gt;
+&lt;p&gt;All in all this website builds my digital business card with an easy possibility to &lt;a href=&#34;https://seriousco.de/contact&#34;&gt;contact me&lt;/a&gt; - I hope you enjoy it!&lt;/p&gt;
 
 &lt;h2 id=&#34;hosting-deploying-changes&#34;&gt;Hosting &amp;amp; deploying changes&lt;/h2&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;First it was pretty clear to me that I would host this website on my private vServer which I also use to serve other projects of mine like &lt;a href=&#34;http://seriousco.de/projects/risingfarms-online&#34;&gt;Rising Farms Online&lt;/a&gt;. But the hugo docs provide a &lt;a href=&#34;https://gohugo.io/tutorials/github-pages-blog/&#34;&gt;simple tutorial&lt;/a&gt; for deploying your website with GitHub Pages and because I already planned to publish the code on GitHub that was perfect for me.&lt;/p&gt;
+&lt;p&gt;First it was pretty clear to me that I would host this website on my private vServer which I also use to serve other projects of mine like &lt;a href=&#34;https://seriousco.de/projects/risingfarms-online&#34;&gt;Rising Farms Online&lt;/a&gt;. But the hugo docs provide a &lt;a href=&#34;https://gohugo.io/tutorials/github-pages-blog/&#34;&gt;simple tutorial&lt;/a&gt; for deploying your website with GitHub Pages and because I already planned to publish the code on GitHub that was perfect for me.&lt;/p&gt;
 
 &lt;p&gt;With GitHub Pages you don’t have to worry about anything like complex deployment, traffic or as already stated - security. You just have to commit the changes (the prebuilt .html files) into a separate branch named “gh-pages” and push it to your repository, it’s that simple.&lt;/p&gt;
 

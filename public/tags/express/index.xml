@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>seriousco.de</title>
-    <link>http://seriousco.de/tags/express/index.xml</link>
+    <link>https://seriousco.de/tags/express/index.xml</link>
     <description>Recent content on seriousco.de</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://seriousco.de/tags/express/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://seriousco.de/tags/express/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Pespila</title>
-      <link>http://seriousco.de/projects/pespila/</link>
+      <link>https://seriousco.de/projects/pespila/</link>
       <pubDate>Tue, 01 Nov 2016 12:18:48 +0100</pubDate>
       
-      <guid>http://seriousco.de/projects/pespila/</guid>
+      <guid>https://seriousco.de/projects/pespila/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Driving License Trainer</title>
-      <link>http://seriousco.de/projects/driving-license-trainer/</link>
+      <link>https://seriousco.de/projects/driving-license-trainer/</link>
       <pubDate>Tue, 01 Nov 2016 11:18:48 +0100</pubDate>
       
-      <guid>http://seriousco.de/projects/driving-license-trainer/</guid>
+      <guid>https://seriousco.de/projects/driving-license-trainer/</guid>
       <description>
 
-&lt;p&gt;&lt;a class=&#34;image-link&#34; href=&#34;http://seriousco.de/images/driving_license_trainer_1.png&#34; title=&#34;Driving License Trainer&#34;&gt;
-    &lt;img src=&#39;http://seriousco.de//images/driving_license_trainer_1.png&#39;
+&lt;p&gt;&lt;a class=&#34;image-link&#34; href=&#34;https://seriousco.de/images/driving_license_trainer_1.png&#34; title=&#34;Driving License Trainer&#34;&gt;
+    &lt;img src=&#39;https://seriousco.de//images/driving_license_trainer_1.png&#39;
       class=&#39;left round-rectangle&#39; 
     style=&#39; width:300px; &#39;/&gt;
 &lt;/a&gt;
@@ -40,8 +40,8 @@ It was back in 2013, when I did my military service at the austrian armed forces
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;a class=&#34;image-link&#34; href=&#34;http://seriousco.de/images/driving_license_trainer.png&#34; title=&#34;Scorepoint System&#34;&gt;
-    &lt;img src=&#39;http://seriousco.de//images/driving_license_trainer.png&#39;
+&lt;p&gt;&lt;a class=&#34;image-link&#34; href=&#34;https://seriousco.de/images/driving_license_trainer.png&#34; title=&#34;Scorepoint System&#34;&gt;
+    &lt;img src=&#39;https://seriousco.de//images/driving_license_trainer.png&#39;
       class=&#39;right round-rectangle&#39; 
     style=&#39; width:300px; &#39;/&gt;
 &lt;/a&gt;

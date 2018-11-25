@@ -2,7 +2,7 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
-# Build the project.
+# Build the project. (with hugo v0.17)
 hugo
 
 # Add changes to git.

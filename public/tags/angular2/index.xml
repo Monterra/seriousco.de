@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>seriousco.de</title>
-    <link>http://seriousco.de/tags/angular2/index.xml</link>
+    <link>https://seriousco.de/tags/angular2/index.xml</link>
     <description>Recent content on seriousco.de</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://seriousco.de/tags/angular2/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://seriousco.de/tags/angular2/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Rising Farms Online</title>
-      <link>http://seriousco.de/projects/risingfarms-online/</link>
+      <link>https://seriousco.de/projects/risingfarms-online/</link>
       <pubDate>Wed, 02 Nov 2016 12:18:48 +0100</pubDate>
       
-      <guid>http://seriousco.de/projects/risingfarms-online/</guid>
+      <guid>https://seriousco.de/projects/risingfarms-online/</guid>
       <description>
 
 &lt;p&gt;
-    &lt;img src=&#39;http://seriousco.de/images/rfo_titel.png&#39;
+    &lt;img src=&#39;https://seriousco.de/images/rfo_titel.png&#39;
       class=&#39;center&#39; 
     style=&#39;&#39;/&gt;
 &lt;/p&gt;
@@ -35,7 +35,7 @@
 &lt;p&gt;Do you know Harvest Moon? It is a farmsimulation with RPG elements, first released in 1996 for the SNES. I loved playing “HM: Friends of Mineral Town” on my Gameboy Advance. Early 2010 I’ve searched the web for an online version of this type of game, but there was no “Harvest Moon Online” out there. That’s when it came to my mind: why not creating your own &lt;span class=&#34;tooltip&#34; title=&#34;Harvest Moon&#34;&gt;HM&lt;/span&gt; Online?&lt;/p&gt;
 
 &lt;p&gt;&lt;a class=&#34;image-link&#34; href=&#34;../../images/risingfarms_1.png&#34; title=&#34;Login Screen&#34;&gt;
-    &lt;img src=&#39;http://seriousco.de/images/risingfarms_1.png&#39;
+    &lt;img src=&#39;https://seriousco.de/images/risingfarms_1.png&#39;
       class=&#39;right round-rectangle&#39; 
     style=&#39; width:300px; &#39;/&gt;
 &lt;/a&gt;
@@ -55,8 +55,8 @@ Rising Farms Online is a multiplayer farmsimulation where you can interact with 
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;a class=&#34;image-link&#34; href=&#34;http://seriousco.de/images/risingfarms_2.png&#34; title=&#34;Map Editor&#34;&gt;
-    &lt;img src=&#39;http://seriousco.de//images/risingfarms_2.png&#39;
+&lt;p&gt;&lt;a class=&#34;image-link&#34; href=&#34;https://seriousco.de/images/risingfarms_2.png&#34; title=&#34;Map Editor&#34;&gt;
+    &lt;img src=&#39;https://seriousco.de//images/risingfarms_2.png&#39;
       class=&#39;left round-rectangle&#39; 
     style=&#39; width:300px; &#39;/&gt;
 &lt;/a&gt;
