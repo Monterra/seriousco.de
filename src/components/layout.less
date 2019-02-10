@@ -1,0 +1,353 @@
+// Small devices (landscape phones, 576px and up)
+@breakpoint-sm-down: 575.98px;
+@breakpoint-sm-up: 576px;
+// Medium devices (tablets, 768px and up)
+@breakpoint-md-down: 767.98px;
+@breakpoint-md-up: 768px;
+// Large devices (desktops, 992px and up)
+@breakpoint-lg-down: 991.98px;
+@breakpoint-lg-up: 992px;
+// Extra large devices (large desktops, 1200px and up)
+@breakpoint-xl-down: 1199.98px;
+@breakpoint-xl-up: 1200px;
+
+@header-height: 64px;
+@mobile-padding: 25px;
+@sidebar-width: 260px;
+
+@primary-color: #007bb3;
+@secondary-color: #03a9f4;
+@third-color: #ff6e40;
+@fourth-color: #ffb37d;
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  letter-spacing: .8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: @primary-color;
+  text-decoration: none;
+  border-bottom: 1px solid @primary-color;
+
+  &:hover, &.external:hover span {
+    color: @third-color;
+    border-color: @third-color;
+  }
+
+  &.external {
+    border: 0;
+
+    span {
+      border-bottom: 1px solid @primary-color;
+    }
+
+    .external-icon {
+      vertical-align: middle;
+      margin-left: 5px;
+      margin-top: -3px;
+    }
+  }
+}
+
+.background {
+  z-index: -1;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+  background: linear-gradient(180deg, #d2d2d2 0%, #e2e2e2 21%, #e9e9e9 50%, #ffffff 100%);
+}
+
+.wrapper {
+  padding: @header-height @mobile-padding 0 @mobile-padding;
+  background: white;
+
+  a, a.external span {
+    border-bottom-style: dotted;
+  }
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  background: @secondary-color;
+  height: @header-height;
+  font-size: 1em;
+  color: white;
+  box-shadow: 0 1.5px 3px rgba(0, 0, 0, .24), 0 3px 8px rgba(0, 0, 0, .05);
+
+  .header-backdrop {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/background_header.jpg');
+    opacity: 0.5;
+    z-index: -1;
+  }
+
+  .header-menu {
+    margin-right: 20px;
+    margin-top: 6px;
+    cursor: pointer;
+
+    &:hover {
+      color: @fourth-color;
+    }
+  }
+
+  .header-content {
+    display: flex;
+    padding: 0 @mobile-padding;
+    height: 100%;
+    align-items: center;
+
+    .header-tag-line {
+      &.md {
+        display: none;
+      }
+
+      @media (min-width: @breakpoint-md-up) {
+        &.sm {
+          display: none;
+        }
+        &.md {
+          display: block;
+        }
+      }
+    }
+
+    .header-icons {
+      margin-left: auto;
+      font-size: 1.2em;
+
+      a {
+        color: white;
+        margin-left: 10px;
+        vertical-align: middle;
+        transition: color .25s;
+
+        span {
+          border: 0;
+        }
+
+        .external-icon {
+          display: none;
+        }
+
+        &:hover {
+          color: @fourth-color;
+        }
+      }
+      .twitter {
+        margin-left: 15px;
+      }
+    }
+  }
+}
+
+.sidebar-backdrop {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .35);
+}
+
+.sidebar, .sidebar .banner {
+  transition: .25s;
+}
+
+.sidebar {
+  position: fixed;
+  width: @sidebar-width;
+  font-size: .8em;
+  margin-left: -@sidebar-width;
+  background: white;
+  height: 100%;
+  box-shadow: 0 1.5px 3px rgba(0, 0, 0, 0.24), 0 3px 8px rgba(0, 0, 0, 0.05);
+
+  .banner {
+    display: flex;
+    align-items: center;
+    padding: 7px 20px 7px;
+    background: @secondary-color;
+    color: white;
+    box-shadow: 0 1.5px 3px rgba(0, 0, 0, 0.24), 0 3px 8px rgba(0, 0, 0, 0.05);
+
+    .logo {
+      font-size: 3.5em;
+      height: 50px;
+    }
+
+    .description {
+      padding-left: 15px;
+
+      a {
+        font-weight: bold;
+        color: white;
+
+        span {
+          border: 0;
+        }
+
+        .external-icon {
+          display: none;
+        }
+      }
+
+      .project-name {
+        color: inherit;
+        border: none;
+
+        span {
+          color: inherit;
+          border: none !important;
+        }
+      }
+    }
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 25px 35px;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+
+    li {
+      margin-bottom: 20px;
+
+      a {
+        text-decoration: none;
+        color: inherit;
+        transition: color .25s;
+        border: 0;
+
+        &:hover {
+          color: @secondary-color;
+        }
+
+        svg {
+          font-size: 1.2em;
+          margin-right: 12px;
+          vertical-align: middle;
+          color: @primary-color;
+          margin-top: -3px;
+        }
+      }
+    }
+  }
+}
+
+.sidebar.active {
+  margin: 0;
+}
+
+.content {
+  padding-top: 20px;
+}
+
+.footer {
+  border-top: 1px solid #e2e2e2;
+  padding: 10px 15px;
+  margin: 20px -25px 0;
+  color: #8C8C8C;
+
+  .heart {
+    span {
+      border: 0;
+    }
+
+    svg {
+      color: #e84e40;
+      vertical-align: middle;
+      margin-top: -3px;
+    }
+  }
+
+  a.external .external-icon {
+    display: none;
+  }
+}
+
+@media (min-width: 350px) {
+  .header {
+    font-size: 1.3em;
+  }
+}
+
+@media (min-width: @breakpoint-lg-up) {
+  .wrapper {
+    margin-left: @sidebar-width;
+    box-shadow: 0 1.5px 3px rgba(0, 0, 0, .24), 0 3px 8px rgba(0, 0, 0, .05);
+  }
+
+  .header {
+    .header-menu {
+      display: none;
+    }
+  }
+
+  .sidebar-backdrop {
+    display: none;
+  }
+
+  .sidebar {
+    display: block;
+    margin: 0;
+    padding: (@header-height + 20px) 20px;
+    background: none;
+    height: auto;
+    box-shadow: none;
+
+    .banner {
+      background: none;
+      color: inherit;
+      padding: 10px 0 15px;
+      box-shadow: none;
+
+      .description {
+        a {
+          color: @primary-color;
+
+          span {
+            border-bottom: 1px solid @primary-color;
+          }
+
+          &:hover span {
+            border-bottom: 1px solid @third-color;
+          }
+        }
+      }
+    }
+
+    ul {
+      padding: 15px;
+    }
+  }
+}
+
+@media (min-width: @breakpoint-xl-up) {
+  .main, .header-content {
+    max-width: @breakpoint-xl-up;
+    margin: 0 auto;
+  }
+}
+
+
+// TODO: for permalinking
+h2 {
+  margin-top: -@header-height;
+  padding-top: @header-height;
+}
