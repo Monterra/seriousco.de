@@ -1,5 +1,5 @@
 import React from 'react';
-import {IconWink, IconSmile, IconLaugh, IconMail} from '../components/icons';
+import {IconWink, IconSmile} from '../components/icons';
 import Link from '../components/link';
 import Header from '../components/header';
 import Highlight from '../components/highlight';
