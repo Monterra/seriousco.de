@@ -22,7 +22,7 @@
 
 body {
   margin: 0;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
   letter-spacing: .8px;
 }
 
@@ -144,7 +144,7 @@ a {
           display: none;
         }
 
-        &:hover {
+        &:hover span {
           color: @fourth-color;
         }
       }
@@ -256,6 +256,7 @@ a {
 
 .content {
   padding-top: 20px;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
 .footer {
@@ -263,6 +264,7 @@ a {
   padding: 10px 15px;
   margin: 20px -25px 0;
   color: #8C8C8C;
+  font-size: .9em;
 
   .heart {
     span {
@@ -279,6 +281,19 @@ a {
   a.external .external-icon {
     display: none;
   }
+}
+
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
 }
 
 @media (min-width: 350px) {

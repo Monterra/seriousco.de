@@ -27,7 +27,7 @@ function SEO({ description, lang, meta, keywords, title }) {
               lang,
             }}
             title={title}
-            titleTemplate={`%s | ${data.site.siteMetadata.title}`}
+            titleTemplate={`${data.site.siteMetadata.title}`}
             meta={[
               {
                 name: `description`,
@@ -51,7 +51,7 @@ function SEO({ description, lang, meta, keywords, title }) {
               },
               {
                 name: `twitter:creator`,
-                content: data.site.siteMetadata.author,
+                content: `@dominiksumer`,
               },
               {
                 name: `twitter:title`,
@@ -72,7 +72,7 @@ function SEO({ description, lang, meta, keywords, title }) {
               )
               .concat(meta)}
           >
-            <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" />
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" />
           </Helmet>
         )
       }}

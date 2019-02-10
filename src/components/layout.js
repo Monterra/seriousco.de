@@ -32,9 +32,9 @@ const Layout = ({ children }) => {
           <div className="header-tag-line sm">seriousco.de</div>
           <div className="header-tag-line md">It's all about the software.</div>
           <div className="header-icons">
-            <Link to="https://www.facebook.com/dominik.sumer"><FaFacebookF/></Link>
-            <Link to="https://github.com/dsumer"><FaGithub/></Link>
-            <Link to="https://twitter.com/dominiksumer" className="twitter"><FaTwitter/></Link>
+            <Link to="https://www.facebook.com/dominik.sumer"><span className="screen-reader-text">Facebook</span><FaFacebookF/></Link>
+            <Link to="https://github.com/dsumer"><span className="screen-reader-text">Github</span><FaGithub/></Link>
+            <Link to="https://twitter.com/dominiksumer" className="twitter"><span className="screen-reader-text">Twitter</span><FaTwitter/></Link>
           </div>
         </div>
       </div>
@@ -74,7 +74,7 @@ const Layout = ({ children }) => {
             {children}
           </div>
           <div className="footer">
-            Website built with <Link to="https://github.com/dsumer/seriousco.de" className="heart"><FaHeart/></Link> and <Link to="https://www.gatsbyjs.org/">Gatsby</Link>
+            Website built with <Link to="https://github.com/dsumer/seriousco.de" className="heart"><span className="screen-reader-text">Love</span><FaHeart/></Link> and <Link to="https://www.gatsbyjs.org/">Gatsby</Link>
           </div>
         </div>
       </div>

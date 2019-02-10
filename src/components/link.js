@@ -6,8 +6,6 @@ import {
 
 import SidebarContext from './sidebar-context';
 
-const hostRegExp = new RegExp("//" + window.location.host + "($|/)");
-
 const Link = ({ children, to, ...other }) => {
   const setSidebarActive = useContext(SidebarContext);
 
@@ -15,7 +13,11 @@ const Link = ({ children, to, ...other }) => {
     return <a href={to} {...other}>{children}</a>;
   }
 
-  const internal = (to.substring(0,4) === "http") ? hostRegExp.test(to) : true;
+  let internal = true;
+  if (typeof window !== `undefined`) {
+    const hostRegExp = new RegExp("//" + window.location.host + "($|/)");
+    internal = (to.substring(0,4) === "http") ? hostRegExp.test(to) : true;
+  }
 
   if (internal) {
     return (
