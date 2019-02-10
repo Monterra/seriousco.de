@@ -19,10 +19,14 @@
 @secondary-color: #03a9f4;
 @third-color: #ff6e40;
 @fourth-color: #ffb37d;
+@fifth-color: #e84e40;
+
+@primary-font: 'Open Sans', Helvetica, Arial, sans-serif;
+@secondary-font: 'Roboto', Helvetica, Arial, sans-serif;
 
 body {
   margin: 0;
-  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-family: @secondary-font;
   letter-spacing: .8px;
 }
 
@@ -34,6 +38,7 @@ a {
   color: @primary-color;
   text-decoration: none;
   border-bottom: 1px solid @primary-color;
+  transition: color .25s;
 
   &:hover, &.external:hover span {
     color: @third-color;
@@ -51,7 +56,71 @@ a {
       vertical-align: middle;
       margin-left: 5px;
       margin-top: -3px;
+      font-size: .8em;
     }
+  }
+}
+
+p {
+  margin-top: 30px;
+}
+
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.srs-icon {
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+}
+
+.highlight {
+  margin-left: -25px;
+  margin-right: -25px;
+  padding: 20px 25px;
+  color: white;
+
+  a {
+    color: white;
+    border-color: white;
+  }
+
+  &.info {
+    background: @secondary-color;
+  }
+
+  &.warning {
+    background: @fifth-color;
+  }
+
+  .highlight-title {
+    font-family: @secondary-font;
+
+    svg {
+      margin-right: 12px;
+    }
+  }
+
+  .highlight-description {
+    font-size: .85em;
   }
 }
 
@@ -134,7 +203,6 @@ a {
         color: white;
         margin-left: 10px;
         vertical-align: middle;
-        transition: color .25s;
 
         span {
           border: 0;
@@ -231,7 +299,6 @@ a {
       a {
         text-decoration: none;
         color: inherit;
-        transition: color .25s;
         border: 0;
 
         &:hover {
@@ -255,14 +322,57 @@ a {
 }
 
 .content {
-  padding-top: 20px;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  padding-top: 15px;
+  font-family: @primary-font;
+  font-size: 1.31em;
+  line-height: 1.7em;
+
+  .content-header {
+    display: flex;
+
+    .content-header-link {
+      margin-left: auto;
+      border: none;
+      font-size: 15px;
+      color: rgba(0, 0, 0, .35);
+
+      &:hover {
+        color: @third-color;
+      }
+    }
+  }
+
+  h1 {
+    font-size: 1.15em;
+    font-weight: bold;
+  }
+  h2 {
+    font-size: 1em;
+  }
+  h3 {
+    font-size: .85em;
+  }
+  h4, h5, h6 {
+    font-size: .75em;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    border-bottom: 1px solid rgba(0, 0, 0, .12);
+    padding-bottom: 5px;
+
+    margin-top: calc(-@header-height + 20px);
+    padding-top: @header-height;
+  }
+  h2, h3, h4, h5, h6 {
+    color: @primary-color;
+    font-weight: normal;
+  }
 }
 
 .footer {
   border-top: 1px solid #e2e2e2;
   padding: 10px 15px;
-  margin: 20px -25px 0;
+  margin: 35px -25px 0;
   color: #8C8C8C;
   font-size: .9em;
 
@@ -272,7 +382,7 @@ a {
     }
 
     svg {
-      color: #e84e40;
+      color: @fifth-color;
       vertical-align: middle;
       margin-top: -3px;
     }
@@ -281,19 +391,6 @@ a {
   a.external .external-icon {
     display: none;
   }
-}
-
-.screen-reader-text {
-  border: 0;
-  clip: rect(1px, 1px, 1px, 1px);
-  clip-path: inset(50%);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-  word-wrap: normal !important;
 }
 
 @media (min-width: 350px) {
@@ -358,11 +455,4 @@ a {
     max-width: @breakpoint-xl-up;
     margin: 0 auto;
   }
-}
-
-
-// TODO: for permalinking
-h2 {
-  margin-top: -@header-height;
-  padding-top: @header-height;
 }

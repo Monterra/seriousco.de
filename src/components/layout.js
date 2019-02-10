@@ -1,5 +1,5 @@
-import React, {useState} from "react";
-import PropTypes from "prop-types";
+import React, {useState} from 'react';
+import PropTypes from 'prop-types';
 import {
   FaAddressCard,
   FaBars,
@@ -14,8 +14,8 @@ import {
 } from 'react-icons/fa';
 
 import SidebarContext from './sidebar-context';
-import Link from "./link";
-import SEO from "./seo";
+import Link from './link';
+import SEO from './seo';
 import './layout.less';
 
 const Layout = ({ children }) => {
@@ -53,19 +53,19 @@ const Layout = ({ children }) => {
           </div>
           <ul>
             <li>
-              <Link to="/about"><FaAddressCard/> About</Link>
+              <Link to="/"><FaAddressCard/> About</Link>
             </li>
             <li>
-              <Link to="/"><FaRegFileCode/> Blog</Link>
+              <Link to="/blog"><FaRegFileCode/> Blog</Link>
             </li>
             <li>
-              <Link to="/page-2"><FaBars/> Timeline (CV)</Link>
+              <Link to="/timeline"><FaBars/> Timeline (CV)</Link>
             </li>
             <li>
-              <Link to="/page-3"><FaBookmark/> Projects</Link>
+              <Link to="/projects"><FaBookmark/> Projects</Link>
             </li>
             <li>
-              <Link to="#"><FaMailBulk/> Contact</Link>
+              <Link to="/contact"><FaMailBulk/> Contact</Link>
             </li>
           </ul>
         </div>

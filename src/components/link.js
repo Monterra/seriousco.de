@@ -1,5 +1,5 @@
 import React, {useContext} from 'react';
-import { Link as GatsbyLink } from "gatsby";
+import { Link as GatsbyLink } from 'gatsby';
 import {
   FaExternalLinkAlt
 } from 'react-icons/fa';
