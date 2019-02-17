@@ -4,12 +4,14 @@ import Link from '../components/link';
 import Header from '../components/header';
 import Highlight from '../components/highlight';
 
+import profile from '../images/profile.png';
+
 const AboutPage = () => {
   return (
     <>
       <Header link="">About</Header>
       <p className="text-center">
-        <img src="https://seriousco.de/images/profile.png" className="round" alt="Dominik" />
+        <img src={profile} className="round" alt="Dominik" />
       </p>
       <p className="text-center">
         Hello! My name is Dominik, I am 25 years old and a passionated software engineer. I live in Vienna, Austria and enjoy being out in the nature, hanging out with my friends or just debugging the projects I am currently working on. <IconWink/>

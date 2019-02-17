@@ -1,9 +1,10 @@
 import React from 'react';
+import Header from '../components/header';
 
 const NotFoundPage = () => (
   <>
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <Header link="">404 - Page not found</Header>
+    <p>Sorry, the page your were looking for couldn't be found.</p>
   </>
 );
 
