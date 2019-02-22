@@ -14,7 +14,7 @@ import image1 from '../../images/risingfarms_1.png';
 import image2 from '../../images/risingfarms_2.png';
 import TextImage from '../../components/text-image';
 
-const RfoPage = () => {
+const Page = () => {
   return (
     <>
       <Header link="">Rising Farms Online</Header>
@@ -91,4 +91,4 @@ const RfoPage = () => {
   );
 };
 
-export default RfoPage;
+export default Page;

@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import PropTypes from 'prop-types';
 import {
   FaAddressCard,
@@ -15,15 +15,30 @@ import {
 
 import SidebarContext from './sidebar-context';
 import Link from './link';
-import SEO from './seo';
 import './layout.less';
+
+const useAnchorScroll = () => {
+  useEffect(() => {
+    let hash = window.decodeURI(window.location.hash.replace('#', ''));
+    if (hash) {
+      let element = document.getElementById(hash);
+      if (element) {
+        let offset = element.offsetTop;
+        // Wait for the browser to finish rendering before scrolling.
+        setTimeout(() => {
+          window.scrollTo(0, offset + 150)
+        }, 0);
+      }
+    }
+  }, []);
+};
 
 const Layout = ({ children }) => {
   const [sidebarActive, setSidebarActive] = useState(false);
+  useAnchorScroll();
 
   return (
     <SidebarContext.Provider value={setSidebarActive}>
-      <SEO title="seriousco.de" keywords={[`seriousco.de`, `Dominik Sumer`, `react`]}/>
       <div className="background"/>
       <div className="header">
         <div className="header-backdrop"/>

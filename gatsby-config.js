@@ -6,7 +6,6 @@ module.exports = {
     siteUrl: `https://seriousco.de`
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
