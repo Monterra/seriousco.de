@@ -1,0 +1,125 @@
+.timeline{
+  margin-top: 20px;
+  margin-bottom: 80px;
+  position: relative;
+
+  .future-blur {
+    position: absolute;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 10%, rgba(1, 1, 1, 0) 100%);
+    width: 100%;
+    max-height: 40px;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    margin-left: -2px;
+    width: 4px;
+    background: #a7a7a7;
+  }
+
+  &::after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    border-radius: 100%;
+    background: #0f7ba9;
+    left: 50%;
+    margin-left: -4px;
+    bottom: 0;
+  }
+
+  .now {
+    width: 12px;
+    height: 1px;
+    background: black;
+    position: absolute;
+    left: 50%;
+    margin-left: -6px;
+
+    &::before {
+      content: "now";
+      position: absolute;
+      font-size: 15px;
+      left: -35px;
+      top: -19px;
+    }
+  }
+
+  .entry {
+    position: absolute;
+    left: calc(50% - 2px);
+    width: 4px;
+    background: blue;
+    border-top: 1px inset rgba(0, 0, 0, 0.3);
+
+    .note {
+      position: absolute;
+      left: 50%;
+      margin-left: 30px;
+      top: 50%;
+
+      background: #e4e4e4;
+      padding: 10px 25px;
+      border-radius: 3px;
+      white-space: nowrap;
+      text-align: center;
+      line-height: 28px;
+      box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: -20px;
+        left: 40px;
+        border-width: 20px 20px 0;
+        border-style: solid;
+        border-color: #e4e4e4 transparent;
+        display: block;
+        width: 0;
+      }
+
+      &.right::before {
+        top: calc(50% - 10px);
+        bottom: auto;
+        left: -17px;
+        border-width: 10px 20px 10px 0;
+        border-color: transparent #e4e4e4;
+      }
+
+      &.left {
+        margin-left: -130px;
+
+        &::before {
+          top: calc(50% - 10px);
+          bottom: auto;
+          left: auto;
+          right: -17px;
+          border-width: 10px 0 10px 20px;
+          border-color: transparent #e4e4e4;
+        }
+      }
+
+      .note-date, .note-description {
+        font-size: .75em;
+        svg {
+          margin-bottom: -2px;
+        }
+      }
+
+      .note-description {
+        font-style: italic;
+        margin: 10px;
+      }
+
+      .note-date {
+        margin: 0 -25px -10px;
+        font-size: .65em;
+        border-top: 1px solid #ccc;
+      }
+    }
+  }
+}
