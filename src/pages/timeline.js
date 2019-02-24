@@ -33,7 +33,7 @@ function getHeight(days) {
 const birthDate = new Date(1993, 3, 6);
 const preHeight = 40;
 
-const Note = ({position, style, children}) => {
+const Note = ({position, className, children}) => {
   let ref = useRef(null);
   let size = useComponentSize(ref);
 
@@ -43,7 +43,7 @@ const Note = ({position, style, children}) => {
   }
 
   return (
-    <div ref={ref} className={`note ${position}`} style={{marginTop: -(size.height / 2), marginLeft, ...style}}>
+    <div ref={ref} className={`note ${position} ${className ? className: ''}`} style={{marginTop: -(size.height / 2), marginLeft}}>
       {children}
     </div>
   )
@@ -79,7 +79,7 @@ const DateText = ({text, fromDate, toDate}) => {
   }
 };
 
-const Entry = ({fromDate, toDate, notePosition, color, title, noteStyle, dateText, children}) => {
+const Entry = ({fromDate, toDate, notePosition, color, title, noteClass, dateText, children}) => {
   const daysSinceBirth = daysBetween(birthDate, fromDate);
 
   let height = 0;
@@ -98,7 +98,7 @@ const Entry = ({fromDate, toDate, notePosition, color, title, noteStyle, dateTex
 
   return (
     <div className="entry" style={{height: height, bottom: getHeight(daysSinceBirth), background: color}}>
-      <Note position={notePosition} style={noteStyle}>
+      <Note position={notePosition} className={noteClass}>
         <div>{title}</div>
         <div className="note-description">{children}</div>
         <div className="note-date"><FaCalendarAlt/> <DateText text={dateText} fromDate={fromDate} toDate={toDate} /></div>
@@ -136,7 +136,7 @@ const Page = () => {
           fromDate={new Date(2014, 2, 3)}
           toDate={new Date(2015, 6, 28)}
           title={<Link to="https://www.lieberlieber.com/">LieberLieber Software GmbH</Link>}
-          noteStyle={{maxWidth: 250, whiteSpace: 'normal'}}
+          noteClass="lieberlieber"
         >
           <FaCode/> Software Developer
         </Entry>

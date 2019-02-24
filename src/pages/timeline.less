@@ -1,3 +1,5 @@
+@import "../components/variables";
+
 .timeline{
   margin-top: 20px;
   margin-bottom: 80px;
@@ -61,14 +63,16 @@
       left: 50%;
       margin-left: 30px;
       top: 50%;
-
       background: #e4e4e4;
-      padding: 10px 25px;
+      padding: 10px;
       border-radius: 3px;
-      white-space: nowrap;
       text-align: center;
+      white-space: normal;
+      min-width: 120px;
+      font-size: .75em;
       line-height: 28px;
-      box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+      max-width: 120px;
+      box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
 
       &::before {
         content: "";
@@ -113,12 +117,38 @@
       .note-description {
         font-style: italic;
         margin: 10px;
+        display: none;
       }
 
       .note-date {
-        margin: 0 -25px -10px;
-        font-size: .65em;
+        margin: 0 -10px -10px;
+        font-size: .6em;
         border-top: 1px solid #ccc;
+      }
+    }
+  }
+}
+
+@media (min-width: @breakpoint-sm-up) {
+  .timeline {
+    .entry {
+      .note {
+        font-size: 1em;
+        max-width: none;
+        white-space: nowrap;
+
+        &.lieberlieber {
+          white-space: normal;
+          max-width: 250px;
+        }
+
+        .note-description {
+          display: block;
+        }
+
+        .note-date {
+          font-size: .65em;
+        }
       }
     }
   }

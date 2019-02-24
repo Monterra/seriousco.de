@@ -20,7 +20,7 @@ const TextImage = ({src, alignment, alt, width}) => {
   }
 
   let maxImageHeight = 500;
-  if (window) {
+  if (typeof window !== `undefined`) {
     maxImageHeight = window.innerHeight - 100;
   }
 
