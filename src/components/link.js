@@ -1,14 +1,10 @@
-import React, {useContext} from 'react';
+import React from 'react';
 import { Link as GatsbyLink } from 'gatsby';
 import {
   FaExternalLinkAlt
 } from 'react-icons/fa';
 
-import SidebarContext from './sidebar-context';
-
 const Link = ({ children, to, ...other }) => {
-  const setSidebarActive = useContext(SidebarContext);
-
   if (to === '#') {
     return <a href={to} {...other}>{children}</a>;
   }
@@ -21,7 +17,7 @@ const Link = ({ children, to, ...other }) => {
 
   if (internal) {
     return (
-      <GatsbyLink to={to} {...other} onClick={() => setSidebarActive(false)}>
+      <GatsbyLink to={to} {...other}>
         {children}
       </GatsbyLink>
     )

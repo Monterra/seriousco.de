@@ -6,6 +6,7 @@ import {
 } from 'react-icons/fa';
 import Link from '../../components/link';
 import Header from '../../components/header';
+import Layout from '../../components/layout';
 import Tooltip from '../../components/tooltip';
 import { IconWink, IconSmile } from '../../components/icons';
 
@@ -16,7 +17,7 @@ import TextImage from '../../components/text-image';
 
 const Page = () => {
   return (
-    <>
+    <Layout>
       <Header link="">Rising Farms Online</Header>
       <p className="text-center">
         <img src={logo} alt="Rising Farms Online" />
@@ -87,7 +88,7 @@ const Page = () => {
       <p>
         Rising Farms Online on <Link to="https://www.facebook.com/risingfarmsonline/"><FaFacebookF/>Facebook</Link>, <Link to="https://www.youtube.com/risingfarmsonline/"><FaYoutube/> YouTube</Link> and the <Link to="http://www.risingfarms-online.com/"><FaGlobe/> Official Website</Link>.
       </p>
-    </>
+    </Layout>
   );
 };
 

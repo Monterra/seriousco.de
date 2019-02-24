@@ -13,7 +13,6 @@ import {
   FaTwitter
 } from 'react-icons/fa';
 
-import SidebarContext from './sidebar-context';
 import Link from './link';
 import './layout.less';
 
@@ -38,7 +37,7 @@ const Layout = ({ children }) => {
   useAnchorScroll();
 
   return (
-    <SidebarContext.Provider value={setSidebarActive}>
+    <>
       <div className="background"/>
       <div className="header">
         <div className="header-backdrop"/>
@@ -93,7 +92,7 @@ const Layout = ({ children }) => {
           </div>
         </div>
       </div>
-    </SidebarContext.Provider>
+    </>
   );
 };
 

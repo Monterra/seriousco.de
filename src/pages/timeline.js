@@ -1,6 +1,7 @@
 import React, {useRef} from 'react';
 import PropTypes from 'prop-types';
 import useComponentSize from '@rehooks/component-size';
+import Layout from '../components/layout';
 import Header from '../components/header';
 import Link from '../components/link';
 import {
@@ -115,7 +116,7 @@ const Page = () => {
   const height = getHeight(daysSinceBirth) + preHeight;
 
   return (
-    <>
+    <Layout>
       <Header link="">Timeline</Header>
       <blockquote>
         This is my timeline - from birth to my current job at Catalysts GmbH.
@@ -183,7 +184,7 @@ const Page = () => {
         </Entry>
         <div className="future-blur" style={{height: preHeight}}/>
       </div>
-    </>
+    </Layout>
   )
 };
 

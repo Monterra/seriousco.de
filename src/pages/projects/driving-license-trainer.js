@@ -4,6 +4,7 @@ import {
 } from 'react-icons/fa';
 import Link from '../../components/link';
 import Header from '../../components/header';
+import Layout from '../../components/layout';
 import Highlight from '../../components/highlight';
 import { IconLaugh } from '../../components/icons';
 import Code from '../../components/code';
@@ -14,7 +15,7 @@ import TextImage from '../../components/text-image';
 
 const Page = () => {
   return (
-    <>
+    <Layout>
       <Header link="">Driving License Trainer</Header>
       <p>
         <TextImage src={image1} alt="Driving License Trainer"/>
@@ -64,7 +65,7 @@ const Page = () => {
           $ node refresh.js
         `}
       </Code>
-    </>
+    </Layout>
   );
 };
 

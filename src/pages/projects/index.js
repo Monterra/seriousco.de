@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../../components/header';
+import Layout from '../../components/layout';
 import {Link} from 'gatsby';
 
 import './projects.less';
@@ -25,7 +26,7 @@ const ProjectCard = ({title, comingsoon, tags, shortname, link, children}) => {
 };
 
 const ProjectsPage = () => (
-  <>
+  <Layout>
     <Header link="">Projects</Header>
     <blockquote>
       Here you can get an overview of the projects I have created or where I was decisively involved.
@@ -57,7 +58,7 @@ const ProjectsPage = () => (
         Nodejs application which helps you learning for your driving license test.
       </ProjectCard>
     </div>
-  </>
+  </Layout>
 );
 
 export default ProjectsPage;

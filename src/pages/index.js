@@ -1,5 +1,6 @@
 import React from 'react';
 import {IconWink, IconSmile} from '../components/icons';
+import Layout from '../components/layout';
 import Link from '../components/link';
 import Header from '../components/header';
 import Highlight from '../components/highlight';
@@ -8,7 +9,7 @@ import profile from '../images/profile.png';
 
 const AboutPage = () => {
   return (
-    <>
+    <Layout>
       <Header link="">About</Header>
       <p className="text-center">
         <img src={profile} className="round" alt="Dominik" />
@@ -49,7 +50,7 @@ const AboutPage = () => {
       <p>
         Enjoy your life and have a nice day! <IconSmile/>
       </p>
-    </>
+    </Layout>
   );
 };
 

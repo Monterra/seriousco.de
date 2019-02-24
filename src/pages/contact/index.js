@@ -1,11 +1,12 @@
 import React from 'react';
 import Header from '../../components/header';
+import Layout from '../../components/layout';
 import { IconMail, IconLaugh } from '../../components/icons';
 
 import './contact.less';
 
 const ContactPage = () => (
-  <>
+  <Layout>
     <Header link="">Contact</Header>
     <p>
       Do you have a question or something to say? Don’t hesitate! <IconMail/>
@@ -36,7 +37,7 @@ const ContactPage = () => (
 
       <button type="submit">Send</button>
     </form>
-  </>
+  </Layout>
 );
 
 export default ContactPage;
