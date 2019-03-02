@@ -32,9 +32,30 @@ const useAnchorScroll = () => {
   }, []);
 };
 
-const Layout = ({ children }) => {
+const useMetaUpdate = (frontmatter) => {
+  useEffect(() => {
+    let siteInformation = {
+      title: 'seriousco.de',
+      url: 'https://seriousco.de/'
+    };
+    if (typeof window !== `undefined`) {
+      siteInformation.url = window.location.href;
+    }
+    if (frontmatter) {
+      siteInformation.title = frontmatter.title;
+    }
+
+    if (typeof document !== `undefined`) {
+      document.querySelector('meta[property="og:title"]').setAttribute('content', siteInformation.title);
+      document.querySelector('meta[property="og:url"]').setAttribute('content', siteInformation.url);
+    }
+  }, []);
+};
+
+const Layout = ({ frontmatter, children }) => {
   const [sidebarActive, setSidebarActive] = useState(false);
   useAnchorScroll();
+  useMetaUpdate(frontmatter);
 
   return (
     <>

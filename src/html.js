@@ -17,6 +17,7 @@ export default function HTML(props) {
         <meta property="og:title" content="seriousco.de" />
         <meta property="og:description" content="It's all about software - serious code." />
         <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://seriousco.de/" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:creator" content="@dominiksumer" />
         <meta name="twitter:title" content="seriousco.de" />

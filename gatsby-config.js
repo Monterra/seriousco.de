@@ -14,6 +14,14 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `blog-posts`,
+        path: `${__dirname}/src/pages/blog/`,
+      },
+    },
+    `gatsby-transformer-javascript-frontmatter`,
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `seriousco.de`,
