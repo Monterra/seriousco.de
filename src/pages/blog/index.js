@@ -59,7 +59,12 @@ const Page = ({data}) => {
 
 export const pageQuery = graphql`
   query blogQuery {
-    allJavascriptFrontmatter {
+    allJavascriptFrontmatter(
+      sort: {
+        fields: [frontmatter___date]
+        order: DESC
+      }
+    ) {
       edges {
         node {
           frontmatter {
