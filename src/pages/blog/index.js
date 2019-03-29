@@ -5,7 +5,7 @@ import Header from '../../components/header';
 import Link from '../../components/link';
 
 import './blog.less';
-import BlogInfo from './blog-info';
+import BlogInfo from '../../components/blog-info';
 
 const BlogCard = ({post}) => {
   return (

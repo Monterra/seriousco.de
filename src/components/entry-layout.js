@@ -1,6 +1,6 @@
 import React from 'react';
-import Layout from '../../components/layout';
-import Header from '../../components/header';
+import Layout from './layout';
+import Header from './header';
 import BlogInfo from './blog-info';
 import { DiscussionEmbed } from "disqus-react";
 

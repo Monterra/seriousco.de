@@ -1,5 +1,5 @@
 import React from 'react';
-import EntryLayout from '../entry-layout';
+import EntryLayout from '../../../components/entry-layout';
 import Link from '../../../components/link';
 import Header from '../../../components/header';
 import Code from '../../../components/code';

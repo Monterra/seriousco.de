@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import EntryLayout from '../entry-layout';
+import EntryLayout from '../../../components/entry-layout';
 
 export const frontmatter = {
   title: 'Tips for the JavaScript Console',
