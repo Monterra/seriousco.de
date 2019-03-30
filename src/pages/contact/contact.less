@@ -1,0 +1,26 @@
+@import "../../components/variables";
+
+.contact_form {
+  .gotcha {
+    display: none;
+  }
+
+  input, textarea, button {
+    width: 100%;
+    border: 1px solid @grey;
+    border-radius: 2px;
+  }
+  input, button {
+    height: 30px;
+  }
+  textarea {
+    min-height: 200px;
+    resize: vertical;
+  }
+  button {
+    cursor: pointer;
+    &:hover {
+      background: lightgray;
+    }
+  }
+}

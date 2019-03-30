@@ -1,0 +1,115 @@
+@import '../../components/variables';
+
+.card-wrapper {
+  margin: 40px 0 0;
+  text-align: center;
+}
+
+a.card {
+  width: 400px;
+  background: #ebebeb;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
+  margin: 20px 10px;
+  display: inline-block;
+  border: none;
+  color: rgba(0, 0, 0, .87) !important;
+}
+
+a.card:hover {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12), 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24),
+  0 1px 4px rgba(0, 0, 0, 0.12), 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+.card .title {
+  background: white;
+  font-weight: 400;
+  font-size: 1.1em;
+  padding: 10px;
+  border-bottom: 1px solid #bbbbbb;
+  border-radius: 5px 5px 0 0;
+  position: relative;
+  font-family: @secondary-font;
+}
+
+.card .title .image {
+  margin: auto;
+  height: 150px;
+  width: auto;
+  background: no-repeat center;
+}
+
+.card .title .comingsoon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px 5px 0 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+
+.card .title .comingsoon div {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  margin-top: -20px;
+}
+
+.card .content {
+  padding: 30px 10px 10px;
+  position: relative;
+  font-size: 1em;
+}
+
+.card .tags {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 2px 4px;
+  color: #195788;
+}
+
+@media screen and (max-width: 500px) {
+  a.card {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .card .title .image {
+    background-size: 85%;
+  }
+}
+
+
+.card {
+  &.rfo {
+    .image {
+      background-image: url('../../images/rfo_titel.png');
+    }
+  }
+  &.pespila {
+    .title {
+      background: #2b6db9;
+      color: white;
+    }
+
+    .image {
+      background-image: url('../../images/pespila.jpg');
+    }
+  }
+  &.drivinglicense {
+    .title {
+      background: #EDE8D3;
+    }
+
+    .image {
+      background-image: url('../../images/driving_license_trainer.png');
+    }
+  }
+}
