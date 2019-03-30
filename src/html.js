@@ -12,7 +12,6 @@ export default function HTML(props) {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         <title>seriousco.de</title>
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Roboto" rel="stylesheet" />
         <meta name="description" content="It's all about software - serious code." />
         <meta property="og:title" content="seriousco.de" />
         <meta property="og:description" content="It's all about software - serious code." />

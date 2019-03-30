@@ -36,14 +36,17 @@ const Code = ({ language, children }) => {
     copied: false
   });
 
-  let codeLines = children.split('\n').filter(s => !!s.trim());
+  let codeLines = children.split('\n');
+  codeLines.splice(0, 1);
   const intendation = codeLines[0].match(/^(\s*)/)[0].length;
   codeLines = codeLines.map(s => s.substr(intendation));
-  const code = codeLines.join('<br>');
+  let code = codeLines.join('\n');
+  code = code.replace(/</g, '&lt;');
+  code = code.replace(/>/g, '&gt;');
 
   function btnCopyClick() {
     clearTimeout(state.hideTimeout);
-    copyToClipboard(code);
+    copyToClipboard(code.split('\n').join('<br/>'));
     setState({
       hideTimeout: setTimeout(() => setState({copied: false}), 1000),
       copied: true

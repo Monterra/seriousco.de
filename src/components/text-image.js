@@ -47,12 +47,12 @@ const TextImage = ({src, alignment, alt, width}) => {
 
 TextImage.defaultProps = {
   alignment: `left`,
-  width: 300
+  width: '300'
 };
 
 TextImage.propTypes = {
   alignment: PropTypes.string,
-  width: PropTypes.number,
+  width: PropTypes.string,
   alt: PropTypes.string
 };
 

@@ -32,7 +32,7 @@ function getHeight(days) {
   return Math.ceil(days / 6);
 }
 const birthDate = new Date(1993, 3, 6);
-const preHeight = 40;
+const preHeight = 250;
 
 const Note = ({position, className, children}) => {
   let ref = useRef(null);
@@ -119,13 +119,22 @@ const Page = () => {
     <Layout>
       <Header link="">Timeline</Header>
       <blockquote>
-        This is my timeline - from birth to my current job at Catalysts GmbH.
+        This is my timeline - from birth to my current job at Untis GmbH.
       </blockquote>
       <div className="timeline" style={{height}}>
         <div className="now" style={{top: preHeight}}/>
         <Entry
+          color="#f6891e"
+          notePosition="left"
+          fromDate={new Date(2019, 3, 1)}
+          title={<Link to="https://www.untis.at/">Untis GmbH</Link>}
+        >
+          <FaCode/> Senior Frontend Developer
+        </Entry>
+        <Entry
           color="#d22827"
           fromDate={new Date(2015, 7, 1)}
+          toDate={new Date(2019, 2, 31)}
           title={<Link to="https://www.catalysts.cc/en/">Catalysts GmbH</Link>}
         >
           <FaCode/> Software Engineer<br/>

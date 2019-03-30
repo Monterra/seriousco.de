@@ -33,6 +33,25 @@ module.exports = {
         icon: `src/images/icon.png`,
       },
     },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Open Sans`,
+            variants: [`300`]
+          },
+          {
+            family: `Roboto`,
+            variants: [`400`]
+          },
+          {
+            family: `Roboto Mono`,
+            variants: [`400`]
+          },
+        ],
+      },
+    },
     `gatsby-plugin-less`,
     `gatsby-plugin-webpack-size`,
     `gatsby-plugin-sitemap`,
