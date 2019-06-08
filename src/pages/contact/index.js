@@ -16,7 +16,9 @@ const ContactPage = () => (
       <br/>
       (Of course you can also send me messages in german)
     </p>
-    <form method="POST" name="contact" action="/contact/thanks/" data-netlify="true" netlify-honeypot="bot-field" className="contact_form">
+    <form method="POST" name="contact" data-netlify="true" netlify-honeypot="bot-field" className="contact_form">
+      <input type="hidden" name="form-name" value="contact" />
+
       <p style={{display: 'none'}}>
         <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
       </p>
