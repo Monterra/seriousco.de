@@ -42,8 +42,5 @@
   },
   "bugs": {
     "url": "https://github.com/dsumer/seriousco.de/issues"
-  },
-  "devDependencies": {
-    "gh-pages": "^2.0.1"
   }
 }

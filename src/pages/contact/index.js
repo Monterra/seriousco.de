@@ -16,7 +16,7 @@ const ContactPage = () => (
       <br/>
       (Of course you can also send me messages in german)
     </p>
-    <form method="POST" action="/contact/thanks" data-netlify="true" className="contact_form">
+    <form method="POST" name="contact" action="/contact/thanks" data-netlify="true" className="contact_form">
       <input type="hidden" name="_next" value="/contact/thanks" />
       <input type="text" name="_gotcha" className="gotcha" />
 
