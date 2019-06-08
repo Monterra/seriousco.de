@@ -16,7 +16,7 @@ const ContactPage = () => (
       <br/>
       (Of course you can also send me messages in german)
     </p>
-    <form method="POST" action="http://formspree.io/domi.sumer@gmail.com" className="contact_form" _lpchecked="1">
+    <form method="POST" action="/contact/thanks" netlify className="contact_form">
       <input type="hidden" name="_next" value="/contact/thanks" />
       <input type="text" name="_gotcha" className="gotcha" />
 
