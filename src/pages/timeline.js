@@ -32,7 +32,7 @@ function getHeight(days) {
   return Math.ceil(days / 6);
 }
 const birthDate = new Date(1993, 3, 6);
-const preHeight = 250;
+const preHeight = 200;
 
 const Note = ({position, className, children}) => {
   let ref = useRef(null);

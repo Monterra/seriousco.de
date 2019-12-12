@@ -32,13 +32,12 @@ const useAnchorScroll = () => {
   }, []);
 };
 
-let metaUpdateTime = 500;
 const useMetaUpdate = (frontmatter) => {
-  if (typeof window === 'undefined' || typeof document === 'undefined') {
-    return;
-  }
-
   useEffect(() => {
+    if (typeof window === 'undefined' || typeof document === 'undefined') {
+      return;
+    }
+    
     let siteInformation = {
       title: 'seriousco.de',
       url: 'https://seriousco.de/'
@@ -51,21 +50,6 @@ const useMetaUpdate = (frontmatter) => {
     document.querySelector('meta[property="og:title"]').setAttribute('content', siteInformation.title);
     document.querySelector('meta[property="og:url"]').setAttribute('content', siteInformation.url);
     document.title = siteInformation.title;
-    window.addthis_share.title = siteInformation.title;
-
-    setTimeout(() => {
-      metaUpdateTime = 0;
-      const addThisButtons = document.getElementsByClassName('addthis-smartlayers');
-      if (frontmatter) {
-        for (let buttons of addThisButtons) {
-          buttons.style.display = null;
-        }
-      } else {
-        for (let buttons of addThisButtons) {
-          buttons.style.display = 'none';
-        }
-      }
-    }, metaUpdateTime);
   }, []);
 };
 
