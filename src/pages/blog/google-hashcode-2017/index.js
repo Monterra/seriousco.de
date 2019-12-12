@@ -12,7 +12,8 @@ export const frontmatter = {
   path: 'google-hashcode-2017',
   date: '2017-02-24',
   description: 'I\'ve participated at the Google Hashcode together with three colleagues and it was quite awesome!',
-  image: 'blog3.png'
+  image: 'blog3.png',
+  backgroundColor: '#a8c6fa'
 };
 
 const Page = () => (

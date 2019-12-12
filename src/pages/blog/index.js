@@ -9,7 +9,7 @@ import BlogInfo from '../../components/blog-info';
 
 const BlogCard = ({post}) => {
   return (
-    <Link className="blog-card" to={`/blog/${post.path}`} title={post.title} style={{backgroundImage: `url(/blog-images/${post.image})`}}>
+    <Link className="blog-card" to={`/blog/${post.path}`} title={post.title} style={{backgroundImage: `url(/blog-images/${post.image})`, backgroundColor: post.backgroundColor}}>
       <div className="bc-background" />
       <div className="bc-text">
         <div className="bc-container">
@@ -74,6 +74,7 @@ export const pageQuery = graphql`
             dateString: date(formatString: "DD. MMMM YYYY")
             dateGroup: date(formatString: "MMMM YYYY")
             image
+            backgroundColor
           }
         }
       }
