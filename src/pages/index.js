@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import {IconWink, IconSmile} from '../components/icons';
 import Layout from '../components/layout';
 import Link from '../components/link';
@@ -7,7 +7,33 @@ import Highlight from '../components/highlight';
 
 import profile from '../images/profile.png';
 
+function calculateAge(currentDate, birthDate) { 
+  var diff_ms = currentDate.getTime() - birthDate.getTime();
+  var age_dt = new Date(diff_ms); 
+
+  return Math.abs(age_dt.getUTCFullYear() - 1970);
+}
+
 const AboutPage = () => {
+  const [age, setAge] = useState(27);
+
+  useEffect(() => {
+    if (typeof window === 'undefined' || typeof document === 'undefined') {
+      return;
+    }
+    
+    const xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState === XMLHttpRequest.DONE) {
+          const serverTime = xhr.getResponseHeader("Date")
+          const serverDate = new Date(serverTime);
+          setAge(calculateAge(serverDate, new Date(1993, 3, 6)));
+        }
+    }
+    xhr.open('GET', window.location.href.toString(), true);
+    xhr.send(null);
+  }, []);
+
   return (
     <Layout>
       <Header link="">About</Header>
@@ -15,7 +41,7 @@ const AboutPage = () => {
         <img src={profile} className="round" alt="Dominik" />
       </p>
       <p className="text-center">
-        Hello! My name is Dominik, I am 26 years old and a passionated software engineer. I live in Vienna, Austria and enjoy being out in the nature, hanging out with my friends or just debugging the projects I am currently working on. <IconWink/>
+        Hello! My name is Dominik, I am {age} years old and a passionated software engineer. I live in Vienna, Austria and enjoy being out in the nature, hanging out with my friends or just debugging the projects I am currently working on. <IconWink/>
       </p>
       <Highlight title="Serious Code">
         Do you care about your code? Does it run as expected? Be serious about it.
