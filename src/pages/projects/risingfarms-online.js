@@ -11,7 +11,7 @@ import Tooltip from '../../components/tooltip';
 import { IconWink, IconSmile } from '../../components/icons';
 
 import logo from '../../images/rfo_titel.png';
-import image1 from '../../images/risingfarms_1.png';
+import image1 from '../../images/risingfarms_1.jpg';
 import image2 from '../../images/risingfarms_2.png';
 import TextImage from '../../components/text-image';
 
